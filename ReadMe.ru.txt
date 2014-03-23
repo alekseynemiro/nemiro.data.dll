@@ -51,7 +51,7 @@
 * Операционная система Microsoft Windows
   с поддержкой .NET Framework 4.0 или 4.5.
 * Microsoft SQL Server 2005, 2008, 2008R2, 2012 или выше.
-* Рекомендуется: Microsoft Visual Studio 2010 или выше.
+* Microsoft Visual Studio 2010 или выше.
 
 
 Страница проекта:
