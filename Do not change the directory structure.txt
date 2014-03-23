@@ -1,0 +1,13 @@
+EN:
+Do not change the directory structure
+otherwise you will have to manually specify 
+a reference to Nemiro.Data.dll in examples projects.
+
+RU:
+Не изменяйте структуру каталогов, иначе в примерах 
+использования библиотеки Nemiro.Data.dll вам придется 
+вручную добавлять ссылку на библиотеку. 
+По умолчанию, в файлах проектов записано, что 
+библиотеку Nemiro.Data.dll следует искать на два уровня 
+выше в дереве каталогов, т.е. все представленные примеры 
+должны нормально запускаться, без дополнительных действий.

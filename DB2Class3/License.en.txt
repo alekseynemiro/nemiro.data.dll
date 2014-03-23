@@ -1,0 +1,30 @@
+LICENSE FOR USE AND DISTRIBUTION
+
+The DB2Class3 program is freeware. 
+
+This means:
+The DB2Class3 program is freeware. 
+
+This means:
+1. All copyrights to the DB2Class3 are exclusively
+owned by the author - Aleksey Nemiro.
+
+2. The DB2Class3 program may be used without limitations free of charge.
+
+3. You may NOT rename, modify, decompile, disassemble, 
+otherwise reverse engineer the DB2Class3 program. 
+Any such unauthorized use shall result in immediate and 
+automatic termination of this license.
+
+4. THE DB2CLASS3 PROGRAM ARE DISTRIBUTED "AS IS".
+NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. 
+YOU USE AT YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, 
+DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING
+OR MISUSING THIS SOFTWARE.
+
+Thank you for using DB2Class3.
+
+
+Copyright (C) Aleksey Nemiro, 2009-2014
+
+
