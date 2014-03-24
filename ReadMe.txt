@@ -7,6 +7,10 @@ And also implements caching data.
 
 SYSTEM REQUIREMENTS
 
-* Microsoft Windows or later with .NET Framework 4.0 or 4.5
+* Microsoft Windows XP, 7 or later with .NET Framework 4.0 or 4.5
 * Microsoft SQL Server 2005, 2008, 2008R2, 2012 or later
 * Microsoft Visual Studio 2010 or later
+
+
+Homepage:
+https://github.com/alekseynemiro/nemiro.data.dll

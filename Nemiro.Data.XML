@@ -3136,6 +3136,12 @@
             </returns>
             <seealso cref="M:Nemiro.Data.Caching.FileCache.CleanupAll"/>
         </member>
+        <member name="M:Nemiro.Data.Caching.FileCache.ToString">
+            <summary>
+            Возвращает путь к хранилищу файлов кэша.
+            </summary>
+            <returns>Строку, содержащую путь к хранилищу файлов кэша (<see cref="P:Nemiro.Data.Caching.FileCache.CachePath"/>).</returns>
+        </member>
         <member name="P:Nemiro.Data.Caching.FileCache.BufferSize">
             <summary>
             Максимальный объем данных (в килобайтах) для дополнительного кэша в памяти (ОЗУ) компьютера. 
