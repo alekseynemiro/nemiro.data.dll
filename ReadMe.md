@@ -5,9 +5,13 @@ And also implements an object-oriented data access (Object-Relational Mapping, O
 And also implements caching data.
 
 
-To install Nemiro.Data.dll, run the following command in the Package Manager Console
+To install Nemiro.Data.dll, run the following command in the Package Manager Console:
 
-`PM> Install-Package Nemiro.Data.dll`
+`PM> Install-Package Nemiro.Data`
+
+or russian version:
+
+`PM> Install-Package Nemiro.Data.ru`
 
 
 SYSTEM REQUIREMENTS
