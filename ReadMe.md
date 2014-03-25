@@ -4,6 +4,12 @@ The library contains helper classes for working with data.
 And also implements an object-oriented data access (Object-Relational Mapping, ORM).
 And also implements caching data.
 
+
+To install Nemiro.Data.dll, run the following command in the Package Manager Console
+
+`PM> Install-Package Nemiro.Data.dll`
+
+
 SYSTEM REQUIREMENTS
 
 * Microsoft Windows XP, 7 or later with .NET Framework 4.0 or 4.5
