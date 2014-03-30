@@ -20,7 +20,7 @@
     </ul>
     <p>&nbsp;</p>
 
-    <h3><a href="https://github.com/alekseynemiro/nemiro.data.dll" target="_blank">Nemiro.Data.dll homepage</a></h3>
+    <h3><a href="http://data.nemiro.net" target="_blank">Nemiro.Data.dll homepage</a></h3>
 
     <h3><a href="https://github.com/alekseynemiro/nemiro.data.dll/wiki/License-for-Use-and-Distribution" target="_blank">License for Use and Distribution</a></h3>
 

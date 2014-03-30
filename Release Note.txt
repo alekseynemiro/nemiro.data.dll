@@ -1,0 +1,44 @@
+NEMIRO.DATA.DLL V2.11.4.126 RELEASE NOTES
+
+March 30th, 2014
+
+The new version fixes some bugs. 
+Improved performance and increased stability of the file cache.
+Fixed minor bugs in the ORM class and SqlClient.
+Fixed typos in the documentation. Documentation translated into English.
+
+Additions
+
+* In the <CacheCleanupResult> class added <TimeElapsed> property, 
+  which contains execution time of cleanup cache.
+
+* In the file cache added <BufferAccessTimeout> property, which 
+  allows you to control the buffer timeout.
+
+* Added  possibility of transmitting custom CacheBinder from 
+  the classes: <SqlClient> and <BaseObject>.
+
+Changes
+
+* In the <CacheInfo> class names of most properties was lost a <Cache> prefix.
+
+* Improved search of cache object in the <CacheCollection>.
+
+* Improved memory buffer in the file cache.
+
+Fixes
+
+* Fixed a bug that occurred when calling <PreviousPage> and <NextPage> methods 
+  of the <DataObjectCollection> class.
+
+* Fixed bug with incorrect parse a connection string when the specified 
+  physical path to a database file.
+
+* Fixed a bug that could occur when you initialize an instance of 
+  the <SqlClient> class, if the <CachePath> parameter set <null> (Nothing) value.
+
+* Fixed bug with a SQL-statements building in the <CreateTable> method 
+  of the <BaseObject> class.
+
+* In the <GetList> method of the <BaseObject> class fixed a bug that 
+  could occur when requesting all data, without pagination.

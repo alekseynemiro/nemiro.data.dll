@@ -55,4 +55,4 @@
 
 
 Страница проекта:
-https://github.com/alekseynemiro/nemiro.data.dll
+http://data.nemiro.net

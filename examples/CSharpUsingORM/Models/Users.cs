@@ -10,7 +10,7 @@ using Nemiro.Data.Sql;
 // You can change this code.
 // But do not generate the code again if you change it manually.
 // For more information, look at homepage:
-// https://github.com/alekseynemiro/nemiro.data.dll
+// http://data.nemiro.net
 
 // You can specify any connection string to the SQL Server database.
 // Use the constructor overload.
