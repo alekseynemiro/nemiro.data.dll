@@ -1,9 +1,10 @@
 Nemiro.Data.dll library is designed to work with 
 databases Microsoft SQL Server.
 
-The library contains helper classes for working with data.
-And also implements an object-oriented data access (Object-Relational Mapping, ORM).
+The library contains helper classes for working with data. 
+Implements an object-oriented data access (Object-Relational Mapping, ORM). 
 And also implements caching data.
+
 
 SYSTEM REQUIREMENTS
 
