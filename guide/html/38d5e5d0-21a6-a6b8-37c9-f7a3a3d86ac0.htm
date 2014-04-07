@@ -1,0 +1,160 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>FileCache Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="FileCache class" /><meta name="System.Keywords" content="Nemiro.Data.Caching.FileCache class" /><meta name="System.Keywords" content="FileCache class, about FileCache class" /><meta name="Microsoft.Help.F1" content="Nemiro.Data.Caching.FileCache" /><meta name="Microsoft.Help.Id" content="T:Nemiro.Data.Caching.FileCache" /><meta name="Description" content="Implements the cache in file system." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Nemiro.Data.Caching" /><meta name="file" content="38d5e5d0-21a6-a6b8-37c9-f7a3a3d86ac0" /><meta name="guid" content="38d5e5d0-21a6-a6b8-37c9-f7a3a3d86ac0" /><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">FileCache Class</td><td class="OH_tdRunningTitleColumn">Nemiro.Data.dll</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">
+            Implements the cache in file system.
+            </div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Inheritance Hierarchy</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><span class="nolink">System<span id="ID0EBHQAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBHQAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</span><br />  <span class="nolink">System.Runtime.Caching<span id="ID0EBEQAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBEQAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>ObjectCache</span><br />    <span class="selflink">Nemiro.Data.Caching<span id="ID0EBBQAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBQAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>FileCache</span><br /><p></p><strong>Namespace:</strong> <a href="f080a0d0-4554-4ffc-6193-c7ea9414588a.htm" target="">Nemiro.Data.Caching</a><br /><strong>Assembly:</strong> <span sdata="assembly">Nemiro.Data</span> (in Nemiro.Data.dll) Version: 2.11.4.126 (2.11.4.126)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBAGAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBAGAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBAGAAAAA_tabimgleft"></div><div id="ID0EBAGAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAGAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBAGAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAGAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBAGAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBAGAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBAGAAAAA_tabimgright"></div></div><div id="ID0EBAGAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBAGAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBAGAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBAGAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBAGAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBAGAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBAGAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBAGAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">FileCache</span> : <span class="identifier">ObjectCache</span></pre></div><div id="ID0EBAGAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public class FileCache : ObjectCache</pre></div><div id="ID0EBAGAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">FileCache</span> 
+	<span class="keyword">Inherits</span> <span class="identifier">ObjectCache</span></pre></div><div id="ID0EBAGAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public Class FileCache 
+	Inherits ObjectCache</pre></div><div id="ID0EBAGAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAGAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAGAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAGAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBAGAAAAA');</script></div><p>The <span class="selflink">FileCache</span> type exposes the following members.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Constructors</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="910a9ee9-9bac-5c0f-8d72-a28a54d55181.htm" target="">FileCache<span id="ID0EAABGBEAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABGBEAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Initializes a new instance of the file cache.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="280f2d6e-b41b-9c2d-3406-4f9f397b4484.htm" target="">FileCache(SerializationBinder)</a></td><td><div class="summary">
+            Initializes a new instance of the file cache with custom type binder.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4e7d262a-74f1-a8a0-9547-4f3ca4ae2d1b.htm" target="">FileCache(String)</a></td><td><div class="summary">
+            Initializes a new instance of the file cache with specified storage path.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="016db829-bf82-65e1-b4bb-b9c1e05a3e38.htm" target="">FileCache(String, Int64)</a></td><td><div class="summary">
+            Initializes a new instance of the file cache with specified storage path and memory buffer size.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="3909535f-9da5-c33d-f69e-6900d220b0e4.htm" target="">FileCache(String, SerializationBinder)</a></td><td><div class="summary">
+            Initializes a new instance of the file cache with  specified storage path and  custom type binder.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2cdc8ac7-492d-6d89-8943-81ccdbce278a.htm" target="">FileCache(String, Int64, SerializationBinder)</a></td><td><div class="summary">
+            Initializes a new instance of the file cache.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="f13a3ae8-59b5-26f4-3303-d45f66fbdb6f.htm" target="">FileCache(String, Int64, SerializationBinder, TimeSpan, TimeSpan)</a></td><td><div class="summary">
+            Initializes a new instance of the file cache.
+            </div></td></tr></table><a href="#mainBody" target="">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Add(CacheItem, CacheItemPolicy)</span></td><td> (Inherited from <span class="nolink">ObjectCache</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Add(String, Object, DateTimeOffset, String)</span></td><td> (Inherited from <span class="nolink">ObjectCache</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Add(String, Object, CacheItemPolicy, String)</span></td><td> (Inherited from <span class="nolink">ObjectCache</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9f0b0256-5230-4c49-8f10-249e40ce49f7.htm" target="">AddOrGetExisting(CacheItem, CacheItemPolicy)</a></td><td><div class="summary">
+            Inserts a cache entry into the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAZBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAZBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>AddOrGetExisting(CacheItem, CacheItemPolicy)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="1da0be7b-5baa-83ce-aee2-61a9c87ce50d.htm" target="">AddOrGetExisting(String, Object, DateTimeOffset, String)</a></td><td><div class="summary">
+            Adds a cache entry into the cache using the specified key and a value and an absolute expiration value.  
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAYBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAYBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>AddOrGetExisting(String, Object, DateTimeOffset, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="991cf81a-561d-f8ef-211e-40d513980ea1.htm" target="">AddOrGetExisting(String, Object, CacheItemPolicy, String)</a></td><td><div class="summary">
+            Inserts a cache entry into the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAXBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAXBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>AddOrGetExisting(String, Object, CacheItemPolicy, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6f35397a-a44a-c7fe-bf53-99d60b31e092.htm" target="">Cleanup</a></td><td><div class="summary">
+            Removes outdated entries from the cache.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9f3f4593-a7eb-ff72-eece-45ca37f6f3a2.htm" target="">CleanupAll</a></td><td><div class="summary">
+            Removes all entries from the cache.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="19a4d0fa-7755-543c-4da3-ce2c2a26129f.htm" target="">Contains</a></td><td><div class="summary">
+            Determines whether a cache entry exists in the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAUBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAUBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Contains(String, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e8fd3735-55d8-078b-5350-a17459d85b93.htm" target="">CreateCacheEntryChangeMonitor</a></td><td><div class="summary">
+			      Creates a <span class="nolink">CacheEntryChangeMonitor</span> object that can trigger events in response to changes to specified cache entries.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EFBATBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFBATBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>CreateCacheEntryChangeMonitor(IEnumerable<span id="ID0EDBATBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDBATBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>String<span id="ID0EBBATBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBATBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>, String)</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b9cbbd8b-e617-d331-d0c7-59f78f4f9621.htm" target="">Get</a></td><td><div class="summary">
+            Returns an entry from the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAQBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAQBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Get(String, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2addddd3-0148-3de3-4bb6-23679604a923.htm" target="">GetCacheItem</a></td><td><div class="summary">
+            Returns the specified entry from the cache as a <span class="nolink">CacheItem</span> instance.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAPBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAPBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>GetCacheItem(String, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ada5a088-12d8-9254-287f-ac54002e7dc9.htm" target="">GetCount</a></td><td><div class="summary">
+            Returns the total number of cache entries in the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAOBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAOBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>GetCount(String)</span>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="11a503b8-4590-4eec-6cb4-6e067e565e78.htm" target="">GetEnumerator<span id="ID0EAABNBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABNBDAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Creates an enumerator that can be used to iterate through a collection of cache entries.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0ECBANBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECBANBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>GetEnumerator<span id="ID0EABANBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EABANBDAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="087aea6d-9b2c-ef37-bfa9-8bf28bc4012c.htm" target="">GetEnumerator(String)</a></td><td><div class="summary">
+            Creates an enumerator that can be used to iterate through a collection of cache entries.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="fe2870d4-66cd-2ef4-9044-5db744685b16.htm" target="">GetKeys</a></td><td><div class="summary">
+            Returns a list of all the keys for the specified region. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e252ae03-4abf-e20c-36f7-40ca8738df8d.htm" target="">GetPolicy</a></td><td><div class="summary">
+            Returns cache entry policy.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetValues(String, <span id="ID0EDABHBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABHBDAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>String<span id="ID0EBABHBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABHBDAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</span></td><td> (Inherited from <span class="nolink">ObjectCache</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="58828e60-ad25-964c-ea24-1de7d90d544a.htm" target="">GetValues(IEnumerable<span id="ID0EDABGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABGBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>String<span id="ID0EBABGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABGBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>, String)</a></td><td><div class="summary">
+            Returns a set of cache entries that correspond to the specified keys.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EFBAGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFBAGBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>GetValues(IEnumerable<span id="ID0EDBAGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDBAGBDAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script>String<span id="ID0EBBAGBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAGBDAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>, String)</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="1b418c96-de10-00fc-b24e-dbc742e4e4d9.htm" target="">Remove</a></td><td><div class="summary">
+            Removes a cache entry from the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAEBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAEBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Remove(String, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="7e488d4a-22a8-b0b9-56be-e83a671f58e8.htm" target="">Set(CacheItem, CacheItemPolicy)</a></td><td><div class="summary">
+			      Inserts a cache entry into the cache by using a <span class="nolink">CacheItem</span> instance to supply the key and value for the cache entry.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBADBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBADBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Set(CacheItem, CacheItemPolicy)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6c948163-dc78-2cf6-87ef-b46906a78446.htm" target="">Set(String, Object, DateTimeOffset, String)</a></td><td><div class="summary">
+            Inserts a cache entry into the cache by using a key and a value and specifies time-based expiration details.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBACBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBACBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Set(String, Object, DateTimeOffset, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="585c1bb2-93e3-a0eb-887f-9dce684039b9.htm" target="">Set(String, Object, CacheItemPolicy, String)</a></td><td><div class="summary">
+            Inserts a cache entry into the cache by using a key and a value and eviction. 
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBABBDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBABBDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Set(String, Object, CacheItemPolicy, String)</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="358b330d-a755-a19c-5b39-a9a0ce29775d.htm" target="">ToString</a></td><td><div class="summary">
+            Returns cache storage path.
+            </div> (Overrides <span class="nolink">Object<span id="ID0ECBAABDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECBAABDAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>ToString<span id="ID0EABAABDAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EABAABDAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></span>.)</td></tr></table><a href="#mainBody" target="">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Properties</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="f64e4e63-6a68-4557-c63d-0e54f30f08a7.htm" target="">AccessTimeout</a></td><td><div class="summary">
+            Waiting time gain access to the file of cache entry. After this time, if the file entry are not available, an exception is thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="4aacb6f6-99a0-fa4a-45e5-560ae5f740c1.htm" target="">BufferAccessTimeout</a></td><td><div class="summary">
+            Waiting time gain access to the buffer.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="b6efcc9a-f3ef-5930-c304-171853b8c04c.htm" target="">BufferSize</a></td><td><div class="summary">
+            Memory buffer size (Kb). 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="1b285ace-911f-64cf-2e3e-7eec8a1cfeb3.htm" target="">CachePath</a></td><td><div class="summary">
+            Cache storage path.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="8390a083-3210-ca6b-ed2d-fd7af1f749fc.htm" target="">DefaultCacheCapabilities</a></td><td><div class="summary">
+            Gets a description of the features that the cache provides.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAEBCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAEBCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DefaultCacheCapabilities</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="2aeb87cb-c3d2-7f84-2103-501bf67d4dca.htm" target="">DefaultPolicy</a></td><td><div class="summary">
+            Default cache policy.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="01057102-da2c-e353-fa34-16477fddea2e.htm" target="">DefaultRegion</a></td><td><div class="summary">
+            Default region name.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="d765960f-eacb-3317-a752-fbab66e54bfc.htm" target="">Item</a></td><td><div class="summary">
+			      Gets or sets a value in the cache by using the default indexer property for an instance of the <span class="nolink">[F:FileCache]</span> class.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EEBABBCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EEBABBCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Item<span id="ID0ECBABBCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECBABBCAAAAA?vb=(|cpp=[|cs=[|fs=|nu=(");
+				</script>String<span id="ID0EABABBCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EABABBCAAAAA?vb=)|cpp=]|cs=]|fs=|nu=)");
+				</script></span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="dc9f362e-4074-bb4c-bd52-15b68f5fd3e9.htm" target="">Name</a></td><td><div class="summary">
+            Gets the name of the cache.
+            </div> (Overrides <span class="nolink">ObjectCache<span id="ID0EBBAABCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBAABCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Name</span>.)</td></tr></table><a href="#mainBody" target="">Top</a><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="f080a0d0-4554-4ffc-6193-c7ea9414588a.htm" target="">Nemiro.Data.Caching Namespace</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p><a href="https://github.com/alekseynemiro/nemiro.data.dll/wiki/License-for-Use-and-Distribution" target="_blank">Copyright © Aleksey Nemiro, 2009-2014</a> </p><div class="OH_feedbacklink"><a href="mailto:aleksey@kbyte.ru?subject=Nemiro.Data.dll+FileCache+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to aleksey@kbyte.ru.</div></div></body></html>

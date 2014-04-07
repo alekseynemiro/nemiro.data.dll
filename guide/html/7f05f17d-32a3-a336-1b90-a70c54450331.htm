@@ -1,0 +1,366 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>SqlClient Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="SqlClient class" /><meta name="System.Keywords" content="Nemiro.Data.Sql.SqlClient class" /><meta name="System.Keywords" content="SqlClient class, about SqlClient class" /><meta name="Microsoft.Help.F1" content="Nemiro.Data.Sql.SqlClient" /><meta name="Microsoft.Help.Id" content="T:Nemiro.Data.Sql.SqlClient" /><meta name="Description" content="SQL Server client class." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Nemiro.Data.Sql" /><meta name="file" content="7f05f17d-32a3-a336-1b90-a70c54450331" /><meta name="guid" content="7f05f17d-32a3-a336-1b90-a70c54450331" /><link type="text/css" rel="stylesheet" href="./../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"><!----></script><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">SqlClient Class</td><td class="OH_tdRunningTitleColumn">Nemiro.Data.dll</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">
+            SQL Server client class.
+            </div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Inheritance Hierarchy</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><span class="nolink">System<span id="ID0EBESAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBESAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</span><br />  <span class="selflink">Nemiro.Data.Sql<span id="ID0EBBSAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBSAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>SqlClient</span><br /><p></p><strong>Namespace:</strong> <a href="7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="">Nemiro.Data.Sql</a><br /><strong>Assembly:</strong> <span sdata="assembly">Nemiro.Data</span> (in Nemiro.Data.dll) Version: 2.11.4.126 (2.11.4.126)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBAIAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBAIAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBAIAAAAA_tabimgleft"></div><div id="ID0EBAIAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAIAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBAIAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAIAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBAIAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBAIAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBAIAAAAA_tabimgright"></div></div><div id="ID0EBAIAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBAIAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBAIAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBAIAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBAIAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBAIAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBAIAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBAIAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">SqlClient</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID0EBAIAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public class SqlClient : IDisposable</pre></div><div id="ID0EBAIAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">SqlClient</span> 
+	<span class="keyword">Implements</span> <span class="identifier">IDisposable</span></pre></div><div id="ID0EBAIAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public Class SqlClient 
+	Implements IDisposable</pre></div><div id="ID0EBAIAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAIAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAIAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAIAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBAIAAAAA');</script></div><p>The <span class="selflink">SqlClient</span> type exposes the following members.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Constructors</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="22380bc2-55a0-a147-5ea3-d9c8bd05493b.htm" target="">SqlClient<span id="ID0EAABKBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABKBGAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="7fff8758-b0f9-3dbe-2c8c-fdd34e611576.htm" target="">SqlClient(Int32)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class with caching duration.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="46c3f2dd-60e7-6f4b-9810-408a5a798d43.htm" target="">SqlClient(String)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="19030297-3aed-dc23-1b84-48536e5705ea.htm" target="">SqlClient(String, Int32)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c8e9c4fc-8097-a537-7220-a4ca9a21bfa6.htm" target="">SqlClient(String, String)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="25a2244b-a026-2fab-08ee-ea79b09fe7b2.htm" target="">SqlClient(Type, Int32)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class with custom cache object and caching duration.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="87ffa9c6-3092-08c0-44d4-efe2c9dd65c7.htm" target="">SqlClient(Type, <span id="ID0EDABEBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABEBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABEBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABEBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> with custom cache object.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ca05c8a7-ee52-46e1-086c-9d7b1121c871.htm" target="">SqlClient(String, Type, <span id="ID0EDABDBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABDBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABDBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABDBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="52c9f599-632f-52c5-a8d8-68dcb7d15d30.htm" target="">SqlClient(Type, <span id="ID0EDABCBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABCBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABCBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABCBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>, Int32)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="834b9f23-ee65-f7c2-b3be-111494ebcd29.htm" target="">SqlClient(String, Int32, String, Type, <span id="ID0EDABBBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABBBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABBBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABBBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4ef83143-8c38-c3a7-09d9-1f79f976692a.htm" target="">SqlClient(String, Int32, String, Type, <span id="ID0EDABABGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABABGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABABGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABABGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>, Type)</a></td><td><div class="summary">
+            Initializes a new instance of the <span class="selflink">SqlClient</span> class.
+            </div></td></tr></table><a href="#mainBody" target="">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="f89e0e4b-af72-b1d1-92d6-bc0a7784a60a.htm" target="">Connect</a></td><td><div class="summary">
+            Opens a database connection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d61eb899-1a19-fc2f-01ef-896e31cdb5f8.htm" target="">CopyDataToServer</a></td><td><div class="summary">
+            Transferring the specified tables from the instance of <span class="nolink">DataSet</span> to the database.
+            Used <span class="nolink">SqlBulkCopy</span>.
+            The fastest and most economical way to move large amounts of data in the database.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="61a8d5b8-6e55-66ca-bef6-730101c731dc.htm" target="">CopyTableToServer</a></td><td><div class="summary">
+            Transferring the specified table to the database.
+            Used <span class="nolink">SqlBulkCopy</span>.
+            The fastest and most economical way to move large amounts of data in the database.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="55776c87-b5ed-266b-c731-e9353e5c394b.htm" target="">Disconnect</a></td><td><div class="summary">
+            Closes the database connection.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8901efcf-907c-399c-f12a-447cf1bc88b9.htm" target="">Dispose</a></td><td><div class="summary">
+            Releases all resources used by the object.
+            If necessary, closing all opened connections to the database.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d274cad3-f49e-ffd9-a79b-8420ddeeb80b.htm" target="">ExecuteNonQuery<span id="ID0EAABTBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABTBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Executes a Transact-SQL statement against the connection and returns the number of rows affected.
+            This method is used in conjunction with the properties <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> and <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="77da4750-ef7b-325a-db81-78166a017c13.htm" target="">ExecuteNonQuery(SqlCommand)</a></td><td><div class="summary">
+            Executes the specified <span class="nolink">SqlCommand</span> and returns the number of rows affected.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="3b384b53-5baf-7116-584a-f8c579c66a15.htm" target="">ExecuteNonQuery(String)</a></td><td><div class="summary">
+            Executes a Transact-SQL statement against the connection and returns the number of rows affected.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ea1fd9c5-b20e-1160-ff5e-d87647be644b.htm" target="">ExecuteScalar<span id="ID0EAABQBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABQBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Executes the query, and returns the first column of the first row in the result set returned by the query. Additional columns or rows are ignored.
+            This method is used in conjunction with the properties <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> and <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c6877d30-6af9-6e9a-25e3-1c34319406ae.htm" target="">ExecuteScalar(SqlCommand)</a></td><td><div class="summary">
+            Executes the specified <span class="nolink">SqlCommand</span>, and returns the first column of the first row in the result set returned by the query. Additional columns or rows are ignored.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="28190c17-d669-4581-7098-923c5b7ab646.htm" target="">ExecuteScalar(String)</a></td><td><div class="summary">
+            Executes the query, and returns the first column of the first row in the result set returned by the query. Additional columns or rows are ignored.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">Finalize</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="254e5dd5-dbf3-c127-e7ed-b390fc719f02.htm" target="">GetData<span id="ID0EAABMBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABMBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Executes the query and returns <span class="nolink">DataSet</span>.
+            This method is used in conjunction with the properties <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> and <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8e660000-398c-1b1f-27f3-32233b941240.htm" target="">GetData(SqlCommand)</a></td><td><div class="summary">
+			Executes the specified <span class="nolink">SqlCommand</span> and returns <span class="nolink">DataSet</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="052f0333-ce91-2f50-c551-99804c69734f.htm" target="">GetData(String)</a></td><td><div class="summary">
+            Executes the specified SQL-statement and returns <span class="nolink">DataSet</span>.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e962ca53-53e2-5104-4990-720a30a821c0.htm" target="">GetRow<span id="ID0EAABIBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABIBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Executes the query and returns data row.
+            This method is used in conjunction with the properties <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> and <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="52dc5ad2-2165-9d16-606b-86a8d6654da7.htm" target="">GetRow(SqlCommand)</a></td><td><div class="summary">
+            Executes the specified <span class="nolink">SqlCommand</span> and returns строку данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c9b8fe85-88f2-f1db-5058-656070d196b0.htm" target="">GetRow(String)</a></td><td><div class="summary">
+            Executes the query and returns data row.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="256fc8b6-7331-6886-b020-dc47e44ca688.htm" target="">GetTable<span id="ID0EAABFBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABFBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Executes the query and returns <span class="nolink">DataTable</span>.
+            This method is used in conjunction with the properties <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> and <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="47f3eed7-4a1c-016d-8841-f1acaec19b5f.htm" target="">GetTable(SqlCommand)</a></td><td><div class="summary">
+            Executes the specified <span class="nolink">SqlCommand</span> and returns <span class="nolink">DataTable</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="3007f5f3-5559-2370-d07e-af46b0d0f448.htm" target="">GetTable(String)</a></td><td><div class="summary">
+            Executes the query and returns <span class="nolink">DataTable</span>.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><span class="nolink">MemberwiseClone</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td> (Inherited from <span class="nolink">Object</span>.)</td></tr></table><a href="#mainBody" target="">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Properties</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Name</th><th class="ps_descriptionColumn">Description</th></tr><tr data="protected;declared;notNetfw;"><td><img src="./../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="6b56316a-b2ca-3ad5-ab9c-46790fb3e67d.htm" target="">Cache</a></td><td><div class="summary">
+            Provides access to parameters caching.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="bd8b2430-6af5-8817-58f3-d4266cff790e.htm" target="">CacheAccessTimeout</a></td><td><div class="summary">
+            Waiting time gain access to the entry of file cache (<a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>).
+            After this time, if the file entry are not available, an exception is thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="b1de5756-67ef-914b-aa22-43624057ccda.htm" target="">CacheBinder</a></td><td><div class="summary">
+            Type serializer of custom objects.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="964562d0-4e55-c247-32a1-14b79aeb8098.htm" target="">CacheBufferAccessTimeout</a></td><td><div class="summary">
+            Waiting time gain access to the buffer of file cache (<a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>). 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="99bc4130-df8d-6159-9a47-028c67735042.htm" target="">CacheBufferSize</a></td><td><div class="summary">
+            File cache (<a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>) memory buffer size (Kb). 
+            Default value is <span class="code">2048</span> Kb (<span class="code">2</span> Mb).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" target="">CacheCustom</a></td><td><div class="summary">
+            Custom cache type. Used with <a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a> and <a href="52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" target="">CacheCustomArgs</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" target="">CacheCustomArgs</a></td><td><div class="summary">
+            Array of additional parameters for initialization custom cache.
+            Used with <a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a> and <a href="7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" target="">CacheCustom</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="a3aabc0e-d339-1e83-db12-8058bb49923d.htm" target="">CacheDuration</a></td><td><div class="summary">
+            Duration of storage in the cache entry (in seconds).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="0e3129cf-c3bd-db5a-b2ad-a55ea1a279e6.htm" target="">CacheName</a></td><td><div class="summary">
+            Name of the key cache entry (optional).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="02cbdd80-6222-35ab-48ab-62ccebcd34e1.htm" target="">CachePath</a></td><td><div class="summary">
+            The path of storage a cache files. Using only with <a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a> = <a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a></td><td><div class="summary">
+            Cache type. Default value is <a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">Auto</a>, unless otherwise specified in the parameter <span class="code">NeData:Sql:CacheType</span> of configuration files.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a></td><td><div class="summary">
+            The text of the SQL statements or stored procedure name, you must perform.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="900b9870-d1b4-3411-8ec7-1612748d09fb.htm" target="">CommandTimeout</a></td><td><div class="summary">
+            Timeout command (in seconds). The default value is <span class="code">30</span> seconds.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a></td><td><div class="summary">
+            Command type for <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a>.
+            Default value <a href="78d1642b-e39c-3e7d-61f3-8c776c118354.htm" target="">Auto</a>, unless otherwise specified in the parameter <span class="code">NeData:Sql:CommandType</span> of configuration file.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="2ba558f7-bed6-c6cf-0ad7-fda619803d8d.htm" target="">ConnectionMode</a></td><td><div class="summary">
+            Connection mode.
+            Default value <a href="7d612565-0606-e032-47d0-e39bcbf2716c.htm" target="">Auto</a>, unless otherwise specified in the parameter <span class="code">NeData:Sql:ConnectionMode</span> of configuration file.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="fec7b48d-378b-6f02-a259-aaba12475218.htm" target="">ConnectionString</a></td><td><div class="summary">
+            Connection string.
+            Default value: <span class="code">LocalSqlServer</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="b84cc82b-116c-6574-9c2e-533bacf90d22.htm" target="">ConnectionTimeout</a></td><td><div class="summary">
+            Timeout connecting to the server (in seconds) before an exception.
+            Default value: zero - used the server configuration.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="4127edcb-3fc5-6d2b-a70e-8a489b684b81.htm" target="">LastQueryResultsFromCache</a></td><td><div class="summary">
+            Is <span class="code">True</span>, if the last query result was obtained from the cache. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="97b71e38-8847-5d08-0053-04dfb6f48a9a.htm" target="">LastQueryTime</a></td><td><div class="summary">
+            Elapsed time of the last query to the database.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a></td><td><div class="summary">
+            Collection of query parameters.
+            </div></td></tr></table><a href="#mainBody" target="">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Remarks</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>By default, the class initialization parameters are used in the configuration file.
+            For web-projects - <span class="code">web.config</span>; for applications Windows - <span class="code">app.config</span>.</p><p>Following parameters are supported:
+            <ul><li>NeData:Sql:ConnectionMode</li><li>NeData:Sql:CommandType</li><li>NeData:Sql:CacheType</li><li>NeData:Sql:CacheDuration (not recommended)</li><li>NeData:Sql:CachePath</li><li>NeData:Sql:CacheBinder</li><li>NeData:Sql:CacheBufferSize</li><li>NeData:Sql:CacheBufferAccessTimeout (for example: 0.00:00:00.500 - 500 ms)</li><li>NeData:Sql:CacheAccessTimeout (for example: 0.00:00:00.500 - 500 ms)</li><li>NeData:Sql:CacheCustom</li><li>NeData:Sql:CacheCustomArgs</li></ul></p><p>For Windows applications, the parameter names should be recorded without the colons (case sensitive).
+            For example: 
+            <ul><li>NeDataSqlCacheTyp</li><li>NeDataSqlAutoTrimmingStrings</li><li>NeDataSqlCachePath</li><li>etc.</li></ul></p><p>
+            The default connection string is <span class="code">LocalSqlServer</span>.
+            To use the <span class="code">LocalSqlServer</span> in web applications with your database, you need remove default connection string and add your connection string value:
+            </p><div id="ID0EADAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EADAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EADAAAAA_tabimgleft"></div><div id="ID0EADAAAAA_tab1" class="OH_CodeSnippetContainerTabSolo" EnableCopyCode="true"><a xmlns="">XML</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EADAAAAA_tabimgright"></div></div><div id="ID0EADAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EADAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EADAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EADAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EADAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EADAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EADAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EADAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">remove</span> <span class="highlight-xml-attribute-name">name</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"LocalSqlServer"</span><span class="highlight-xml-bracket">/&gt;</span> 
+<span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">add</span> 
+  <span class="highlight-xml-attribute-name">name</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"LocalSqlServer"</span> 
+  <span class="highlight-xml-attribute-name">connectionString</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"</span> 
+<span class="highlight-xml-bracket">/&gt;</span></pre></div><div id="ID0EADAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;remove name="LocalSqlServer"/&gt; 
+&lt;add 
+  name="LocalSqlServer" 
+  connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;" 
+/&gt;</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EADAAAAA');</script><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Examples</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>The following example creates an instance of the <span class="selflink">SqlClient</span> class using connection string by default (<span class="code">LocalSqlServer</span>).</p><div id="ID0EKCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EKCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EKCAAAAA_tabimgleft"></div><div id="ID0EKCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EKCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EKCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EKCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EKCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EKCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EKCAAAAA_tabimgright"></div></div><div id="ID0EKCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EKCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EKCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EKCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EKCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EKCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EKCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EKCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient())
+{
+  DataRow row = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>);
+  <span class="highlight-keyword">if</span>(row == <span class="highlight-keyword">null</span>)
+  {
+    Console.WriteLine(<span class="highlight-literal">"No results..."</span>);
+  }
+  <span class="highlight-keyword">else</span>
+  {
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row[<span class="highlight-literal">"id"</span>]);
+  }
+}</pre></div><div id="ID0EKCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient())
+{
+  DataRow row = client.GetRow("SELECT * FROM table WHERE id = 1000");
+  if(row == null)
+  {
+    Console.WriteLine("No results...");
+  }
+  else
+  {
+    Console.WriteLine("id = {0}", row["id"]);
+  }
+}</pre></div><div id="ID0EKCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient()
+  <span class="highlight-keyword">Dim</span> row <span class="highlight-keyword">As</span> DataRow = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>)
+  <span class="highlight-keyword">If</span> row <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+    Console.WriteLine(<span class="highlight-literal">"No results..."</span>)
+  <span class="highlight-keyword">Else</span>
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row(<span class="highlight-literal">"id"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EKCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient()
+  Dim row As DataRow = client.GetRow("SELECT * FROM table WHERE id = 1000")
+  If row Is Nothing Then
+    Console.WriteLine("No results...")
+  Else
+    Console.WriteLine("id = {0}", row("id"))
+  End If 
+End Using</pre></div><div id="ID0EKCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EKCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EKCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EKCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EKCAAAAA');</script><p>The following example creates an instance of the <span class="selflink">SqlClient</span> class with an explicit connection string.</p><div id="ID0EHCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EHCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EHCAAAAA_tabimgleft"></div><div id="ID0EHCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EHCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EHCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EHCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EHCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EHCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EHCAAAAA_tabimgright"></div></div><div id="ID0EHCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EHCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EHCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EHCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EHCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EHCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EHCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EHCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient(<span class="highlight-literal">@"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"</span>))
+{
+  DataRow row = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>);
+  <span class="highlight-keyword">if</span>(row == <span class="highlight-keyword">null</span>)
+  {
+    Console.WriteLine(<span class="highlight-literal">"No results..."</span>);
+  }
+  <span class="highlight-keyword">else</span>
+  {
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row[<span class="highlight-literal">"id"</span>]);
+  }
+}</pre></div><div id="ID0EHCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient(@"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"))
+{
+  DataRow row = client.GetRow("SELECT * FROM table WHERE id = 1000");
+  if(row == null)
+  {
+    Console.WriteLine("No results...");
+  }
+  else
+  {
+    Console.WriteLine("id = {0}", row["id"]);
+  }
+}</pre></div><div id="ID0EHCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient(<span class="highlight-literal">"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"</span>)
+  <span class="highlight-keyword">Dim</span> row <span class="highlight-keyword">As</span> DataRow = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>)
+  <span class="highlight-keyword">If</span> row <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+    Console.WriteLine(<span class="highlight-literal">"No results..."</span>)
+  <span class="highlight-keyword">Else</span>
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row(<span class="highlight-literal">"id"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EHCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient("Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;")
+  Dim row As DataRow = client.GetRow("SELECT * FROM table WHERE id = 1000")
+  If row Is Nothing Then
+    Console.WriteLine("No results...")
+  Else
+    Console.WriteLine("id = {0}", row("id"))
+  End If 
+End Using</pre></div><div id="ID0EHCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EHCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EHCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EHCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EHCAAAAA');</script><p>The following example creates an instance of the <span class="selflink">SqlClient</span> class with the parameter name in the configuration file, containing the connection string.</p><div id="ID0EECAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EECAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EECAAAAA_tabimgleft"></div><div id="ID0EECAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EECAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EECAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EECAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EECAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EECAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EECAAAAA_tabimgright"></div></div><div id="ID0EECAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EECAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EECAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EECAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EECAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EECAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EECAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EECAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient(<span class="highlight-literal">"MyConnectionString"</span>))
+{
+  DataRow row = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>);
+  <span class="highlight-keyword">if</span>(row == <span class="highlight-keyword">null</span>)
+  {
+    Console.WriteLine(<span class="highlight-literal">"No results..."</span>);
+  }
+  <span class="highlight-keyword">else</span>
+  {
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row[<span class="highlight-literal">"id"</span>]);
+  }
+}</pre></div><div id="ID0EECAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient("MyConnectionString"))
+{
+  DataRow row = client.GetRow("SELECT * FROM table WHERE id = 1000");
+  if(row == null)
+  {
+    Console.WriteLine("No results...");
+  }
+  else
+  {
+    Console.WriteLine("id = {0}", row["id"]);
+  }
+}</pre></div><div id="ID0EECAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient(<span class="highlight-literal">"MyConnectionString"</span>)
+  <span class="highlight-keyword">Dim</span> row <span class="highlight-keyword">As</span> DataRow = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>)
+  <span class="highlight-keyword">If</span> row <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+    Console.WriteLine(<span class="highlight-literal">"No results..."</span>)
+  <span class="highlight-keyword">Else</span>
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row(<span class="highlight-literal">"id"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EECAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient("MyConnectionString")
+  Dim row As DataRow = client.GetRow("SELECT * FROM table WHERE id = 1000")
+  If row Is Nothing Then
+    Console.WriteLine("No results...")
+  Else
+    Console.WriteLine("id = {0}", row("id"))
+  End If 
+End Using</pre></div><div id="ID0EECAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EECAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EECAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EECAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EECAAAAA');</script><p>The following example demonstrates the use of the built-in caching mechanism.</p><div id="ID0EBCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBCAAAAA_tabimgleft"></div><div id="ID0EBCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBCAAAAA_tabimgright"></div></div><div id="ID0EBCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0EBCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0EBCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0EBCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient())
+{
+  <span class="highlight-comment">// cache the query results via file cache for 30 sec.</span>
+  client.CacheDuration = <span class="highlight-number">30</span>;
+  client.CacheType = CachingType.File;
+  <span class="highlight-comment">// query building</span>
+  client.CommandText = <span class="highlight-literal">"SELECT * FROM table"</span>;
+  <span class="highlight-comment">// query execution</span>
+  DataTable table = client.GetTable();
+  <span class="highlight-comment">// output</span>
+  Console.WriteLine(<span class="highlight-literal">"Total rows: {0}"</span>, table.Rows.Count);
+  Console.WriteLine(<span class="highlight-literal">"Query execution time: {0}"</span>, client.LastQueryTime);
+  Console.WriteLine(<span class="highlight-literal">"From cache: {0}"</span>, client.LastQueryResultsFromCache);
+  <span class="highlight-comment">// repeated execution of the same query</span>
+  table = client.GetTable();
+  Console.WriteLine(<span class="highlight-literal">"Total rows: {0}"</span>, table.Rows.Count);
+  Console.WriteLine(<span class="highlight-literal">"Query execution time: {0}"</span>, client.LastQueryTime);
+  Console.WriteLine(<span class="highlight-literal">"From cache: {0}"</span>, client.LastQueryResultsFromCache);
+}</pre></div><div id="ID0EBCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient())
+{
+  // cache the query results via file cache for 30 sec.
+  client.CacheDuration = 30;
+  client.CacheType = CachingType.File;
+  // query building
+  client.CommandText = "SELECT * FROM table";
+  // query execution
+  DataTable table = client.GetTable();
+  // output
+  Console.WriteLine("Total rows: {0}", table.Rows.Count);
+  Console.WriteLine("Query execution time: {0}", client.LastQueryTime);
+  Console.WriteLine("From cache: {0}", client.LastQueryResultsFromCache);
+  // repeated execution of the same query
+  table = client.GetTable();
+  Console.WriteLine("Total rows: {0}", table.Rows.Count);
+  Console.WriteLine("Query execution time: {0}", client.LastQueryTime);
+  Console.WriteLine("From cache: {0}", client.LastQueryResultsFromCache);
+}</pre></div><div id="ID0EBCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient()
+  <span class="highlight-comment">' cache the query results via file cache for 30 sec.</span>
+  client.CacheDuration = <span class="highlight-number">30</span>
+  client.CacheType = CachingType.File
+  <span class="highlight-comment">' query building</span>
+  client.CommandText = <span class="highlight-literal">"SELECT * FROM test"</span> 
+  <span class="highlight-comment">' query execution</span> 
+  <span class="highlight-keyword">Dim</span> table <span class="highlight-keyword">As</span> DataTable = client.GetTable()
+  <span class="highlight-comment">' output</span>
+  Console.WriteLine(<span class="highlight-literal">"Total rows: {0}"</span>, table.Rows.Count)
+  Console.WriteLine(<span class="highlight-literal">"Query execution time: {0}"</span>, client.LastQueryTime)
+  Console.WriteLine(<span class="highlight-literal">"From cache: {0}"</span>, client.LastQueryResultsFromCache)
+  <span class="highlight-comment">' repeated execution of the same query</span>
+  table = client.GetTable()
+  Console.WriteLine(<span class="highlight-literal">"Total rows: {0}"</span>, table.Rows.Count)
+  Console.WriteLine(<span class="highlight-literal">"Query execution time: {0}"</span>, client.LastQueryTime)
+  Console.WriteLine(<span class="highlight-literal">"From cache: {0}"</span>, client.LastQueryResultsFromCache)
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EBCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient()
+  ' cache the query results via file cache for 30 sec.
+  client.CacheDuration = 30
+  client.CacheType = CachingType.File
+  ' query building
+  client.CommandText = "SELECT * FROM test" 
+  ' query execution 
+  Dim table As DataTable = client.GetTable()
+  ' output
+  Console.WriteLine("Total rows: {0}", table.Rows.Count)
+  Console.WriteLine("Query execution time: {0}", client.LastQueryTime)
+  Console.WriteLine("From cache: {0}", client.LastQueryResultsFromCache)
+  ' repeated execution of the same query
+  table = client.GetTable()
+  Console.WriteLine("Total rows: {0}", table.Rows.Count)
+  Console.WriteLine("Query execution time: {0}", client.LastQueryTime)
+  Console.WriteLine("From cache: {0}", client.LastQueryResultsFromCache)
+End Using</pre></div><div id="ID0EBCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBCAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="">Nemiro.Data.Sql Namespace</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p><a href="https://github.com/alekseynemiro/nemiro.data.dll/wiki/License-for-Use-and-Distribution" target="_blank">Copyright © Aleksey Nemiro, 2009-2014</a> </p><div class="OH_feedbacklink"><a href="mailto:aleksey@kbyte.ru?subject=Nemiro.Data.dll+SqlClient+Class+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to aleksey@kbyte.ru.</div></div></body></html>
