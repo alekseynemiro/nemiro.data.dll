@@ -1,0 +1,252 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-RU-RU.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>SqlClient.CopyDataToServer - метод</title><meta name="Language" content="ru-ru" /><meta name="System.Keywords" content="CopyDataToServer метод" /><meta name="System.Keywords" content="SqlClient.CopyDataToServer метод" /><meta name="Microsoft.Help.F1" content="Nemiro.Data.Sql.SqlClient.CopyDataToServer" /><meta name="Microsoft.Help.Id" content="M:Nemiro.Data.Sql.SqlClient.CopyDataToServer(System.Data.DataSet)" /><meta name="Description" content="Переносит данные из таблиц в базу данных. Используется . Это самый быстрый и экономичный способ переноса больших объемов данных в базу." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Nemiro.Data.Sql" /><meta name="file" content="d61eb899-1a19-fc2f-01ef-896e31cdb5f8" /><meta name="guid" content="d61eb899-1a19-fc2f-01ef-896e31cdb5f8" /><link type="text/css" rel="stylesheet" href="./../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"><!----></script><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">SqlClient<span id="ID0EBBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>CopyDataToServer - метод</td><td class="OH_tdRunningTitleColumn">Nemiro.Data.dll</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">
+            Переносит данные из таблиц <span class="nolink">DataSet</span> в базу данных.
+            Используется <span class="nolink">SqlBulkCopy</span>.
+            Это самый быстрый и экономичный способ переноса больших объемов данных в базу.
+            </div><p></p><strong>Пространство имён:</strong> <a href="7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="">Nemiro.Data.Sql</a><br /><strong>Сборка:</strong> <span sdata="assembly">Nemiro.Data</span> (в Nemiro.Data.dll) Версия: 2.11.4.126 (2.11.4.126)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Синтаксис</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBBFAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBBFAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBBFAAAAA_tabimgleft"></div><div id="ID0EBBFAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBFAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBBFAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBBFAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBBFAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBBFAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBBFAAAAA_tabimgright"></div></div><div id="ID0EBBFAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBBFAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBBFAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EBBFAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBBFAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EBBFAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBBFAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EBBFAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">CopyDataToServer</span>(
+	<span class="identifier">DataSet</span> <span class="parameter">value</span>
+)</pre></div><div id="ID0EBBFAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public void CopyDataToServer(
+	DataSet value
+)</pre></div><div id="ID0EBBFAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">CopyDataToServer</span> ( 
+	<span class="parameter">value</span> <span class="keyword">As</span> <span class="identifier">DataSet</span>
+)</pre></div><div id="ID0EBBFAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public Sub CopyDataToServer ( 
+	value As DataSet
+)</pre></div><div id="ID0EBBFAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBFAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBFAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBBFAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBBFAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Параметры</h4><dl paramName="value"><dt><span class="parameter">value</span></dt><dd>Тип: <span class="nolink">System.Data<span id="ID0EBCAAAFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBCAAAFAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>DataSet</span><br /><span>Экземпляр класса <span class="nolink">DataSet</span>, данные которого нужно перенести в базу SQL Server.</span></dd></dl></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Исключения</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="tableSection"><table><tr><th class="ps_exceptionNameColumn">Исключение</th><th class="ps_exceptionConditionColumn">Условие</th></tr><tr><td><span class="nolink">ArgumentNullException</span></td><td>Если <span class="parameter">value</span> имеет значение <span class="code">null</span> (<span class="code">Nothing</span>).</td></tr><tr><td><span class="nolink">SqlException</span></td><td>Исключение возникает при возврате SQL Server предупреждения или ошибки.</td></tr><tr><td><a href="bdeda6f0-258f-7b28-1179-781a60e67200.htm" target="">StringOrBinaryDataWouldBeTruncatedException</a></td><td>Исключение возникает, если в некоторые поля таблицы добавляются значения, объем которых превышает допустимый размер поля таблицы.</td></tr></table></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Заметки</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>Каждый экземпляр коллекции <span class="nolink">Tables</span> должен содержать имя таблицы назначения в свойстве <span class="nolink">TableName</span>.</p><p>Список полей таблиц должен совпадать с колонками таблиц базы данных, в которые переносятся данные.</p><p>Если коллекция таблиц в параметре <span class="parameter">value</span> пустая, то запрос к базе данных не выполняется.</p><p>Если определенная таблица не имеет в коллекции строк данных, то запрос к базе данных для этой таблицы выполняться не будет.</p><p>Данные из таблиц переносятся в базу поочередно.</p><p>Если в процессе переноса данных в базу возникнет ошибка, то уже перенесенные данные останутся в базе данных.</p><p>Используйте этот метод, если необходимо перенести большие объемы данных в базу. Метод работает быстрее и потребляет меньше ресурсов, чем использование SQL-инструкции <span class="code">INSERT INTO</span>.</p><p>Параметры кэширования при работе с этим методом игнорируются.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Примеры</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>В следующем примере в базу данных в таблицы <span class="code">hotels</span> и <span class="code">hotels_images</span> переносятся данные отелей.</p><p>Для примера, данные формируются случайным образом.</p><p>Для связи фотографий отелей с отелями используются ключи типа <span class="nolink">Guid</span>, которые создаются программно (чтобы можно было сделать связь данных).</p><div id="ID0EBCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBCAAAAA_tabimgleft"></div><div id="ID0EBCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBCAAAAA_tabimgright"></div></div><div id="ID0EBCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBCAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EBCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBCAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EBCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBCAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EBCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient())
+{
+  <span class="highlight-comment">// Создаем экземпляр класса DataTable для отелей.</span> 
+  <span class="highlight-comment">// В качестве имени таблицы указываем hotels.</span> 
+  <span class="highlight-comment">// В базе данных SQL Server должна быть таблица с именем hotels.</span>
+  DataTable hotels = <span class="highlight-keyword">new</span> DataTable(<span class="highlight-literal">"hotels"</span>);
+  <span class="highlight-comment">// Добавляем поля в таблицу.</span> 
+  <span class="highlight-comment">// Все перечисленные поля должны присутствовать в таблице hotels</span> 
+  <span class="highlight-comment">// базы данных SQL Server.</span> 
+  <span class="highlight-comment">// Если в таблице на сервере SQL Server есть идентификаторы-счетчики, </span> 
+  <span class="highlight-comment">// значения для которых сервером формируются автоматически, указывать их не нужно.</span> 
+  <span class="highlight-comment">// Для надежности, рекомендуется указывать тип данных полей (вторым параметром).</span>
+  hotels.Columns.Add(<span class="highlight-literal">"id_hotels"</span>, <span class="highlight-keyword">typeof</span>(Guid));
+  hotels.Columns.Add(<span class="highlight-literal">"hotel_code"</span>, <span class="highlight-keyword">typeof</span>(<span class="highlight-keyword">string</span>));
+  hotels.Columns.Add(<span class="highlight-literal">"hotel_name"</span>, <span class="highlight-keyword">typeof</span>(<span class="highlight-keyword">string</span>));
+  hotels.Columns.Add(<span class="highlight-literal">"hotel_stars"</span>, <span class="highlight-keyword">typeof</span>(<span class="highlight-keyword">int</span>));
+  hotels.Columns.Add(<span class="highlight-literal">"date_created"</span>, <span class="highlight-keyword">typeof</span>(DateTime));
+
+  <span class="highlight-comment">// Создаем экземпляр класса DataTable для фотографий отелей.</span> 
+  <span class="highlight-comment">// В качестве имени таблицы указываем hotels_images.</span> 
+  <span class="highlight-comment">// В базе данных SQL Server должна быть таблица с именем hotels_images.</span>
+  DataTable hotelsImages = <span class="highlight-keyword">new</span> DataTable(<span class="highlight-literal">"hotels_images"</span>);
+  <span class="highlight-comment">// Добавляем поля в таблицу.</span> 
+  <span class="highlight-comment">// Все перечисленные поля должны присутствовать в таблице hotels</span> 
+  <span class="highlight-comment">// базы данных SQL Server.</span> 
+  <span class="highlight-comment">// Если в таблице на сервере SQL Server есть идентификаторы-счетчики, </span> 
+  <span class="highlight-comment">// значения для которых сервером формируются автоматически, указывать их не нужно.</span> 
+  <span class="highlight-comment">// Для надежности, рекомендуется указывать тип данных полей (вторым параметром).</span>
+  hotelsImages.Columns.Add(<span class="highlight-literal">"id_hotels"</span>, <span class="highlight-keyword">typeof</span>(Guid)); <span class="highlight-comment">// поле для связи с hotels</span>
+  hotelsImages.Columns.Add(<span class="highlight-literal">"image_url"</span>, <span class="highlight-keyword">typeof</span>(<span class="highlight-keyword">string</span>));
+
+  <span class="highlight-comment">// Генератор случайных чисел, для формирования случайных данных (для примера).</span>
+  Random rnd = <span class="highlight-keyword">new</span> Random(DateTime.Now.Millisecond);
+
+  <span class="highlight-comment">// Добавляем данные, которые нужно перенести в базу SQL Server.</span> 
+  <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt;= <span class="highlight-number">1000</span>; i++)
+  {
+    <span class="highlight-comment">// В данном примере данные будут случайными.</span> 
+    <span class="highlight-comment">// Создаем идентификатор для отеля.</span>
+    Guid newHotelId = Guid.NewId();
+    <span class="highlight-comment">// Генерируем данные отеля.</span>
+    hotels.Rows.Add(newHotelId, Guid.NewGuid().ToString().Substring(<span class="highlight-number">0</span>, <span class="highlight-number">4</span>), Guid.NewGuid().ToString().Replace(<span class="highlight-literal">"-"</span>, <span class="highlight-literal">""</span>), rnd.Next(<span class="highlight-number">1</span>, <span class="highlight-number">5</span>), DateTime.Now);
+    <span class="highlight-comment">// Добавляем фотографии.</span> 
+    <span class="highlight-keyword">int</span> cnt = rnd.Next(<span class="highlight-number">0</span>, <span class="highlight-number">9</span>);
+    <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> j = <span class="highlight-number">0</span>; j &lt;= cnt; j++)
+    {
+      <span class="highlight-comment">// Передаем newHotelId в поле id_hotels,</span> 
+      <span class="highlight-comment">// таким образом фотография будет связана с конкретным отелем.</span>
+      hotelsImages.Rows.Add(newHotelId, String.Format(<span class="highlight-literal">"http://example.org/{0}"</span>, Guid.NewGuid()));
+    }
+  }
+  <span class="highlight-comment">// Создаем DataSet.</span>
+  DataSet data = <span class="highlight-keyword">new</span> DataSet();
+  <span class="highlight-comment">// Добавляем в DataSet таблицы с данными.</span>
+  data.Tables.Add(hotels);
+  data.Tables.Add(hotelsImages);
+  <span class="highlight-comment">// Переносим данные в базу данных SQL Server</span>
+  client.CopyDataToServer(data);
+}</pre></div><div id="ID0EBCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient())
+{
+  // Создаем экземпляр класса DataTable для отелей. 
+  // В качестве имени таблицы указываем hotels. 
+  // В базе данных SQL Server должна быть таблица с именем hotels.
+  DataTable hotels = new DataTable("hotels");
+  // Добавляем поля в таблицу. 
+  // Все перечисленные поля должны присутствовать в таблице hotels 
+  // базы данных SQL Server. 
+  // Если в таблице на сервере SQL Server есть идентификаторы-счетчики,  
+  // значения для которых сервером формируются автоматически, указывать их не нужно. 
+  // Для надежности, рекомендуется указывать тип данных полей (вторым параметром).
+  hotels.Columns.Add("id_hotels", typeof(Guid));
+  hotels.Columns.Add("hotel_code", typeof(string));
+  hotels.Columns.Add("hotel_name", typeof(string));
+  hotels.Columns.Add("hotel_stars", typeof(int));
+  hotels.Columns.Add("date_created", typeof(DateTime));
+
+  // Создаем экземпляр класса DataTable для фотографий отелей. 
+  // В качестве имени таблицы указываем hotels_images. 
+  // В базе данных SQL Server должна быть таблица с именем hotels_images.
+  DataTable hotelsImages = new DataTable("hotels_images");
+  // Добавляем поля в таблицу. 
+  // Все перечисленные поля должны присутствовать в таблице hotels 
+  // базы данных SQL Server. 
+  // Если в таблице на сервере SQL Server есть идентификаторы-счетчики,  
+  // значения для которых сервером формируются автоматически, указывать их не нужно. 
+  // Для надежности, рекомендуется указывать тип данных полей (вторым параметром).
+  hotelsImages.Columns.Add("id_hotels", typeof(Guid)); // поле для связи с hotels
+  hotelsImages.Columns.Add("image_url", typeof(string));
+
+  // Генератор случайных чисел, для формирования случайных данных (для примера).
+  Random rnd = new Random(DateTime.Now.Millisecond);
+
+  // Добавляем данные, которые нужно перенести в базу SQL Server. 
+  for (int i = 0; i &lt;= 1000; i++)
+  {
+    // В данном примере данные будут случайными. 
+    // Создаем идентификатор для отеля.
+    Guid newHotelId = Guid.NewId();
+    // Генерируем данные отеля.
+    hotels.Rows.Add(newHotelId, Guid.NewGuid().ToString().Substring(0, 4), Guid.NewGuid().ToString().Replace("-", ""), rnd.Next(1, 5), DateTime.Now);
+    // Добавляем фотографии. 
+    int cnt = rnd.Next(0, 9);
+    for (int j = 0; j &lt;= cnt; j++)
+    {
+      // Передаем newHotelId в поле id_hotels, 
+      // таким образом фотография будет связана с конкретным отелем.
+      hotelsImages.Rows.Add(newHotelId, String.Format("http://example.org/{0}", Guid.NewGuid()));
+    }
+  }
+  // Создаем DataSet.
+  DataSet data = new DataSet();
+  // Добавляем в DataSet таблицы с данными.
+  data.Tables.Add(hotels);
+  data.Tables.Add(hotelsImages);
+  // Переносим данные в базу данных SQL Server
+  client.CopyDataToServer(data);
+}</pre></div><div id="ID0EBCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient()
+  <span class="highlight-comment">' Создаем экземпляр класса DataTable для отелей.</span> 
+  <span class="highlight-comment">' В качестве имени таблицы указываем hotels.</span> 
+  <span class="highlight-comment">' В базе данных SQL Server должна быть таблица с именем hotels.</span> 
+  <span class="highlight-keyword">Dim</span> hotels <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> DataTable(<span class="highlight-literal">"hotels"</span>)
+  <span class="highlight-comment">' Добавляем поля в таблицу.</span> 
+  <span class="highlight-comment">' Все перечисленные поля должны присутствовать в таблице hotels</span> 
+  <span class="highlight-comment">' базы данных SQL Server.</span> 
+  <span class="highlight-comment">' Если в таблице на сервере SQL Server есть идентификаторы-счетчики, </span> 
+  <span class="highlight-comment">' значения для которых сервером формируются автоматически, указывать их не нужно.</span> 
+  <span class="highlight-comment">' Для надежности, рекомендуется указывать тип данных полей (вторым параметром).</span>
+  hotels.Columns.Add(<span class="highlight-literal">"id_hotels"</span>, <span class="highlight-keyword">GetType</span>(Guid))
+  hotels.Columns.Add(<span class="highlight-literal">"hotel_code"</span>, <span class="highlight-keyword">GetType</span>(<span class="highlight-keyword">String</span>))
+  hotels.Columns.Add(<span class="highlight-literal">"hotel_name"</span>, <span class="highlight-keyword">GetType</span>(<span class="highlight-keyword">String</span>))
+  hotels.Columns.Add(<span class="highlight-literal">"hotel_stars"</span>, <span class="highlight-keyword">GetType</span>(<span class="highlight-keyword">Integer</span>))
+  hotels.Columns.Add(<span class="highlight-literal">"date_created"</span>, <span class="highlight-keyword">GetType</span>(DateTime))
+
+  <span class="highlight-comment">' Создаем экземпляр класса DataTable для фотографий отелей.</span> 
+  <span class="highlight-comment">' В качестве имени таблицы указываем hotels_images.</span> 
+  <span class="highlight-comment">' В базе данных SQL Server должна быть таблица с именем hotels_images.</span> 
+  <span class="highlight-keyword">Dim</span> hotelsImages <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> DataTable(<span class="highlight-literal">"hotels_images"</span>)
+  <span class="highlight-comment">' Добавляем поля в таблицу.</span> 
+  <span class="highlight-comment">' Все перечисленные поля должны присутствовать в таблице hotels</span> 
+  <span class="highlight-comment">' базы данных SQL Server.</span> 
+  <span class="highlight-comment">' Если в таблице на сервере SQL Server есть идентификаторы-счетчики, </span> 
+  <span class="highlight-comment">' значения для которых сервером формируются автоматически, указывать их не нужно.</span> 
+  <span class="highlight-comment">' Для надежности, рекомендуется указывать тип данных полей (вторым параметром).</span>
+  hotelsImages.Columns.Add(<span class="highlight-literal">"id_hotels"</span>, <span class="highlight-keyword">GetType</span>(Guid)) <span class="highlight-comment">' поле для связи с hotels</span>
+  hotelsImages.Columns.Add(<span class="highlight-literal">"image_url"</span>, <span class="highlight-keyword">GetType</span>(<span class="highlight-keyword">String</span>))
+
+  <span class="highlight-comment">' Генератор случайных чисел, для формирования случайных данных (для примера).</span> 
+  <span class="highlight-keyword">Dim</span> rnd <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> Random(DateTime.Now.Millisecond)
+
+  <span class="highlight-comment">' Добавляем данные, которые нужно перенести в базу SQL Server.</span> 
+  <span class="highlight-keyword">For</span> i <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">0</span> <span class="highlight-keyword">To</span> <span class="highlight-number">1000</span> 
+    <span class="highlight-comment">' В данном примере данные будут случайными.</span> 
+    <span class="highlight-comment">' Создаем идентификатор для отеля.</span> 
+    <span class="highlight-keyword">Dim</span> newHotelId <span class="highlight-keyword">As</span> Guid = Guid.NewId()
+    <span class="highlight-comment">' Генерируем данные отеля.</span>
+    hotels.Rows.Add(newHotelId, Guid.NewGuid().ToString().Substring(<span class="highlight-number">0</span>, <span class="highlight-number">4</span>), Guid.NewGuid().ToString().Replace(<span class="highlight-literal">"-"</span>, <span class="highlight-literal">""</span>), rnd.<span class="highlight-keyword">Next</span>(<span class="highlight-number">1</span>, <span class="highlight-number">5</span>), DateTime.Now)
+    <span class="highlight-comment">' Добавляем фотографии.</span> 
+    <span class="highlight-keyword">Dim</span> cnt <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = rnd.<span class="highlight-keyword">Next</span>(<span class="highlight-number">0</span>, <span class="highlight-number">9</span>)
+    <span class="highlight-keyword">For</span> j <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">0</span> <span class="highlight-keyword">To</span> cnt
+      <span class="highlight-comment">' Передаем newHotelId в поле id_hotels,</span> 
+      <span class="highlight-comment">' таким образом фотография будет связана с конкретным отелем.</span>
+      hotelsImages.Rows.Add(newHotelId, <span class="highlight-keyword">String</span>.Format(<span class="highlight-literal">"http://example.org/{0}"</span>, Guid.NewGuid()))
+    <span class="highlight-keyword">Next</span> 
+  <span class="highlight-keyword">Next</span> 
+  <span class="highlight-comment">' Создаем DataSet.</span> 
+  <span class="highlight-keyword">Dim</span> data <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> DataSet()
+  <span class="highlight-comment">' Добавляем в DataSet таблицы с данными.</span>
+  data.Tables.Add(hotels)
+  data.Tables.Add(hotelsImages)
+  <span class="highlight-comment">' Переносим данные в базу данных SQL Server</span>
+  client.CopyDataToServer(data)
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EBCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient()
+  ' Создаем экземпляр класса DataTable для отелей. 
+  ' В качестве имени таблицы указываем hotels. 
+  ' В базе данных SQL Server должна быть таблица с именем hotels. 
+  Dim hotels As New DataTable("hotels")
+  ' Добавляем поля в таблицу. 
+  ' Все перечисленные поля должны присутствовать в таблице hotels 
+  ' базы данных SQL Server. 
+  ' Если в таблице на сервере SQL Server есть идентификаторы-счетчики,  
+  ' значения для которых сервером формируются автоматически, указывать их не нужно. 
+  ' Для надежности, рекомендуется указывать тип данных полей (вторым параметром).
+  hotels.Columns.Add("id_hotels", GetType(Guid))
+  hotels.Columns.Add("hotel_code", GetType(String))
+  hotels.Columns.Add("hotel_name", GetType(String))
+  hotels.Columns.Add("hotel_stars", GetType(Integer))
+  hotels.Columns.Add("date_created", GetType(DateTime))
+
+  ' Создаем экземпляр класса DataTable для фотографий отелей. 
+  ' В качестве имени таблицы указываем hotels_images. 
+  ' В базе данных SQL Server должна быть таблица с именем hotels_images. 
+  Dim hotelsImages As New DataTable("hotels_images")
+  ' Добавляем поля в таблицу. 
+  ' Все перечисленные поля должны присутствовать в таблице hotels 
+  ' базы данных SQL Server. 
+  ' Если в таблице на сервере SQL Server есть идентификаторы-счетчики,  
+  ' значения для которых сервером формируются автоматически, указывать их не нужно. 
+  ' Для надежности, рекомендуется указывать тип данных полей (вторым параметром).
+  hotelsImages.Columns.Add("id_hotels", GetType(Guid)) ' поле для связи с hotels
+  hotelsImages.Columns.Add("image_url", GetType(String))
+
+  ' Генератор случайных чисел, для формирования случайных данных (для примера). 
+  Dim rnd As New Random(DateTime.Now.Millisecond)
+
+  ' Добавляем данные, которые нужно перенести в базу SQL Server. 
+  For i As Integer = 0 To 1000 
+    ' В данном примере данные будут случайными. 
+    ' Создаем идентификатор для отеля. 
+    Dim newHotelId As Guid = Guid.NewId()
+    ' Генерируем данные отеля.
+    hotels.Rows.Add(newHotelId, Guid.NewGuid().ToString().Substring(0, 4), Guid.NewGuid().ToString().Replace("-", ""), rnd.Next(1, 5), DateTime.Now)
+    ' Добавляем фотографии. 
+    Dim cnt As Integer = rnd.Next(0, 9)
+    For j As Integer = 0 To cnt
+      ' Передаем newHotelId в поле id_hotels, 
+      ' таким образом фотография будет связана с конкретным отелем.
+      hotelsImages.Rows.Add(newHotelId, String.Format("http://example.org/{0}", Guid.NewGuid()))
+    Next 
+  Next 
+  ' Создаем DataSet. 
+  Dim data As New DataSet()
+  ' Добавляем в DataSet таблицы с данными.
+  data.Tables.Add(hotels)
+  data.Tables.Add(hotelsImages)
+  ' Переносим данные в базу данных SQL Server
+  client.CopyDataToServer(data)
+End Using</pre></div><div id="ID0EBCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBCAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">См. также</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="7f05f17d-32a3-a336-1b90-a70c54450331.htm" target="">SqlClient - класс</a></div><div class="seeAlsoStyle"><a href="7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="">Nemiro.Data.Sql - пространство имён</a></div><div class="seeAlsoStyle"><a href="61a8d5b8-6e55-66ca-bef6-730101c731dc.htm" target="">SqlClient<span id="ID0EBAAAAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBAAAAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>CopyTableToServer(DataTable)</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p><a href="https://github.com/alekseynemiro/nemiro.data.dll/wiki/License-for-Use-and-Distribution-(RU)" target="_blank">Copyright © Aleksey Nemiro, 2009-2014</a> </p><div class="OH_feedbacklink"><a href="mailto:aleksey@kbyte.ru?subject=Nemiro.Data.dll+SqlClient.CopyDataToServer+-+%d0%bc%d0%b5%d1%82%d0%be%d0%b4+100+RU-RU&amp;body=%d0%92%d0%b0%d1%88%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%20%d0%b4%d0%bb%d1%8f%20%d1%83%d0%bb%d1%83%d1%87%d1%88%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%ba%d0%b0%d1%87%d0%b5%d1%81%d1%82%d0%b2%d0%b0%20%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d0%b8%20%d0%b8%20%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%82%d0%b0%20%d0%b2%20%d1%86%d0%b5%d0%bb%d0%be%d0%bc.%20%d0%90%d0%b4%d1%80%d0%b5%d1%81%20%d0%b2%d0%b0%d1%88%d0%b5%d0%b9%20%d1%8d%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d0%bd%d0%bd%d0%be%d0%b9%20%d0%bf%d0%be%d1%87%d1%82%d1%8b%20%d0%bd%d0%b5%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%20%d0%b4%d0%bb%d1%8f%20%d0%b4%d1%80%d1%83%d0%b3%d0%b8%d1%85%20%d1%86%d0%b5%d0%bb%d0%b5%d0%b9%20%d0%b8%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d1%83%d0%b4%d0%b0%d0%bb%d1%91%d0%bd%2c%20%d0%bf%d0%be%d1%81%d0%bb%d0%b5%20%d1%82%d0%be%d0%b3%d0%be%20%d0%ba%d0%b0%d0%ba%20%d0%b2%d0%b0%d1%88%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d0%be%d0%b1%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%d0%bd.%20%d0%94%d0%be%20%d0%be%d0%ba%d0%be%d0%bd%d1%87%d0%b0%d0%bd%d0%b8%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%20%d0%bf%d0%be%20%d0%be%d0%b1%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b5%20%d0%b2%d0%b0%d1%88%d0%b5%d0%b3%d0%be%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d0%b0%2c%20%d0%b2%d1%8b%20%d0%bc%d0%be%d0%b6%d0%b5%d1%82%d0%b5%20%d1%81%d0%b2%d1%8f%d0%b7%d0%b0%d1%82%d1%8c%d1%81%d1%8f%20%d1%81%20%d0%b0%d0%b2%d1%82%d0%be%d1%80%d0%be%d0%bc%20%d0%b4%d0%bb%d1%8f%20%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b9%20%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d0%b8.%20%d0%9f%d0%be%d1%81%d0%bb%d0%b5%20%d0%b5%d0%b3%d0%be%20%d0%be%d0%b1%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8%2c%20%d0%b2%d1%8b%20%d0%bc%d0%be%d0%b6%d0%b5%d1%82%d0%b5%20%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b8%d1%82%d1%8c%20%d1%81%d0%be%d0%be%d0%b1%d1%89%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%be%d0%b1%20%d0%be%d0%ba%d0%be%d0%bd%d1%87%d0%b0%d0%bd%d0%b8%d0%b8%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%20%d0%bf%d0%be%20%d0%b2%d0%b0%d1%88%d0%b5%d0%bc%d1%83%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%83%20%d0%bd%d0%b0%20%d1%83%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9%20%d0%b0%d0%b4%d1%80%d0%b5%d1%81%20%d1%8d%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d0%bd%d0%bd%d0%be%d0%b9%20%d0%bf%d0%be%d1%87%d1%82%d1%8b.">Отправить отзыв</a> по этой теме в aleksey@kbyte.ru.</div></div></body></html>

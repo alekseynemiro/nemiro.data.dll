@@ -1,0 +1,411 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-RU-RU.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>SqlClient - класс</title><meta name="Language" content="ru-ru" /><meta name="System.Keywords" content="SqlClient - класс" /><meta name="System.Keywords" content="Nemiro.Data.Sql.SqlClient - класс" /><meta name="System.Keywords" content="SqlClient - класс, о SqlClient - класс" /><meta name="Microsoft.Help.F1" content="Nemiro.Data.Sql.SqlClient" /><meta name="Microsoft.Help.Id" content="T:Nemiro.Data.Sql.SqlClient" /><meta name="Description" content="Основной класс для работы с базами данных SQL Server." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Nemiro.Data.Sql" /><meta name="file" content="7f05f17d-32a3-a336-1b90-a70c54450331" /><meta name="guid" content="7f05f17d-32a3-a336-1b90-a70c54450331" /><link type="text/css" rel="stylesheet" href="./../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"><!----></script><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">SqlClient - класс</td><td class="OH_tdRunningTitleColumn">Nemiro.Data.dll</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">
+            Основной класс для работы с базами данных SQL Server.
+            </div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Иерархия наследования</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><span class="nolink">System<span id="ID0EBESAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBESAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>Object</span><br />  <span class="selflink">Nemiro.Data.Sql<span id="ID0EBBSAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBBSAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>SqlClient</span><br /><p></p><strong>Пространство имён:</strong> <a href="7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="">Nemiro.Data.Sql</a><br /><strong>Сборка:</strong> <span sdata="assembly">Nemiro.Data</span> (в Nemiro.Data.dll) Версия: 2.11.4.126 (2.11.4.126)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Синтаксис</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0EBAIAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBAIAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBAIAAAAA_tabimgleft"></div><div id="ID0EBAIAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAIAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBAIAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBAIAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBAIAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBAIAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBAIAAAAA_tabimgright"></div></div><div id="ID0EBAIAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBAIAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBAIAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EBAIAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBAIAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EBAIAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBAIAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EBAIAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">SqlClient</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID0EBAIAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public class SqlClient : IDisposable</pre></div><div id="ID0EBAIAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">SqlClient</span> 
+	<span class="keyword">Implements</span> <span class="identifier">IDisposable</span></pre></div><div id="ID0EBAIAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public Class SqlClient 
+	Implements IDisposable</pre></div><div id="ID0EBAIAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAIAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAIAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBAIAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBAIAAAAA');</script></div><p>Тип <span class="selflink">SqlClient</span> предоставляет следующие члены.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Конструкторы</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Имя</th><th class="ps_descriptionColumn">Описание</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="22380bc2-55a0-a147-5ea3-d9c8bd05493b.htm" target="">SqlClient<span id="ID0EAABKBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABKBGAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> со значениями по умолчанию.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="7fff8758-b0f9-3dbe-2c8c-fdd34e611576.htm" target="">SqlClient(Int32)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием продолжительности кэширования результатов выполнения запросов к базе данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="46c3f2dd-60e7-6f4b-9810-408a5a798d43.htm" target="">SqlClient(String)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием строки соединения с базой данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="19030297-3aed-dc23-1b84-48536e5705ea.htm" target="">SqlClient(String, Int32)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием строки соединения с базой данных и времени кэширования результатов выполнения запросов.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="c8e9c4fc-8097-a537-7220-a4ca9a21bfa6.htm" target="">SqlClient(String, String)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием строки соединения с базой данных и пути хранения записей кэша в файловой системе.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="25a2244b-a026-2fab-08ee-ea79b09fe7b2.htm" target="">SqlClient(Type, Int32)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием параметров пользовательской системы кэширования результатов выполнения запросов к базе данных и продолжительности кэширования данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="87ffa9c6-3092-08c0-44d4-efe2c9dd65c7.htm" target="">SqlClient(Type, <span id="ID0EDABEBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABEBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABEBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABEBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием параметров пользовательской системы кэширования результатов выполнения запросов к базе данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="ca05c8a7-ee52-46e1-086c-9d7b1121c871.htm" target="">SqlClient(String, Type, <span id="ID0EDABDBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABDBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABDBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABDBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием строки соединения с базой данных и параметрами пользовательской системы кэширования результатов выполнения запросов.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="52c9f599-632f-52c5-a8d8-68dcb7d15d30.htm" target="">SqlClient(Type, <span id="ID0EDABCBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABCBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABCBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABCBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>, Int32)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="834b9f23-ee65-f7c2-b3be-111494ebcd29.htm" target="">SqlClient(String, Int32, String, Type, <span id="ID0EDABBBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABBBGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABBBGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABBBGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием основных параметров конфигурации класса.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="4ef83143-8c38-c3a7-09d9-1f79f976692a.htm" target="">SqlClient(String, Int32, String, Type, <span id="ID0EDABABGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EDABABGAAAAA?vb=|cpp=array&lt;|cs=|fs=|nu=");
+				</script>Object<span id="ID0EBABABGAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBABABGAAAAA?vb=()|cpp=&gt;|cs=[]|fs=[]|nu=[]");
+				</script>, Type)</a></td><td><div class="summary">
+            Инициализирует новый экземпляр класса <span class="selflink">SqlClient</span> с указанием основных параметров конфигурации класса.
+            </div></td></tr></table><a href="#mainBody" target="">В начало страницы</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Методы</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Имя</th><th class="ps_descriptionColumn">Описание</th></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="f89e0e4b-af72-b1d1-92d6-bc0a7784a60a.htm" target="">Connect</a></td><td><div class="summary">
+            Открывает соединение с базой данных, если нет открытого соединения.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="d61eb899-1a19-fc2f-01ef-896e31cdb5f8.htm" target="">CopyDataToServer</a></td><td><div class="summary">
+            Переносит данные из таблиц <span class="nolink">DataSet</span> в базу данных.
+            Используется <span class="nolink">SqlBulkCopy</span>.
+            Это самый быстрый и экономичный способ переноса больших объемов данных в базу.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="61a8d5b8-6e55-66ca-bef6-730101c731dc.htm" target="">CopyTableToServer</a></td><td><div class="summary">
+            Переносит указанную таблицу в базу данных.
+            Используется <span class="nolink">SqlBulkCopy</span>.
+            Это самый быстрый и экономичный способ переноса больших объемов данных в базу.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="55776c87-b5ed-266b-c731-e9353e5c394b.htm" target="">Disconnect</a></td><td><div class="summary">
+            Закрывает соединение с базой данных, если оно открыто.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="8901efcf-907c-399c-f12a-447cf1bc88b9.htm" target="">Dispose</a></td><td><div class="summary">
+            Освобождает все ресурсы, занятые объектом.
+            Если необходимо, закрывает все открытые объектом соединения с базой данных.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Определяет, равен ли заданный объект <span class="nolink">Object</span> текущему объекту <span class="nolink">Object</span>.</div> (Унаследован от <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="d274cad3-f49e-ffd9-a79b-8420ddeeb80b.htm" target="">ExecuteNonQuery<span id="ID0EAABTBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABTBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Выполняет запрос и возвращает количество задействованных в инструкции строк данных.
+            Данный метод используется совместно со свойствами <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> и <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="77da4750-ef7b-325a-db81-78166a017c13.htm" target="">ExecuteNonQuery(SqlCommand)</a></td><td><div class="summary">
+            Выполняет запрос к базе данных с указанными в экземпляре класса <span class="nolink">SqlCommand</span> параметрами и возвращает количество задействованных в инструкции строк.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="3b384b53-5baf-7116-584a-f8c579c66a15.htm" target="">ExecuteNonQuery(String)</a></td><td><div class="summary">
+            Выполняет указанный SQL-запрос и возвращает количество задействованных в инструкции строк.
+            Не рекомендуется использовать этот метод, чтобы избежать возникновение SQL Injection при неправильном построении запроса.
+            Лучше используйте одну из перегрузок этого метода: <a href="d274cad3-f49e-ffd9-a79b-8420ddeeb80b.htm" target="">ExecuteNonQuery<span id="ID0EADAARBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EADAARBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a> или <a href="77da4750-ef7b-325a-db81-78166a017c13.htm" target="">ExecuteNonQuery(SqlCommand)</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="ea1fd9c5-b20e-1160-ff5e-d87647be644b.htm" target="">ExecuteScalar<span id="ID0EAABQBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABQBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Выполняет запрос и возвращает первый столбец первой строки из полученного набора данных.
+            Данный метод используется совместно со свойствами <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> и <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="c6877d30-6af9-6e9a-25e3-1c34319406ae.htm" target="">ExecuteScalar(SqlCommand)</a></td><td><div class="summary">
+            Выполняет запрос к базе данных с указанными в экземпляре класса <span class="nolink">SqlCommand</span> параметрами и возвращает первый столбец первой строки из полученного набора данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="28190c17-d669-4581-7098-923c5b7ab646.htm" target="">ExecuteScalar(String)</a></td><td><div class="summary">
+            Выполняет указанный SQL-запрос и возвращает первый столбец первой строки из полученного набора данных.
+            Не рекомендуется использовать этот метод, чтобы избежать возникновение SQL Injection при неправильном построении запроса.
+            Лучше используйте одну из перегрузок этого метода: <a href="ea1fd9c5-b20e-1160-ff5e-d87647be644b.htm" target="">ExecuteScalar<span id="ID0EADAAOBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EADAAOBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a> или <a href="c6877d30-6af9-6e9a-25e3-1c34319406ae.htm" target="">ExecuteScalar(SqlCommand)</a>.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Защищённый метод" title="Защищённый метод" /></td><td><span class="nolink">Finalize</span></td><td><div class="summary">Позволяет объекту <span class="nolink">Object</span> попытаться освободить ресурсы и выполнить другие операции очистки, перед тем как объект <span class="nolink">Object</span> будет утилизирован в процессе сборки мусора.</div> (Унаследован от <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="254e5dd5-dbf3-c127-e7ed-b390fc719f02.htm" target="">GetData<span id="ID0EAABMBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABMBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Выполняет запрос и возвращает <span class="nolink">DataSet</span>.
+            Данный метод используется совместно со свойствами <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> и <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="8e660000-398c-1b1f-27f3-32233b941240.htm" target="">GetData(SqlCommand)</a></td><td><div class="summary">
+            Выполняет запрос к базе данных с указанными в экземпляре класса <span class="nolink">SqlCommand</span> параметрами и возвращает <span class="nolink">DataSet</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="052f0333-ce91-2f50-c551-99804c69734f.htm" target="">GetData(String)</a></td><td><div class="summary">
+            Выполняет указанную SQL-инструкцию и возвращает <span class="nolink">DataSet</span>.
+            Не рекомендуется использовать этот метод, чтобы избежать возникновение SQL Injection при неправильном построении запроса.
+            Лучше используйте одну из перегрузок этого метода: <a href="254e5dd5-dbf3-c127-e7ed-b390fc719f02.htm" target="">GetData<span id="ID0EADAAKBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EADAAKBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a> или <a href="8e660000-398c-1b1f-27f3-32233b941240.htm" target="">GetData(SqlCommand)</a>.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Играет роль хэш-функции для определенного типа. </div> (Унаследован от <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="e962ca53-53e2-5104-4990-720a30a821c0.htm" target="">GetRow<span id="ID0EAABIBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABIBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Выполняет запрос и возвращает строку данных.
+            Данный метод используется совместно со свойствами <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> и <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="52dc5ad2-2165-9d16-606b-86a8d6654da7.htm" target="">GetRow(SqlCommand)</a></td><td><div class="summary">
+            Выполняет запрос к базе данных с указанными в экземпляре класса <span class="nolink">SqlCommand</span> параметрами и возвращает строку данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="c9b8fe85-88f2-f1db-5058-656070d196b0.htm" target="">GetRow(String)</a></td><td><div class="summary">
+            Выполняет указанный SQL-запрос и возвращает строку данных.
+            Не рекомендуется использовать этот метод, чтобы избежать возникновение SQL Injection при неправильном построении запроса.
+            Лучше используйте одну из перегрузок этого метода: <a href="e962ca53-53e2-5104-4990-720a30a821c0.htm" target="">GetRow<span id="ID0EADAAGBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EADAAGBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a> или <a href="52dc5ad2-2165-9d16-606b-86a8d6654da7.htm" target="">GetRow(SqlCommand)</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="256fc8b6-7331-6886-b020-dc47e44ca688.htm" target="">GetTable<span id="ID0EAABFBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EAABFBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a></td><td><div class="summary">
+            Выполняет запрос и возвращает <span class="nolink">DataTable</span>.
+            Данный метод используется совместно со свойствами <a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a>, <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a> и <a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="47f3eed7-4a1c-016d-8841-f1acaec19b5f.htm" target="">GetTable(SqlCommand)</a></td><td><div class="summary">
+            Выполняет запрос к базе данных с указанными в экземпляре класса <span class="nolink">SqlCommand</span> параметрами и возвращает <span class="nolink">DataTable</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><a href="3007f5f3-5559-2370-d07e-af46b0d0f448.htm" target="">GetTable(String)</a></td><td><div class="summary">
+            Выполняет запрос и возвращает <span class="nolink">DataTable</span>.
+            Не рекомендуется использовать этот метод, чтобы избежать возникновение SQL Injection при неправильном построении запроса.
+            Лучше используйте одну из перегрузок этого метода: <a href="256fc8b6-7331-6886-b020-dc47e44ca688.htm" target="">GetTable<span id="ID0EADAADBFAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EADAADBFAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a> или <a href="47f3eed7-4a1c-016d-8841-f1acaec19b5f.htm" target="">GetTable(SqlCommand)</a>.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Возвращает объект <span class="nolink">Type</span> для текущего экземпляра.</div> (Унаследован от <span class="nolink">Object</span>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="./../icons/protmethod.gif" alt="Защищённый метод" title="Защищённый метод" /></td><td><span class="nolink">MemberwiseClone</span></td><td><div class="summary">Создает неполную копию текущего объекта <span class="nolink">Object</span>.</div> (Унаследован от <span class="nolink">Object</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="./../icons/pubmethod.gif" alt="Открытый метод" title="Открытый метод" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Возвращает объект <span class="nolink">String</span>, который представляет текущий объект <span class="nolink">Object</span>.</div> (Унаследован от <span class="nolink">Object</span>.)</td></tr></table><a href="#mainBody" target="">В начало страницы</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Свойства</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><table id="memberList" class="members"><tr><th class="ps_iconColumn">
+							 
+						</th><th class="ps_nameColumn">Имя</th><th class="ps_descriptionColumn">Описание</th></tr><tr data="protected;declared;notNetfw;"><td><img src="./../icons/protproperty.gif" alt="Защищённое свойство" title="Защищённое свойство" /></td><td><a href="6b56316a-b2ca-3ad5-ab9c-46790fb3e67d.htm" target="">Cache</a></td><td><div class="summary">
+            Предоставляет доступ к параметрам кэширования.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="bd8b2430-6af5-8817-58f3-d4266cff790e.htm" target="">CacheAccessTimeout</a></td><td><div class="summary">
+            Максимальное время ожидания освобождения доступа к записи файлового кэша (<a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>).
+            По истечению указанного времени, если файл записи не станет доступен, произойдет исключение.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="b1de5756-67ef-914b-aa22-43624057ccda.htm" target="">CacheBinder</a></td><td><div class="summary">
+            Тип сириализатора пользовательских объектов.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="964562d0-4e55-c247-32a1-14b79aeb8098.htm" target="">CacheBufferAccessTimeout</a></td><td><div class="summary">
+            Максимальное время ожидания освобождения доступа к буферу файлового кэша (<a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>). 
+            По истечению указанного времени, если буфер не станет доступен, 
+            будет предпринята попытка осуществления доступа к буферу, что, в некоторых случаях, может привести к возникновению исключения.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="99bc4130-df8d-6159-9a47-028c67735042.htm" target="">CacheBufferSize</a></td><td><div class="summary">
+            Максимальный объем данных (в килобайтах) для дополнительного кэша в памяти (ОЗУ) компьютера. 
+            Кэш памяти используется для ускорения работы файлового кэша (<a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>).
+            Значение по умолчанию <span class="code">2048</span> Кб (<span class="code">2</span> Мб).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" target="">CacheCustom</a></td><td><div class="summary">
+            Тип пользовательского объекта кэширования. Используется совместно со свойствами <a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a> и <a href="52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" target="">CacheCustomArgs</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" target="">CacheCustomArgs</a></td><td><div class="summary">
+            Массив дополнительных параметров инициализации пользовательского кэша. Эти параметры будут переданы в конструктор пользовательского кэша.
+            Используется совместно со свойствами <a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a> и <a href="7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" target="">CacheCustom</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="a3aabc0e-d339-1e83-db12-8058bb49923d.htm" target="">CacheDuration</a></td><td><div class="summary">
+            Продолжительность хранения записи в кэше, в секундах.
+            Если это свойство имеет значение <span class="code">0</span> или меньше, кэширование данных не выполняется.
+            Значение по умолчанию - ноль, если иное не указано в параметре <span class="code">NeData:Sql:CacheDuration</span> файла конфигурации.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="0e3129cf-c3bd-db5a-b2ad-a55ea1a279e6.htm" target="">CacheName</a></td><td><div class="summary">
+            Имя ключа элемента кэша, если нужно указать определенный ключ (по умолчанию, формируется автоматически для конкретного запроса).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="02cbdd80-6222-35ab-48ab-62ccebcd34e1.htm" target="">CachePath</a></td><td><div class="summary">
+            Полный физический путь к каталогу хранения файлов кэша, используется только если свойство <a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a> имеет значение <a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">File</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="04eda964-2407-d070-9edc-9177e741c746.htm" target="">CacheType</a></td><td><div class="summary">
+            Метод кэширования данных. Значение по умолчанию <a href="604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="">Auto</a>, если иное не указано в параметре <span class="code">NeData:Sql:CacheType</span> файла конфигурации.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a></td><td><div class="summary">
+            Текст SQL-запроса, либо имя хранимой процедуры, которую необходимо выполнить.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="900b9870-d1b4-3411-8ec7-1612748d09fb.htm" target="">CommandTimeout</a></td><td><div class="summary">
+            Время ожидания выполнения команды (в секундах). По умолчанию используется значение <span class="code">30 секунд</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="">CommandType</a></td><td><div class="summary">
+            Тип команды, указанной в свойстве <a href="6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="">CommandText</a>.
+            Значение по умолчанию <a href="78d1642b-e39c-3e7d-61f3-8c776c118354.htm" target="">Auto</a>, если иное не указано в параметре <span class="code">NeData:Sql:CommandType</span> файла конфигурации.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="2ba558f7-bed6-c6cf-0ad7-fda619803d8d.htm" target="">ConnectionMode</a></td><td><div class="summary">
+            Режим соединения с базой данных.
+            Значение по умолчанию <a href="7d612565-0606-e032-47d0-e39bcbf2716c.htm" target="">Auto</a>, если иное не указано в параметре <span class="code">NeData:Sql:ConnectionMode</span> файла конфигурации.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="fec7b48d-378b-6f02-a259-aaba12475218.htm" target="">ConnectionString</a></td><td><div class="summary">
+            Строка соединения с базой данных. Либо имя строки соединения в файле конфигурации (<span class="code">*.config</span>).
+            Значение по умолчанию: <span class="code">LocalSqlServer</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="b84cc82b-116c-6574-9c2e-533bacf90d22.htm" target="">ConnectionTimeout</a></td><td><div class="summary">
+            Время ожидания соединения с сервером (в секундах) до возникновения исключения.
+            По умолчанию ноль - будет использоваться значение в зависимости от конфигурации сервера.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="4127edcb-3fc5-6d2b-a70e-8a489b684b81.htm" target="">LastQueryResultsFromCache</a></td><td><div class="summary">
+            Содержит <span class="code">True</span>, если при выполнении последнего запроса результат был получен из кэша. 
+            В противном случае - <span class="code">False</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="97b71e38-8847-5d08-0053-04dfb6f48a9a.htm" target="">LastQueryTime</a></td><td><div class="summary">
+            Время, затраченное на выполнение последнего запроса к базе данных.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="./../icons/pubproperty.gif" alt="Открытое свойство" title="Открытое свойство" /></td><td><a href="db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="">Parameters</a></td><td><div class="summary">
+            Коллекция параметров запроса.
+            </div></td></tr></table><a href="#mainBody" target="">В начало страницы</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Заметки</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><p>По умолчанию, при инициализации класса используются параметры из файла конфигурации.
+            Для web-проектов - <span class="code">web.config</span>; для windows-приложений - <span class="code">app.config</span>.</p><p>Поддерживаются следующие параметры:
+            <ul><li>NeData:Sql:ConnectionMode</li><li>NeData:Sql:CommandType</li><li>NeData:Sql:CacheType</li><li>NeData:Sql:CacheDuration (не рекомендуется использовать для установки глобального времени кэширования)</li><li>NeData:Sql:CachePath</li><li>NeData:Sql:CacheBinder</li><li>NeData:Sql:CacheBufferSize</li><li>NeData:Sql:CacheBufferAccessTimeout</li><li>NeData:Sql:CacheAccessTimeout</li><li>NeData:Sql:CacheCustom</li><li>NeData:Sql:CacheCustomArgs</li></ul></p><p>В приложениях Windows имена параметров нужно записывать без двоеточий, и с учетом регистра.
+            Например: 
+            <ul><li>NeDataSqlCacheTyp</li><li>NeDataSqlAutoTrimmingStrings</li><li>NeDataSqlCachePath</li><li>и т.п.</li></ul></p><p>
+            По умолчанию используется строка соединения <span class="code">LocalSqlServer</span>.
+            В качестве <a href="fec7b48d-378b-6f02-a259-aaba12475218.htm" target="">ConnectionString</a> можно указывать, как саму строку соединения, так и имя параметра в файле конфигурации.
+            В web-приложениях строка соединения с именем <span class="code">LocalSqlServer</span> иметь путь к SQL Server по умолчанию. 
+            Для использования параметра <span class="code">LocalSqlServer</span> в веб-приложениях со своей базой данных, которая отличается от базы по умолчанию,
+            необходимо удалить <span class="code">LocalSqlServer</span> из файла конфигурации и добавить заново (написать код удаления и добавления):
+            </p><div id="ID0EDDAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EDDAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDDAAAAA_tabimgleft"></div><div id="ID0EDDAAAAA_tab1" class="OH_CodeSnippetContainerTabSolo" EnableCopyCode="true"><a xmlns="">XML</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDDAAAAA_tabimgright"></div></div><div id="ID0EDDAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDDAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EDDAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EDDAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EDDAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EDDAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EDDAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EDDAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">remove</span> <span class="highlight-xml-attribute-name">name</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"LocalSqlServer"</span><span class="highlight-xml-bracket">/&gt;</span> 
+<span class="highlight-xml-bracket">&lt;</span><span class="highlight-xml-tag">add</span> 
+  <span class="highlight-xml-attribute-name">name</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"LocalSqlServer"</span> 
+  <span class="highlight-xml-attribute-name">connectionString</span><span class="highlight-xml-attribute-equal">=</span><span class="highlight-xml-attribute-value">"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"</span> 
+<span class="highlight-xml-bracket">/&gt;</span></pre></div><div id="ID0EDDAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>&lt;remove name="LocalSqlServer"/&gt; 
+&lt;add 
+  name="LocalSqlServer" 
+  connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;" 
+/&gt;</pre></div></div></div><script>addSpecificTextLanguageTagSet('ID0EDDAAAAA');</script><p>При работе с классом <span class="selflink">SqlClient</span> рекомендуется использовать оператор <span class="code">using</span> .</p><div id="ID0EBDAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBDAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBDAAAAA_tabimgleft"></div><div id="ID0EBDAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBDAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBDAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBDAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBDAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBDAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBDAAAAA_tabimgright"></div></div><div id="ID0EBDAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBDAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBDAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EBDAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBDAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EBDAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBDAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EBDAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient())
+{
+  <span class="highlight-comment">// код работы с данными</span>
+}</pre></div><div id="ID0EBDAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient())
+{
+  // код работы с данными
+}</pre></div><div id="ID0EBDAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">new</span> SqlClient()
+  <span class="highlight-comment">' код работы с данными</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EBDAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As new SqlClient()
+  ' код работы с данными 
+End Using</pre></div><div id="ID0EBDAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBDAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBDAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBDAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBDAAAAA');</script><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Примеры</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="tableSection"><table><tr><th>Обратите внимание</th></tr><tr><td>Показанные ниже примеры лишь демонстрируют использование класса <span class="selflink">SqlClient</span> и содержат строки соединения с базой данных, а также и SQL-запросы. У вас все эти данные могут отличаться. Пожалуйста, учитывайте этот факт и не забудьте поменять строки соединения и запросы на свои, если захотите проверить работу представленных фрагментов кода.</td></tr></table></div><p>В следующем примере создается экземпляр класса <span class="selflink">SqlClient</span> с использованием строки соединения по умолчанию (<span class="code">LocalSqlServer</span>).</p><p>При помощи метода <a href="e962ca53-53e2-5104-4990-720a30a821c0.htm" target="">GetRow<span id="ID0EADLCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EADLCAAAAA?vb=|cpp=()|cs=()|fs=()|nu=()");
+				</script></a> выполняется SQL-запрос и в переменную <span class="code">row</span> передается строка данных.</p><div id="ID0EKCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EKCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EKCAAAAA_tabimgleft"></div><div id="ID0EKCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EKCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EKCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EKCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EKCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EKCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EKCAAAAA_tabimgright"></div></div><div id="ID0EKCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EKCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EKCAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EKCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EKCAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EKCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EKCAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EKCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient())
+{
+  DataRow row = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>);
+  <span class="highlight-keyword">if</span>(row == <span class="highlight-keyword">null</span>)
+  {
+    Console.WriteLine(<span class="highlight-literal">"Запрос не дал результатов"</span>);
+  }
+  <span class="highlight-keyword">else</span>
+  {
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row[<span class="highlight-literal">"id"</span>]);
+  }
+}</pre></div><div id="ID0EKCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient())
+{
+  DataRow row = client.GetRow("SELECT * FROM table WHERE id = 1000");
+  if(row == null)
+  {
+    Console.WriteLine("Запрос не дал результатов");
+  }
+  else
+  {
+    Console.WriteLine("id = {0}", row["id"]);
+  }
+}</pre></div><div id="ID0EKCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient()
+  <span class="highlight-keyword">Dim</span> row <span class="highlight-keyword">As</span> DataRow = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>)
+  <span class="highlight-keyword">If</span> row <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+    Console.WriteLine(<span class="highlight-literal">"Запрос не дал результатов"</span>)
+  <span class="highlight-keyword">Else</span>
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row(<span class="highlight-literal">"id"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EKCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient()
+  Dim row As DataRow = client.GetRow("SELECT * FROM table WHERE id = 1000")
+  If row Is Nothing Then
+    Console.WriteLine("Запрос не дал результатов")
+  Else
+    Console.WriteLine("id = {0}", row("id"))
+  End If 
+End Using</pre></div><div id="ID0EKCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EKCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EKCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EKCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EKCAAAAA');</script><p>В следующем примере создается экземпляр класса <span class="selflink">SqlClient</span> с явным указанием строки соединения.</p><div id="ID0EHCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EHCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EHCAAAAA_tabimgleft"></div><div id="ID0EHCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EHCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EHCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EHCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EHCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EHCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EHCAAAAA_tabimgright"></div></div><div id="ID0EHCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EHCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EHCAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EHCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EHCAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EHCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EHCAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EHCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient(<span class="highlight-literal">@"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"</span>))
+{
+  DataRow row = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>);
+  <span class="highlight-keyword">if</span>(row == <span class="highlight-keyword">null</span>)
+  {
+    Console.WriteLine(<span class="highlight-literal">"Запрос не дал результатов"</span>);
+  }
+  <span class="highlight-keyword">else</span>
+  {
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row[<span class="highlight-literal">"id"</span>]);
+  }
+}</pre></div><div id="ID0EHCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient(@"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"))
+{
+  DataRow row = client.GetRow("SELECT * FROM table WHERE id = 1000");
+  if(row == null)
+  {
+    Console.WriteLine("Запрос не дал результатов");
+  }
+  else
+  {
+    Console.WriteLine("id = {0}", row["id"]);
+  }
+}</pre></div><div id="ID0EHCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient(<span class="highlight-literal">"Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;"</span>)
+  <span class="highlight-keyword">Dim</span> row <span class="highlight-keyword">As</span> DataRow = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>)
+  <span class="highlight-keyword">If</span> row <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+    Console.WriteLine(<span class="highlight-literal">"Запрос не дал результатов"</span>)
+  <span class="highlight-keyword">Else</span>
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row(<span class="highlight-literal">"id"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EHCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient("Data Source=.\SQLEXPRESS;Initial Catalog=example;Trusted_Connection=True;")
+  Dim row As DataRow = client.GetRow("SELECT * FROM table WHERE id = 1000")
+  If row Is Nothing Then
+    Console.WriteLine("Запрос не дал результатов")
+  Else
+    Console.WriteLine("id = {0}", row("id"))
+  End If 
+End Using</pre></div><div id="ID0EHCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EHCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EHCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EHCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EHCAAAAA');</script><p>В следующем примере создается экземпляр класса <span class="selflink">SqlClient</span> с указанием имени параметра строки соединения в файле конфигурации.</p><div id="ID0EECAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EECAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EECAAAAA_tabimgleft"></div><div id="ID0EECAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EECAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EECAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EECAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EECAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EECAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EECAAAAA_tabimgright"></div></div><div id="ID0EECAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EECAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EECAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EECAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EECAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EECAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EECAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EECAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient(<span class="highlight-literal">"MyConnectionString"</span>))
+{
+  DataRow row = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>);
+  <span class="highlight-keyword">if</span>(row == <span class="highlight-keyword">null</span>)
+  {
+    Console.WriteLine(<span class="highlight-literal">"Запрос не дал результатов"</span>);
+  }
+  <span class="highlight-keyword">else</span>
+  {
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row[<span class="highlight-literal">"id"</span>]);
+  }
+}</pre></div><div id="ID0EECAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient("MyConnectionString"))
+{
+  DataRow row = client.GetRow("SELECT * FROM table WHERE id = 1000");
+  if(row == null)
+  {
+    Console.WriteLine("Запрос не дал результатов");
+  }
+  else
+  {
+    Console.WriteLine("id = {0}", row["id"]);
+  }
+}</pre></div><div id="ID0EECAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient(<span class="highlight-literal">"MyConnectionString"</span>)
+  <span class="highlight-keyword">Dim</span> row <span class="highlight-keyword">As</span> DataRow = client.GetRow(<span class="highlight-literal">"SELECT * FROM table WHERE id = 1000"</span>)
+  <span class="highlight-keyword">If</span> row <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+    Console.WriteLine(<span class="highlight-literal">"Запрос не дал результатов"</span>)
+  <span class="highlight-keyword">Else</span>
+    Console.WriteLine(<span class="highlight-literal">"id = {0}"</span>, row(<span class="highlight-literal">"id"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span> 
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EECAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient("MyConnectionString")
+  Dim row As DataRow = client.GetRow("SELECT * FROM table WHERE id = 1000")
+  If row Is Nothing Then
+    Console.WriteLine("Запрос не дал результатов")
+  Else
+    Console.WriteLine("id = {0}", row("id"))
+  End If 
+End Using</pre></div><div id="ID0EECAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EECAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EECAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EECAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EECAAAAA');</script><p>В следующем примере показано применение встроенного механизма кэширования.
+            Данные кэшируются в файловой системе, по умолчанию в одном каталоге с программой.
+            Продолжительность кэширования указывается в свойстве <a href="a3aabc0e-d339-1e83-db12-8058bb49923d.htm" target="">CacheDuration</a>.
+            После выполнения запроса, в свойстве <a href="97b71e38-8847-5d08-0053-04dfb6f48a9a.htm" target="">LastQueryTime</a> можно получить информацию о продолжительности выполнения последнего запроса.
+            При помощи свойства <a href="4127edcb-3fc5-6d2b-a70e-8a489b684b81.htm" target="">LastQueryResultsFromCache</a> можно узнать, был ли использован кэш при выполнении последнего запроса или нет.</p><div id="ID0EBCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0EBCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0EBCAAAAA_tabimgleft"></div><div id="ID0EBCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0EBCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0EBCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0EBCAAAAA_tab3" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>C++</a></div><div id="ID0EBCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EBCAAAAA_tabimgright"></div></div><div id="ID0EBCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EBCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0EBCAAAAA','4')" title="View Colorized" style="display: none">Просмотр с раскраской</a><a id="ID0EBCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0EBCAAAAA','4')" title="Скопировать в буфер обмена">Скопировать в буфер обмена</a><a id="ID0EBCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0EBCAAAAA','4')" title="Print">Печать</a></div></div><div id="ID0EBCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="highlight-keyword">using</span> (SqlClient client = <span class="highlight-keyword">new</span> SqlClient())
+{
+  <span class="highlight-comment">// кэширование результатов в файлом кэше на 30 секунд</span>
+  client.CacheDuration = <span class="highlight-number">30</span>;
+  client.CacheType = CachingType.File;
+  <span class="highlight-comment">// формирование запроса</span>
+  client.CommandText = <span class="highlight-literal">"SELECT * FROM table"</span>;
+  <span class="highlight-comment">// выполнение запроса</span>
+  DataTable table = client.GetTable();
+  <span class="highlight-comment">// вывод результатов</span>
+  Console.WriteLine(<span class="highlight-literal">"Получено данных: {0}"</span>, table.Rows.Count);
+  Console.WriteLine(<span class="highlight-literal">"Время выполнения запроса: {0}"</span>, client.LastQueryTime);
+  Console.WriteLine(<span class="highlight-literal">"Результат получен из кэша: {0}"</span>, client.LastQueryResultsFromCache);
+  <span class="highlight-comment">// повторное выполнение аналогичного запроса</span>
+  table = client.GetTable();
+  Console.WriteLine(<span class="highlight-literal">"Получено данных: {0}"</span>, table.Rows.Count);
+  Console.WriteLine(<span class="highlight-literal">"Время выполнения запроса: {0}"</span>, client.LastQueryTime);
+  Console.WriteLine(<span class="highlight-literal">"Результат получен из кэша: {0}"</span>, client.LastQueryResultsFromCache);
+}</pre></div><div id="ID0EBCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>using (SqlClient client = new SqlClient())
+{
+  // кэширование результатов в файлом кэше на 30 секунд
+  client.CacheDuration = 30;
+  client.CacheType = CachingType.File;
+  // формирование запроса
+  client.CommandText = "SELECT * FROM table";
+  // выполнение запроса
+  DataTable table = client.GetTable();
+  // вывод результатов
+  Console.WriteLine("Получено данных: {0}", table.Rows.Count);
+  Console.WriteLine("Время выполнения запроса: {0}", client.LastQueryTime);
+  Console.WriteLine("Результат получен из кэша: {0}", client.LastQueryResultsFromCache);
+  // повторное выполнение аналогичного запроса
+  table = client.GetTable();
+  Console.WriteLine("Получено данных: {0}", table.Rows.Count);
+  Console.WriteLine("Время выполнения запроса: {0}", client.LastQueryTime);
+  Console.WriteLine("Результат получен из кэша: {0}", client.LastQueryResultsFromCache);
+}</pre></div><div id="ID0EBCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="highlight-keyword">Using</span> client <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> SqlClient()
+  <span class="highlight-comment">' кэширование результатов в файлом кэше на 30 секунд</span>
+  client.CacheDuration = <span class="highlight-number">30</span>
+  client.CacheType = CachingType.File
+  <span class="highlight-comment">' формирование запроса</span>
+  client.CommandText = <span class="highlight-literal">"SELECT * FROM test"</span> 
+  <span class="highlight-comment">' выполнение запроса</span> 
+  <span class="highlight-keyword">Dim</span> table <span class="highlight-keyword">As</span> DataTable = client.GetTable()
+  <span class="highlight-comment">' вывод результатов</span>
+  Console.WriteLine(<span class="highlight-literal">"Получено данных: {0}"</span>, table.Rows.Count)
+  Console.WriteLine(<span class="highlight-literal">"Время выполнения запроса: {0}"</span>, client.LastQueryTime)
+  Console.WriteLine(<span class="highlight-literal">"Результат получен из кэша: {0}"</span>, client.LastQueryResultsFromCache)
+  <span class="highlight-comment">' повторное выполнение аналогичного запроса</span>
+  table = client.GetTable()
+  Console.WriteLine(<span class="highlight-literal">"Получено данных: {0}"</span>, table.Rows.Count)
+  Console.WriteLine(<span class="highlight-literal">"Время выполнения запроса: {0}"</span>, client.LastQueryTime)
+  Console.WriteLine(<span class="highlight-literal">"Результат получен из кэша: {0}"</span>, client.LastQueryResultsFromCache)
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Using</span></pre></div><div id="ID0EBCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Using client As New SqlClient()
+  ' кэширование результатов в файлом кэше на 30 секунд
+  client.CacheDuration = 30
+  client.CacheType = CachingType.File
+  ' формирование запроса
+  client.CommandText = "SELECT * FROM test" 
+  ' выполнение запроса 
+  Dim table As DataTable = client.GetTable()
+  ' вывод результатов
+  Console.WriteLine("Получено данных: {0}", table.Rows.Count)
+  Console.WriteLine("Время выполнения запроса: {0}", client.LastQueryTime)
+  Console.WriteLine("Результат получен из кэша: {0}", client.LastQueryResultsFromCache)
+  ' повторное выполнение аналогичного запроса
+  table = client.GetTable()
+  Console.WriteLine("Получено данных: {0}", table.Rows.Count)
+  Console.WriteLine("Время выполнения запроса: {0}", client.LastQueryTime)
+  Console.WriteLine("Результат получен из кэша: {0}", client.LastQueryResultsFromCache)
+End Using</pre></div><div id="ID0EBCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0EBCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0EBCAAAAA');</script><a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">См. также</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="">Nemiro.Data.Sql - пространство имён</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p><a href="https://github.com/alekseynemiro/nemiro.data.dll/wiki/License-for-Use-and-Distribution-(RU)" target="_blank">Copyright © Aleksey Nemiro, 2009-2014</a> </p><div class="OH_feedbacklink"><a href="mailto:aleksey@kbyte.ru?subject=Nemiro.Data.dll+SqlClient+-+%d0%ba%d0%bb%d0%b0%d1%81%d1%81+100+RU-RU&amp;body=%d0%92%d0%b0%d1%88%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%20%d0%b4%d0%bb%d1%8f%20%d1%83%d0%bb%d1%83%d1%87%d1%88%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%ba%d0%b0%d1%87%d0%b5%d1%81%d1%82%d0%b2%d0%b0%20%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d0%b8%20%d0%b8%20%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%82%d0%b0%20%d0%b2%20%d1%86%d0%b5%d0%bb%d0%be%d0%bc.%20%d0%90%d0%b4%d1%80%d0%b5%d1%81%20%d0%b2%d0%b0%d1%88%d0%b5%d0%b9%20%d1%8d%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d0%bd%d0%bd%d0%be%d0%b9%20%d0%bf%d0%be%d1%87%d1%82%d1%8b%20%d0%bd%d0%b5%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%20%d0%b4%d0%bb%d1%8f%20%d0%b4%d1%80%d1%83%d0%b3%d0%b8%d1%85%20%d1%86%d0%b5%d0%bb%d0%b5%d0%b9%20%d0%b8%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d1%83%d0%b4%d0%b0%d0%bb%d1%91%d0%bd%2c%20%d0%bf%d0%be%d1%81%d0%bb%d0%b5%20%d1%82%d0%be%d0%b3%d0%be%20%d0%ba%d0%b0%d0%ba%20%d0%b2%d0%b0%d1%88%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%20%d0%b1%d1%83%d0%b4%d0%b5%d1%82%20%d0%be%d0%b1%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0%d0%bd.%20%d0%94%d0%be%20%d0%be%d0%ba%d0%be%d0%bd%d1%87%d0%b0%d0%bd%d0%b8%d1%8f%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%20%d0%bf%d0%be%20%d0%be%d0%b1%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b5%20%d0%b2%d0%b0%d1%88%d0%b5%d0%b3%d0%be%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d0%b0%2c%20%d0%b2%d1%8b%20%d0%bc%d0%be%d0%b6%d0%b5%d1%82%d0%b5%20%d1%81%d0%b2%d1%8f%d0%b7%d0%b0%d1%82%d1%8c%d1%81%d1%8f%20%d1%81%20%d0%b0%d0%b2%d1%82%d0%be%d1%80%d0%be%d0%bc%20%d0%b4%d0%bb%d1%8f%20%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d1%8f%20%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b9%20%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d0%b8.%20%d0%9f%d0%be%d1%81%d0%bb%d0%b5%20%d0%b5%d0%b3%d0%be%20%d0%be%d0%b1%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8%2c%20%d0%b2%d1%8b%20%d0%bc%d0%be%d0%b6%d0%b5%d1%82%d0%b5%20%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b8%d1%82%d1%8c%20%d1%81%d0%be%d0%be%d0%b1%d1%89%d0%b5%d0%bd%d0%b8%d0%b5%20%d0%be%d0%b1%20%d0%be%d0%ba%d0%be%d0%bd%d1%87%d0%b0%d0%bd%d0%b8%d0%b8%20%d1%80%d0%b0%d0%b1%d0%be%d1%82%20%d0%bf%d0%be%20%d0%b2%d0%b0%d1%88%d0%b5%d0%bc%d1%83%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%83%20%d0%bd%d0%b0%20%d1%83%d0%ba%d0%b0%d0%b7%d0%b0%d0%bd%d0%bd%d1%8b%d0%b9%20%d0%b0%d0%b4%d1%80%d0%b5%d1%81%20%d1%8d%d0%bb%d0%b5%d0%ba%d1%82%d1%80%d0%be%d0%bd%d0%bd%d0%be%d0%b9%20%d0%bf%d0%be%d1%87%d1%82%d1%8b.">Отправить отзыв</a> по этой теме в aleksey@kbyte.ru.</div></div></body></html>

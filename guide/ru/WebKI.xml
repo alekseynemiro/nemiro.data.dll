@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AbsoluteExpiration свойство" Url="html/2df1bc90-8643-3795-e75e-ad488b8e238a.htm" />
+  <HelpKINode Title="AccessTimeout свойство">
+    <HelpKINode Title="CacheInfo.AccessTimeout - свойство" Url="html/2053fa22-38a4-9276-0759-1cdee842d744.htm" />
+    <HelpKINode Title="FileCache.AccessTimeout - свойство" Url="html/f64e4e63-6a68-4557-c63d-0e54f30f08a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Add метод">
+    <HelpKINode Title="CacheManager.Add - метод" Url="html/4b633079-b2b3-a9c9-93e1-3abecca87ab1.htm" />
+    <HelpKINode Title="DataChangeInfoCollection.Add - метод" Url="html/e0351fd4-6708-4ac3-2b89-9d1782f930c1.htm" />
+    <HelpKINode Title="DataObjectCollection(T).Add - метод" Url="html/bd1d18d5-885d-7b38-6ec8-a7052b58d9f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddOrGetExisting метод">
+    <HelpKINode Title="FileCache.AddOrGetExisting - метод" Url="html/14bfc312-78be-b064-007f-d99908b995e8.htm" />
+    <HelpKINode Title="WebCache.AddOrGetExisting - метод" Url="html/d8292e0e-b4f6-cc7a-5752-9abfeacecc47.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddRange метод" Url="html/de281c26-e817-94ea-4cfa-f028bb920dd3.htm" />
+  <HelpKINode Title="AllowNull - член перечисления" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  <HelpKINode Title="AllowNull свойство" Url="html/2a1d6f3d-06b0-845d-ea8c-2f68aeb05025.htm" />
+  <HelpKINode Title="ASC - член перечисления" Url="html/86def895-c010-09ac-1c99-ea058fffe760.htm" />
+  <HelpKINode Title="Auto - член перечисления">
+    <HelpKINode Title="CachingType - перечисление" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+    <HelpKINode Title="ConnectionMode - перечисление" Url="html/7d612565-0606-e032-47d0-e39bcbf2716c.htm" />
+    <HelpKINode Title="TypeCommand - перечисление" Url="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseObject - класс">
+    <HelpKINode Title="BaseObject - класс" Url="html/89c42217-4a17-6468-b7d6-4b91281df2c0.htm" />
+    <HelpKINode Title="конструктор" Url="html/bc46705c-742f-c9b0-f54e-edc54d8ee6ab.htm" />
+    <HelpKINode Title="методы" Url="html/ebe77b8a-00c1-589f-920a-4e7391644f34.htm" />
+    <HelpKINode Title="о BaseObject - класс" Url="html/89c42217-4a17-6468-b7d6-4b91281df2c0.htm" />
+    <HelpKINode Title="свойства" Url="html/542f1a9f-569b-d825-4074-15acae86e167.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseObject.BaseObject конструктор" Url="html/bc46705c-742f-c9b0-f54e-edc54d8ee6ab.htm" />
+  <HelpKINode Title="BaseObject.Cache свойство" Url="html/ba36b469-9d52-7d6c-ad11-9dd82623a1c2.htm" />
+  <HelpKINode Title="BaseObject.CacheDuration свойство" Url="html/f48edbf8-dc9f-313f-2385-385e7ac56809.htm" />
+  <HelpKINode Title="BaseObject.ConnectionString свойство" Url="html/432f4410-b72c-f708-1d40-71c7ee69efab.htm" />
+  <HelpKINode Title="BaseObject.CreateTable метод" Url="html/0938eaa6-957b-4a19-2674-b9c5dadb5c77.htm" />
+  <HelpKINode Title="BaseObject.Delete метод" Url="html/f2b48b20-8c86-7863-da45-f9ce3f765a05.htm" />
+  <HelpKINode Title="BaseObject.Exists метод" Url="html/02c9d0c8-fa91-0ae1-c7cc-acde5f020c47.htm" />
+  <HelpKINode Title="BaseObject.GetChanges метод" Url="html/fbbce3f1-dff7-f100-8bed-7c9fbd390809.htm" />
+  <HelpKINode Title="BaseObject.GetList метод" Url="html/49bc88af-07bb-c541-f072-6cebe37e9f94.htm" />
+  <HelpKINode Title="BaseObject.Load метод" Url="html/f9579921-b8a6-7611-acd9-01ce14107059.htm" />
+  <HelpKINode Title="BaseObject.LoadJson метод" Url="html/539c53bb-81c6-3b66-913c-b8e32ff5bb8f.htm" />
+  <HelpKINode Title="BaseObject.LoadXml метод" Url="html/2f833c90-08d6-88f2-e928-13c2d3b8cb82.htm" />
+  <HelpKINode Title="BaseObject.RowData свойство" Url="html/beb6c74b-0094-388d-0d99-2d2097e50f73.htm" />
+  <HelpKINode Title="BaseObject.Save метод" Url="html/d508be7f-6f8b-26a8-7d40-64611ddc3efe.htm" />
+  <HelpKINode Title="BaseObject.TableExists метод" Url="html/6aa5dcef-c80e-56cc-c158-70f6f530650c.htm" />
+  <HelpKINode Title="BaseObject.TableName свойство" Url="html/c7d34fe2-6bc3-2391-a444-cb67c813db94.htm" />
+  <HelpKINode Title="BaseObject.ToJson метод" Url="html/77e50302-433b-b7b4-5a46-199448c1d8f0.htm" />
+  <HelpKINode Title="BaseObject.ToString метод" Url="html/7032d52f-af9e-fbc8-96a4-296345b22dde.htm" />
+  <HelpKINode Title="BaseObject.ToXml метод" Url="html/0a0000db-f8f8-a46e-3d7b-6dab2870dc33.htm" />
+  <HelpKINode Title="Binder свойство" Url="html/85c7c5c8-2673-f206-c15c-cb58d6184784.htm" />
+  <HelpKINode Title="BindToType метод" Url="html/b12c332b-5247-63b6-af18-b98233adf252.htm" />
+  <HelpKINode Title="BufferAccessTimeout свойство">
+    <HelpKINode Title="CacheInfo.BufferAccessTimeout - свойство" Url="html/663acec3-d969-a445-b642-6d2e6c215d22.htm" />
+    <HelpKINode Title="FileCache.BufferAccessTimeout - свойство" Url="html/4aacb6f6-99a0-fa4a-45e5-560ae5f740c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BufferSize свойство">
+    <HelpKINode Title="CacheInfo.BufferSize - свойство" Url="html/db7352b3-edad-2551-970c-fd1eb8272e23.htm" />
+    <HelpKINode Title="FileCache.BufferSize - свойство" Url="html/b6efcc9a-f3ef-5930-c304-171853b8c04c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BuildClrVersion - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="BusinessIntelligence - член перечисления" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="Cache свойство">
+    <HelpKINode Title="BaseObject.Cache - свойство" Url="html/ba36b469-9d52-7d6c-ad11-9dd82623a1c2.htm" />
+    <HelpKINode Title="SqlClient.Cache - свойство" Url="html/6b56316a-b2ca-3ad5-ab9c-46790fb3e67d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheAccessTimeout свойство" Url="html/bd8b2430-6af5-8817-58f3-d4266cff790e.htm" />
+  <HelpKINode Title="CacheBinder - класс">
+    <HelpKINode Title="CacheBinder - класс" Url="html/30a4bd63-0a18-d718-569a-e1d4abc920e5.htm" />
+    <HelpKINode Title="конструктор" Url="html/7a2edab8-c9bd-ebdf-070f-365b0323d2f0.htm" />
+    <HelpKINode Title="методы" Url="html/5d9d1a69-5595-e1b5-4e8c-d9dcc3b71250.htm" />
+    <HelpKINode Title="о CacheBinder - класс" Url="html/30a4bd63-0a18-d718-569a-e1d4abc920e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheBinder свойство" Url="html/b1de5756-67ef-914b-aa22-43624057ccda.htm" />
+  <HelpKINode Title="CacheBinder.BindToType метод" Url="html/b12c332b-5247-63b6-af18-b98233adf252.htm" />
+  <HelpKINode Title="CacheBinder.CacheBinder конструктор" Url="html/7a2edab8-c9bd-ebdf-070f-365b0323d2f0.htm" />
+  <HelpKINode Title="CacheBufferAccessTimeout свойство" Url="html/964562d0-4e55-c247-32a1-14b79aeb8098.htm" />
+  <HelpKINode Title="CacheBufferSize свойство" Url="html/99bc4130-df8d-6159-9a47-028c67735042.htm" />
+  <HelpKINode Title="CacheCleanupResult - класс">
+    <HelpKINode Title="CacheCleanupResult - класс" Url="html/7470153d-6e6d-6ca3-a9b4-7e2395f347ae.htm" />
+    <HelpKINode Title="конструктор" Url="html/fc037a5d-b471-a441-4ce0-26377f06694a.htm" />
+    <HelpKINode Title="методы" Url="html/f06348fe-7d2c-4611-e76f-003e8631024c.htm" />
+    <HelpKINode Title="о CacheCleanupResult - класс" Url="html/7470153d-6e6d-6ca3-a9b4-7e2395f347ae.htm" />
+    <HelpKINode Title="свойства" Url="html/e6122254-7dcf-d823-4cd0-93227bbcc078.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheCleanupResult.CacheCleanupResult конструктор" Url="html/fc037a5d-b471-a441-4ce0-26377f06694a.htm" />
+  <HelpKINode Title="CacheCleanupResult.Errors свойство" Url="html/963a0d03-0e19-3c36-d716-2c2d467491fe.htm" />
+  <HelpKINode Title="CacheCleanupResult.Removed свойство" Url="html/27ffc3f1-0b6e-713b-11e0-028d3931f6a1.htm" />
+  <HelpKINode Title="CacheCleanupResult.RemovedSize свойство" Url="html/1a42a8a8-5de4-2594-8c75-7d2bae331d84.htm" />
+  <HelpKINode Title="CacheCleanupResult.TimeElapsed свойство" Url="html/67e9bca2-55bd-7110-caf0-88a33f1e4cc7.htm" />
+  <HelpKINode Title="CacheCollection - класс">
+    <HelpKINode Title="CacheCollection - класс" Url="html/5a4b6982-a126-d92d-b19f-de97e35446ed.htm" />
+    <HelpKINode Title="конструктор" Url="html/7454f438-b5ac-e555-19eb-35ad7bf43288.htm" />
+    <HelpKINode Title="методы" Url="html/b955b283-2e03-6c05-7cbd-16a473831bfe.htm" />
+    <HelpKINode Title="о CacheCollection - класс" Url="html/5a4b6982-a126-d92d-b19f-de97e35446ed.htm" />
+    <HelpKINode Title="свойства" Url="html/0f32a101-f7e0-b2fc-8394-e765e33d59da.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheCollection.CacheCollection конструктор" Url="html/7454f438-b5ac-e555-19eb-35ad7bf43288.htm" />
+  <HelpKINode Title="CacheCollection.GetObjectCache метод" Url="html/e73414f4-fab6-f608-ce8a-ed43573c580e.htm" />
+  <HelpKINode Title="CacheCustom свойство" Url="html/7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" />
+  <HelpKINode Title="CacheCustomArgs свойство" Url="html/52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" />
+  <HelpKINode Title="CacheDuration свойство">
+    <HelpKINode Title="BaseObject.CacheDuration - свойство" Url="html/f48edbf8-dc9f-313f-2385-385e7ac56809.htm" />
+    <HelpKINode Title="SqlClient.CacheDuration - свойство" Url="html/a3aabc0e-d339-1e83-db12-8058bb49923d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheEntry - класс">
+    <HelpKINode Title="CacheEntry - класс" Url="html/449b2172-f39d-2007-9937-b9e16e8a9e0d.htm" />
+    <HelpKINode Title="конструктор" Url="html/ad32215e-2168-82af-f791-17d31aeaa328.htm" />
+    <HelpKINode Title="методы" Url="html/df765e85-01af-a88a-0cf3-2e7d1d810527.htm" />
+    <HelpKINode Title="о CacheEntry - класс" Url="html/449b2172-f39d-2007-9937-b9e16e8a9e0d.htm" />
+    <HelpKINode Title="свойства" Url="html/00c89b5d-d71e-6e8f-4348-3bfc48851544.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheEntry.CacheEntry конструктор" Url="html/ad32215e-2168-82af-f791-17d31aeaa328.htm" />
+  <HelpKINode Title="CacheEntry.Policy свойство" Url="html/f02f0efb-5376-ff5c-2c06-9e83a2531e05.htm" />
+  <HelpKINode Title="CacheEntry.Value свойство" Url="html/8ced4d86-4f7e-eeff-792a-a78ba706bebb.htm" />
+  <HelpKINode Title="CacheEntryPolicy - класс">
+    <HelpKINode Title="CacheEntryPolicy - класс" Url="html/2ae83e44-e333-d467-511e-88301ff7f9cd.htm" />
+    <HelpKINode Title="конструктор" Url="html/a7f3d8b8-1c6f-d738-491e-17039ba2ffb2.htm" />
+    <HelpKINode Title="методы" Url="html/dbab860d-be9b-3db7-8aa8-494a0e707af5.htm" />
+    <HelpKINode Title="о CacheEntryPolicy - класс" Url="html/2ae83e44-e333-d467-511e-88301ff7f9cd.htm" />
+    <HelpKINode Title="свойства" Url="html/41ef4b9c-e19c-6268-9110-b758b3145af7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheEntryPolicy.AbsoluteExpiration свойство" Url="html/2df1bc90-8643-3795-e75e-ad488b8e238a.htm" />
+  <HelpKINode Title="CacheEntryPolicy.CacheEntryPolicy конструктор" Url="html/a7f3d8b8-1c6f-d738-491e-17039ba2ffb2.htm" />
+  <HelpKINode Title="CacheEntryPolicy.SlidingExpiration свойство" Url="html/e1ea765e-d42a-d221-ec09-1c893eac20d7.htm" />
+  <HelpKINode Title="CacheInfo - класс">
+    <HelpKINode Title="CacheInfo - класс" Url="html/ca5ab6a0-51f1-c33d-70cc-4329e57b535f.htm" />
+    <HelpKINode Title="конструктор" Url="html/bb5d1f68-8cde-587d-49f0-962cfae1a8dc.htm" />
+    <HelpKINode Title="методы" Url="html/19863e81-4b9c-2974-3f0c-c19ceed95944.htm" />
+    <HelpKINode Title="о CacheInfo - класс" Url="html/ca5ab6a0-51f1-c33d-70cc-4329e57b535f.htm" />
+    <HelpKINode Title="свойства" Url="html/dd8015ec-9aa3-bb42-e177-d8bd9666514f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheInfo.AccessTimeout свойство" Url="html/2053fa22-38a4-9276-0759-1cdee842d744.htm" />
+  <HelpKINode Title="CacheInfo.Binder свойство" Url="html/85c7c5c8-2673-f206-c15c-cb58d6184784.htm" />
+  <HelpKINode Title="CacheInfo.BufferAccessTimeout свойство" Url="html/663acec3-d969-a445-b642-6d2e6c215d22.htm" />
+  <HelpKINode Title="CacheInfo.BufferSize свойство" Url="html/db7352b3-edad-2551-970c-fd1eb8272e23.htm" />
+  <HelpKINode Title="CacheInfo.CacheInfo конструктор" Url="html/bb5d1f68-8cde-587d-49f0-962cfae1a8dc.htm" />
+  <HelpKINode Title="CacheInfo.CacheName свойство" Url="html/a63e211b-7361-c98d-ef73-29c8507332d2.htm" />
+  <HelpKINode Title="CacheInfo.CachePath свойство" Url="html/b963f561-098a-d822-b0d7-008addc59403.htm" />
+  <HelpKINode Title="CacheInfo.CacheType свойство" Url="html/967d2400-c004-70b3-8399-63ee575f4dbb.htm" />
+  <HelpKINode Title="CacheInfo.Custom свойство" Url="html/337c7f12-4cfd-4be7-aaa7-d98215592b91.htm" />
+  <HelpKINode Title="CacheInfo.CustomArgs свойство" Url="html/cbbe55ac-e8d3-6143-9e32-d8476e4f3583.htm" />
+  <HelpKINode Title="CacheInfo.Duration свойство" Url="html/0c5a2cdf-c4a9-aa57-b77e-a6e87a09e2ac.htm" />
+  <HelpKINode Title="CacheInfo.SetDefault метод" Url="html/f4367ea6-7c7e-17cc-a029-7d2128f734f4.htm" />
+  <HelpKINode Title="CacheInfo.SetFromConfig метод" Url="html/f0e3dcee-dbda-b1f9-ecbc-ae20e5645ab5.htm" />
+  <HelpKINode Title="CacheManager - класс">
+    <HelpKINode Title="CacheManager - класс" Url="html/a1ca2569-e9e4-4c5c-2118-a992a29efdae.htm" />
+    <HelpKINode Title="методы" Url="html/366f0c83-0dec-282b-64a1-e8c3cb15779c.htm" />
+    <HelpKINode Title="о CacheManager - класс" Url="html/a1ca2569-e9e4-4c5c-2118-a992a29efdae.htm" />
+    <HelpKINode Title="свойства" Url="html/43173422-9204-d975-075c-ffdb7595ba39.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheManager.Add метод" Url="html/4b633079-b2b3-a9c9-93e1-3abecca87ab1.htm" />
+  <HelpKINode Title="CacheManager.FileCache свойство" Url="html/bc06bffc-7bb4-8e04-abf5-40279453caf9.htm" />
+  <HelpKINode Title="CacheManager.Get метод" Url="html/c10a8127-b6a4-0bdb-654d-beb29a0f66a1.htm" />
+  <HelpKINode Title="CacheManager.GetFileCache метод" Url="html/cee0411f-9651-0878-5515-30b265a8d89e.htm" />
+  <HelpKINode Title="CacheManager.GetObjectCache метод" Url="html/4a0be4a6-4ddc-2c47-e120-49e914c23bfb.htm" />
+  <HelpKINode Title="CacheManager.Items свойство" Url="html/2acb0dc5-83b4-15eb-b1f6-238fd0e92198.htm" />
+  <HelpKINode Title="CacheManager.MemoryCache свойство" Url="html/16b3e741-917d-97b3-e929-5f83614e3463.htm" />
+  <HelpKINode Title="CacheManager.Remove метод" Url="html/e5d7345a-bc2c-147c-a05f-d93bdc94e87c.htm" />
+  <HelpKINode Title="CacheManager.WebCache свойство" Url="html/a81eeede-fcbd-5a4b-55d6-119bc2d0f2d1.htm" />
+  <HelpKINode Title="CacheName свойство">
+    <HelpKINode Title="CacheInfo.CacheName - свойство" Url="html/a63e211b-7361-c98d-ef73-29c8507332d2.htm" />
+    <HelpKINode Title="SqlClient.CacheName - свойство" Url="html/0e3129cf-c3bd-db5a-b2ad-a55ea1a279e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CachePath свойство">
+    <HelpKINode Title="CacheInfo.CachePath - свойство" Url="html/b963f561-098a-d822-b0d7-008addc59403.htm" />
+    <HelpKINode Title="FileCache.CachePath - свойство" Url="html/1b285ace-911f-64cf-2e3e-7eec8a1cfeb3.htm" />
+    <HelpKINode Title="SqlClient.CachePath - свойство" Url="html/02cbdd80-6222-35ab-48ab-62ccebcd34e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CacheType свойство">
+    <HelpKINode Title="CacheInfo.CacheType - свойство" Url="html/967d2400-c004-70b3-8399-63ee575f4dbb.htm" />
+    <HelpKINode Title="SqlClient.CacheType - свойство" Url="html/04eda964-2407-d070-9edc-9177e741c746.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CachingType - перечисление" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+  <HelpKINode Title="Cleanup метод" Url="html/6f35397a-a44a-c7fe-bf53-99d60b31e092.htm" />
+  <HelpKINode Title="CleanupAll метод" Url="html/9f3f4593-a7eb-ff72-eece-45ca37f6f3a2.htm" />
+  <HelpKINode Title="Clear метод" Url="html/1f3cd5bb-8a20-3aa7-cb55-30a2a445a0e9.htm" />
+  <HelpKINode Title="ClearTable метод" Url="html/de0e27f3-3d0c-7584-958e-816043f6b666.htm" />
+  <HelpKINode Title="Collation - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="CollationID - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="ColumnAttribute - класс">
+    <HelpKINode Title="ColumnAttribute - класс" Url="html/4110a77d-900a-3f94-d915-ee88ad4616f1.htm" />
+    <HelpKINode Title="конструктор" Url="html/d885a598-ffe7-fe01-afe6-5aa34c434304.htm" />
+    <HelpKINode Title="методы" Url="html/b1c63f22-2344-66f2-659b-bbb37a02d3a2.htm" />
+    <HelpKINode Title="о ColumnAttribute - класс" Url="html/4110a77d-900a-3f94-d915-ee88ad4616f1.htm" />
+    <HelpKINode Title="свойства" Url="html/71f8409c-b361-88f9-dda7-82b9e05c51f4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ColumnAttribute.AllowNull свойство" Url="html/2a1d6f3d-06b0-845d-ea8c-2f68aeb05025.htm" />
+  <HelpKINode Title="ColumnAttribute.ColumnAttribute конструктор" Url="html/d885a598-ffe7-fe01-afe6-5aa34c434304.htm" />
+  <HelpKINode Title="ColumnAttribute.ColumnName свойство" Url="html/59e02198-a942-e324-32ef-5a04f277c088.htm" />
+  <HelpKINode Title="ColumnAttribute.DataType свойство" Url="html/9a445ad2-8657-056b-b9c4-7168c081669f.htm" />
+  <HelpKINode Title="ColumnAttribute.Default свойство" Url="html/79bc9745-541b-c1d7-0b30-1cec394628f2.htm" />
+  <HelpKINode Title="ColumnAttribute.DisplayName свойство" Url="html/878957a9-eccf-5c9f-fb80-906f61e6817d.htm" />
+  <HelpKINode Title="ColumnAttribute.Flags свойство" Url="html/931b43c9-376d-1358-d587-b3d2ba19ac0a.htm" />
+  <HelpKINode Title="ColumnAttribute.GetSqlEmptyValue метод" Url="html/afa8b273-c39d-e496-6359-4f3082b0b4e0.htm" />
+  <HelpKINode Title="ColumnAttribute.GetSqlParameter метод" Url="html/56718301-1b52-5517-1359-56e980cbcc82.htm" />
+  <HelpKINode Title="ColumnAttribute.GetValidParameterValue метод" Url="html/df6d0df6-b1ff-6a7d-71c6-d99c2a0cae3b.htm" />
+  <HelpKINode Title="ColumnAttribute.IsIdentity свойство" Url="html/166d235a-a338-fef6-9413-0dbceaf45c25.htm" />
+  <HelpKINode Title="ColumnAttribute.IsPrimaryKey свойство" Url="html/6fe6d950-b9e4-cd6a-5979-a3af18a31817.htm" />
+  <HelpKINode Title="ColumnAttribute.IsSql свойство" Url="html/b11e4f44-67d0-bd3b-74c1-8744a9a9118c.htm" />
+  <HelpKINode Title="ColumnAttribute.IsUnique свойство" Url="html/bb149adb-3c8b-5029-164f-3501044eb630.htm" />
+  <HelpKINode Title="ColumnAttribute.OwnerClass свойство" Url="html/8a486648-8fa7-b9f3-65a9-d15640097bc9.htm" />
+  <HelpKINode Title="ColumnAttribute.OwnerClassType свойство" Url="html/c569fbd6-1e66-9b6e-2fc5-0278393d021d.htm" />
+  <HelpKINode Title="ColumnAttribute.ParameterName свойство" Url="html/0eab07db-98d9-8820-b322-fbac9fde3f2a.htm" />
+  <HelpKINode Title="ColumnAttribute.SetOwner метод" Url="html/28fa46ae-0d9b-3a20-de98-b0e1bca9ca34.htm" />
+  <HelpKINode Title="ColumnAttribute.Size свойство" Url="html/e49fa558-b12a-0c08-6e7e-975bf332ba23.htm" />
+  <HelpKINode Title="ColumnAttribute.SqlDbType свойство" Url="html/d0ae046e-150f-2bfa-73ed-48382d8d83ce.htm" />
+  <HelpKINode Title="ColumnAttributeFlags - перечисление" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  <HelpKINode Title="ColumnDefaultValues - перечисление" Url="html/7c06b6de-6044-59c2-6a8a-2a25c794d141.htm" />
+  <HelpKINode Title="ColumnName свойство">
+    <HelpKINode Title="ColumnAttribute.ColumnName - свойство" Url="html/59e02198-a942-e324-32ef-5a04f277c088.htm" />
+    <HelpKINode Title="DataChangeInfo.ColumnName - свойство" Url="html/9a9db67c-0017-ff80-932d-4bb8b725f699.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandText свойство" Url="html/6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" />
+  <HelpKINode Title="CommandTimeout свойство" Url="html/900b9870-d1b4-3411-8ec7-1612748d09fb.htm" />
+  <HelpKINode Title="CommandType свойство" Url="html/1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" />
+  <HelpKINode Title="Commit метод" Url="html/d42e4af2-97fa-7c22-4567-035660268429.htm" />
+  <HelpKINode Title="ComparisonStyle - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="ComputerNamePhysicalNetBIOS - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Connect метод" Url="html/f89e0e4b-af72-b1d1-92d6-bc0a7784a60a.htm" />
+  <HelpKINode Title="ConnectionMode - перечисление" Url="html/7d612565-0606-e032-47d0-e39bcbf2716c.htm" />
+  <HelpKINode Title="ConnectionMode свойство" Url="html/2ba558f7-bed6-c6cf-0ad7-fda619803d8d.htm" />
+  <HelpKINode Title="ConnectionString свойство">
+    <HelpKINode Title="BaseObject.ConnectionString - свойство" Url="html/432f4410-b72c-f708-1d40-71c7ee69efab.htm" />
+    <HelpKINode Title="SqlAdmin.ConnectionString - свойство" Url="html/e004dc1e-3989-e101-d4b5-3f73cf2015f3.htm" />
+    <HelpKINode Title="SqlClient.ConnectionString - свойство" Url="html/fec7b48d-378b-6f02-a259-aaba12475218.htm" />
+    <HelpKINode Title="TableAttribute.ConnectionString - свойство" Url="html/a835eed0-7501-900c-0796-37a178542451.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnectionStringNullException - класс">
+    <HelpKINode Title="ConnectionStringNullException - класс" Url="html/40f65084-dd80-a916-e312-33c9cd05eed7.htm" />
+    <HelpKINode Title="конструктор" Url="html/bbf24836-71ae-6477-eb0d-f2a70f6202f4.htm" />
+    <HelpKINode Title="методы" Url="html/429cc13d-4c86-9cfc-e878-150a9d8c352f.htm" />
+    <HelpKINode Title="о ConnectionStringNullException - класс" Url="html/40f65084-dd80-a916-e312-33c9cd05eed7.htm" />
+    <HelpKINode Title="свойства" Url="html/f9bd553e-9bb6-2cae-7d0a-1e552476ab37.htm" />
+    <HelpKINode Title="события" Url="html/10f7f7ae-4489-0819-b002-fa361bf814ad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnectionStringNullException.ConnectionStringNullException конструктор" Url="html/bbf24836-71ae-6477-eb0d-f2a70f6202f4.htm" />
+  <HelpKINode Title="ConnectionTimeout свойство" Url="html/b84cc82b-116c-6574-9c2e-533bacf90d22.htm" />
+  <HelpKINode Title="Contains метод">
+    <HelpKINode Title="DataObjectCollection(T).Contains - метод" Url="html/b83145a5-9cf2-e8fe-9cc9-a2caf6a3b840.htm" />
+    <HelpKINode Title="FileCache.Contains - метод" Url="html/19a4d0fa-7755-543c-4da3-ce2c2a26129f.htm" />
+    <HelpKINode Title="WebCache.Contains - метод" Url="html/d20280ba-2a25-aa19-7b0d-1879edc87cfb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvertToSqlDbType метод" Url="html/88baf57e-1848-a932-35ac-37abfdeedd82.htm" />
+  <HelpKINode Title="CopyDataToServer метод" Url="html/d61eb899-1a19-fc2f-01ef-896e31cdb5f8.htm" />
+  <HelpKINode Title="CopyTableToServer метод" Url="html/61a8d5b8-6e55-66ca-bef6-730101c731dc.htm" />
+  <HelpKINode Title="CopyTo метод" Url="html/e981bebd-b467-e975-02cd-dc930de0542a.htm" />
+  <HelpKINode Title="Count свойство" Url="html/172a364b-9816-6433-ac7e-1ba088e9dee1.htm" />
+  <HelpKINode Title="CreateCacheEntryChangeMonitor метод">
+    <HelpKINode Title="FileCache.CreateCacheEntryChangeMonitor - метод" Url="html/e8fd3735-55d8-078b-5350-a17459d85b93.htm" />
+    <HelpKINode Title="WebCache.CreateCacheEntryChangeMonitor - метод" Url="html/a9fc0c29-a031-59e4-c50d-b3626085bba7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateTable метод">
+    <HelpKINode Title="BaseObject.CreateTable - метод" Url="html/0938eaa6-957b-4a19-2674-b9c5dadb5c77.htm" />
+    <HelpKINode Title="SqlAdmin.CreateTable - метод" Url="html/82ae6bd6-3d36-df1b-e586-78e02d63cd13.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CurrentPage свойство" Url="html/c3cf89cf-f4ae-1427-bc84-d45f76df19d5.htm" />
+  <HelpKINode Title="CurrentValue свойство" Url="html/2dd71f08-6129-7d86-c0ff-c31c105f4834.htm" />
+  <HelpKINode Title="Custom - член перечисления" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+  <HelpKINode Title="Custom свойство" Url="html/337c7f12-4cfd-4be7-aaa7-d98215592b91.htm" />
+  <HelpKINode Title="CustomArgs свойство" Url="html/cbbe55ac-e8d3-6143-9e32-d8476e4f3583.htm" />
+  <HelpKINode Title="DataChangeInfo - класс">
+    <HelpKINode Title="DataChangeInfo - класс" Url="html/48b4a0e4-56d8-42ab-39c9-4a3d4d9e3a2e.htm" />
+    <HelpKINode Title="конструктор" Url="html/3ed04cd8-9ba2-caac-7492-7d73d2de5274.htm" />
+    <HelpKINode Title="методы" Url="html/b3461f14-506a-57f8-318c-ae296ea4080d.htm" />
+    <HelpKINode Title="о DataChangeInfo - класс" Url="html/48b4a0e4-56d8-42ab-39c9-4a3d4d9e3a2e.htm" />
+    <HelpKINode Title="свойства" Url="html/6d46a8d9-5a2e-030c-3302-c0b7a46e28c0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataChangeInfo.ColumnName свойство" Url="html/9a9db67c-0017-ff80-932d-4bb8b725f699.htm" />
+  <HelpKINode Title="DataChangeInfo.CurrentValue свойство" Url="html/2dd71f08-6129-7d86-c0ff-c31c105f4834.htm" />
+  <HelpKINode Title="DataChangeInfo.DataChangeInfo конструктор" Url="html/3ed04cd8-9ba2-caac-7492-7d73d2de5274.htm" />
+  <HelpKINode Title="DataChangeInfo.DisplayName свойство" Url="html/0f668211-da59-ea63-4e7e-aceb9a0fb58d.htm" />
+  <HelpKINode Title="DataChangeInfo.PreviousValue свойство" Url="html/bc7e5989-3d58-1518-db76-0b2de600fc4f.htm" />
+  <HelpKINode Title="DataChangeInfo.PropertyName свойство" Url="html/873289c4-3fd2-79fa-23d4-ea72bd375cbb.htm" />
+  <HelpKINode Title="DataChangeInfoCollection - класс">
+    <HelpKINode Title="DataChangeInfoCollection - класс" Url="html/e631af54-01f5-271b-75fd-02024565a05f.htm" />
+    <HelpKINode Title="конструктор" Url="html/fc8b2147-bff3-5d8c-a511-1c048380fa85.htm" />
+    <HelpKINode Title="методы" Url="html/8cbb95d9-c5c1-72da-ecc7-e79873a8baea.htm" />
+    <HelpKINode Title="о DataChangeInfoCollection - класс" Url="html/e631af54-01f5-271b-75fd-02024565a05f.htm" />
+    <HelpKINode Title="свойства" Url="html/bd20f674-d04a-bcd0-b5b8-8da07b672a9c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataChangeInfoCollection.Add метод" Url="html/e0351fd4-6708-4ac3-2b89-9d1782f930c1.htm" />
+  <HelpKINode Title="DataChangeInfoCollection.DataChangeInfoCollection конструктор" Url="html/fc8b2147-bff3-5d8c-a511-1c048380fa85.htm" />
+  <HelpKINode Title="DataChangeLogger - класс">
+    <HelpKINode Title="DataChangeLogger - класс" Url="html/391ccec4-c719-e93d-0318-2b10f125e9b7.htm" />
+    <HelpKINode Title="конструктор" Url="html/4dc1836b-378a-53e7-25d7-c427fda6e6ec.htm" />
+    <HelpKINode Title="методы" Url="html/4895b2e1-404d-2215-936b-953a30c46b14.htm" />
+    <HelpKINode Title="о DataChangeLogger - класс" Url="html/391ccec4-c719-e93d-0318-2b10f125e9b7.htm" />
+    <HelpKINode Title="свойства" Url="html/339bacae-bb6d-771d-f435-9e64b363ec5a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataChangeLogger.Commit метод" Url="html/d42e4af2-97fa-7c22-4567-035660268429.htm" />
+  <HelpKINode Title="DataChangeLogger.DataChangeLogger конструктор" Url="html/4dc1836b-378a-53e7-25d7-c427fda6e6ec.htm" />
+  <HelpKINode Title="DataChangeLogger.GetChanges метод" Url="html/a578a039-fd6e-9e29-36d9-4c7a44c37fdd.htm" />
+  <HelpKINode Title="DataChangeLogger.MonitoringFields свойство" Url="html/25ea9a02-2f7c-6ee0-1cf5-d7a43b15c3ef.htm" />
+  <HelpKINode Title="DataChangeLogger.Owner свойство" Url="html/110d0d76-ebc6-c925-4334-17a9dc555ded.htm" />
+  <HelpKINode Title="DataChangeLogger.SourceRow свойство" Url="html/4e842290-7aab-a901-b128-cc7eb6f403cf.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T) - класс">
+    <HelpKINode Title="DataObjectCollection(T) - класс" Url="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" />
+    <HelpKINode Title="конструктор" Url="html/686e6579-d7c5-363c-adcb-e405472ab04e.htm" />
+    <HelpKINode Title="методы" Url="html/e6f22e0b-30b0-492a-f0ad-75e9ee7a8adf.htm" />
+    <HelpKINode Title="о DataObjectCollection(Of T) - класс" Url="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" />
+    <HelpKINode Title="свойства" Url="html/e69257ff-243b-96c5-92db-6e9a096a4d7c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataObjectCollection(Of T).Add метод" Url="html/bd1d18d5-885d-7b38-6ec8-a7052b58d9f8.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).AddRange метод" Url="html/de281c26-e817-94ea-4cfa-f028bb920dd3.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Clear метод" Url="html/1f3cd5bb-8a20-3aa7-cb55-30a2a445a0e9.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Contains метод" Url="html/b83145a5-9cf2-e8fe-9cc9-a2caf6a3b840.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).CopyTo метод" Url="html/e981bebd-b467-e975-02cd-dc930de0542a.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Count свойство" Url="html/172a364b-9816-6433-ac7e-1ba088e9dee1.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).CurrentPage свойство" Url="html/c3cf89cf-f4ae-1427-bc84-d45f76df19d5.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).DataObjectCollection конструктор" Url="html/686e6579-d7c5-363c-adcb-e405472ab04e.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).GetEnumerator метод" Url="html/8e241ea0-daf2-5687-88e9-9542388ddd0f.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).IndexOf метод" Url="html/b3f68afd-74da-fd97-99ab-a01857c6db6a.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Insert метод" Url="html/2f7d342c-943a-cc3c-33e1-997b5e51e0fb.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).IsReadOnly свойство" Url="html/f816b1e3-642e-be89-8370-ef9bb876ae81.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Item свойство" Url="html/700b0cf9-f3f8-2d1b-a180-dae0e791e877.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Items свойство" Url="html/9286e297-9261-c5d6-9aaf-548f11414ff5.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).NextPage метод" Url="html/39feee24-d27c-0c79-ac89-43df22dd5886.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).PreviousPage метод" Url="html/279e0d01-d154-b86a-1a20-6d69278f3921.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).RecordsPerPage свойство" Url="html/58bb3493-c551-154a-dc90-f1f85e8ed4a6.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).Remove метод" Url="html/c5dc4f1d-22ad-7208-32bc-49e46ae4f277.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).RemoveAt метод" Url="html/fb0e7dc7-f413-e884-5cf2-8df6a388beb0.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).TotalPages свойство" Url="html/dd020ef6-b116-811b-39ff-a9051b0da306.htm" />
+  <HelpKINode Title="DataObjectCollection(Of T).TotalRecords свойство" Url="html/091c1af5-df7e-ed31-2341-ee7ba5b9f821.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt; - класс">
+    <HelpKINode Title="DataObjectCollection(T) - класс" Url="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" />
+    <HelpKINode Title="конструктор" Url="html/686e6579-d7c5-363c-adcb-e405472ab04e.htm" />
+    <HelpKINode Title="методы" Url="html/e6f22e0b-30b0-492a-f0ad-75e9ee7a8adf.htm" />
+    <HelpKINode Title="о DataObjectCollection&lt;T&gt; - класс" Url="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" />
+    <HelpKINode Title="свойства" Url="html/e69257ff-243b-96c5-92db-6e9a096a4d7c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Add метод" Url="html/bd1d18d5-885d-7b38-6ec8-a7052b58d9f8.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.AddRange метод" Url="html/de281c26-e817-94ea-4cfa-f028bb920dd3.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Clear метод" Url="html/1f3cd5bb-8a20-3aa7-cb55-30a2a445a0e9.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Contains метод" Url="html/b83145a5-9cf2-e8fe-9cc9-a2caf6a3b840.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.CopyTo метод" Url="html/e981bebd-b467-e975-02cd-dc930de0542a.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Count свойство" Url="html/172a364b-9816-6433-ac7e-1ba088e9dee1.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.CurrentPage свойство" Url="html/c3cf89cf-f4ae-1427-bc84-d45f76df19d5.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.DataObjectCollection конструктор" Url="html/686e6579-d7c5-363c-adcb-e405472ab04e.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.GetEnumerator метод" Url="html/8e241ea0-daf2-5687-88e9-9542388ddd0f.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.IndexOf метод" Url="html/b3f68afd-74da-fd97-99ab-a01857c6db6a.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Insert метод" Url="html/2f7d342c-943a-cc3c-33e1-997b5e51e0fb.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.IsReadOnly свойство" Url="html/f816b1e3-642e-be89-8370-ef9bb876ae81.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Item свойство" Url="html/700b0cf9-f3f8-2d1b-a180-dae0e791e877.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Items свойство" Url="html/9286e297-9261-c5d6-9aaf-548f11414ff5.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.NextPage метод" Url="html/39feee24-d27c-0c79-ac89-43df22dd5886.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.PreviousPage метод" Url="html/279e0d01-d154-b86a-1a20-6d69278f3921.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.RecordsPerPage свойство" Url="html/58bb3493-c551-154a-dc90-f1f85e8ed4a6.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.Remove метод" Url="html/c5dc4f1d-22ad-7208-32bc-49e46ae4f277.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.RemoveAt метод" Url="html/fb0e7dc7-f413-e884-5cf2-8df6a388beb0.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.TotalPages свойство" Url="html/dd020ef6-b116-811b-39ff-a9051b0da306.htm" />
+  <HelpKINode Title="DataObjectCollection&lt;T&gt;.TotalRecords свойство" Url="html/091c1af5-df7e-ed31-2341-ee7ba5b9f821.htm" />
+  <HelpKINode Title="DataType свойство" Url="html/9a445ad2-8657-056b-b9c4-7168c081669f.htm" />
+  <HelpKINode Title="DateTypeList свойство" Url="html/895eb4b7-48ea-4bf1-ed96-537d31addb30.htm" />
+  <HelpKINode Title="Default свойство" Url="html/79bc9745-541b-c1d7-0b30-1cec394628f2.htm" />
+  <HelpKINode Title="DefaultCacheCapabilities свойство">
+    <HelpKINode Title="FileCache.DefaultCacheCapabilities - свойство" Url="html/8390a083-3210-ca6b-ed2d-fd7af1f749fc.htm" />
+    <HelpKINode Title="WebCache.DefaultCacheCapabilities - свойство" Url="html/c5d8c025-239d-01f3-842e-64f689806c91.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultPolicy свойство">
+    <HelpKINode Title="FileCache.DefaultPolicy - свойство" Url="html/2aeb87cb-c3d2-7f84-2103-501bf67d4dca.htm" />
+    <HelpKINode Title="WebCache.DefaultPolicy - свойство" Url="html/271e8472-79d7-52a7-3c1f-13811244d27f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultRegion свойство" Url="html/01057102-da2c-e353-fa34-16477fddea2e.htm" />
+  <HelpKINode Title="Delete метод" Url="html/f2b48b20-8c86-7863-da45-f9ce3f765a05.htm" />
+  <HelpKINode Title="DeleteTable метод" Url="html/5a9d4f79-e94d-1d35-2d43-1ab8a5fdc5a7.htm" />
+  <HelpKINode Title="DESC - член перечисления" Url="html/86def895-c010-09ac-1c99-ea058fffe760.htm" />
+  <HelpKINode Title="Developer - член перечисления" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="Disconnect метод" Url="html/55776c87-b5ed-266b-c731-e9353e5c394b.htm" />
+  <HelpKINode Title="DisplayName свойство">
+    <HelpKINode Title="ColumnAttribute.DisplayName - свойство" Url="html/878957a9-eccf-5c9f-fb80-906f61e6817d.htm" />
+    <HelpKINode Title="DataChangeInfo.DisplayName - свойство" Url="html/0f668211-da59-ea63-4e7e-aceb9a0fb58d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dispose метод">
+    <HelpKINode Title="SqlAdmin.Dispose - метод" Url="html/537905bc-fa20-9a26-60f9-c0b48d9589bc.htm" />
+    <HelpKINode Title="SqlClient.Dispose - метод" Url="html/8901efcf-907c-399c-f12a-447cf1bc88b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DuplicateTableNameException - класс">
+    <HelpKINode Title="DuplicateTableNameException - класс" Url="html/a8f43268-4db8-130f-96f0-a8a0251af12b.htm" />
+    <HelpKINode Title="конструктор" Url="html/73ecbe2f-eef2-196e-7ba6-1d001aaf7772.htm" />
+    <HelpKINode Title="методы" Url="html/6af5a98d-b494-b445-5e51-0ba963d4ba72.htm" />
+    <HelpKINode Title="о DuplicateTableNameException - класс" Url="html/a8f43268-4db8-130f-96f0-a8a0251af12b.htm" />
+    <HelpKINode Title="свойства" Url="html/46f0bd80-77b2-f3f8-cb03-fffdc678978e.htm" />
+    <HelpKINode Title="события" Url="html/7870748f-0aca-13ca-7e69-d8eb3998b2d1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DuplicateTableNameException.DuplicateTableNameException конструктор" Url="html/73ecbe2f-eef2-196e-7ba6-1d001aaf7772.htm" />
+  <HelpKINode Title="Duration свойство" Url="html/0c5a2cdf-c4a9-aa57-b77e-a6e87a09e2ac.htm" />
+  <HelpKINode Title="Edition - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="EditionID - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Empty - член перечисления" Url="html/7c06b6de-6044-59c2-6a8a-2a25c794d141.htm" />
+  <HelpKINode Title="EngineEdition - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Enterprise - член перечисления">
+    <HelpKINode Title="SqlServerEditionIDs - перечисление" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+    <HelpKINode Title="SqlServerEngineEditionList - перечисление" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnterpriseEdition - член перечисления" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="EnterpriseEvaluation - член перечисления" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="Errors свойство" Url="html/963a0d03-0e19-3c36-d716-2c2d467491fe.htm" />
+  <HelpKINode Title="ExecuteNonQuery метод" Url="html/7f1b0d60-a266-4925-01a0-ffcc50844906.htm" />
+  <HelpKINode Title="ExecuteScalar метод" Url="html/35023107-d325-b911-0747-ff00277e864b.htm" />
+  <HelpKINode Title="Exists метод" Url="html/02c9d0c8-fa91-0ae1-c7cc-acde5f020c47.htm" />
+  <HelpKINode Title="Express - член перечисления">
+    <HelpKINode Title="SqlServerEditionIDs - перечисление" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+    <HelpKINode Title="SqlServerEngineEditionList - перечисление" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExpressWithAdvancedServices - член перечисления" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="File - член перечисления" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+  <HelpKINode Title="FileCache - класс">
+    <HelpKINode Title="FileCache - класс" Url="html/38d5e5d0-21a6-a6b8-37c9-f7a3a3d86ac0.htm" />
+    <HelpKINode Title="конструктор" Url="html/f0cf1dc7-e35e-228b-819b-8c0c37ca2f08.htm" />
+    <HelpKINode Title="методы" Url="html/143e7c6c-2fc3-4701-af81-90f2814632ea.htm" />
+    <HelpKINode Title="о FileCache - класс" Url="html/38d5e5d0-21a6-a6b8-37c9-f7a3a3d86ac0.htm" />
+    <HelpKINode Title="свойства" Url="html/a83106aa-4667-cfe7-53aa-961c6c7d0817.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileCache свойство" Url="html/bc06bffc-7bb4-8e04-abf5-40279453caf9.htm" />
+  <HelpKINode Title="FileCache.AccessTimeout свойство" Url="html/f64e4e63-6a68-4557-c63d-0e54f30f08a7.htm" />
+  <HelpKINode Title="FileCache.AddOrGetExisting метод" Url="html/14bfc312-78be-b064-007f-d99908b995e8.htm" />
+  <HelpKINode Title="FileCache.BufferAccessTimeout свойство" Url="html/4aacb6f6-99a0-fa4a-45e5-560ae5f740c1.htm" />
+  <HelpKINode Title="FileCache.BufferSize свойство" Url="html/b6efcc9a-f3ef-5930-c304-171853b8c04c.htm" />
+  <HelpKINode Title="FileCache.CachePath свойство" Url="html/1b285ace-911f-64cf-2e3e-7eec8a1cfeb3.htm" />
+  <HelpKINode Title="FileCache.Cleanup метод" Url="html/6f35397a-a44a-c7fe-bf53-99d60b31e092.htm" />
+  <HelpKINode Title="FileCache.CleanupAll метод" Url="html/9f3f4593-a7eb-ff72-eece-45ca37f6f3a2.htm" />
+  <HelpKINode Title="FileCache.Contains метод" Url="html/19a4d0fa-7755-543c-4da3-ce2c2a26129f.htm" />
+  <HelpKINode Title="FileCache.CreateCacheEntryChangeMonitor метод" Url="html/e8fd3735-55d8-078b-5350-a17459d85b93.htm" />
+  <HelpKINode Title="FileCache.DefaultCacheCapabilities свойство" Url="html/8390a083-3210-ca6b-ed2d-fd7af1f749fc.htm" />
+  <HelpKINode Title="FileCache.DefaultPolicy свойство" Url="html/2aeb87cb-c3d2-7f84-2103-501bf67d4dca.htm" />
+  <HelpKINode Title="FileCache.DefaultRegion свойство" Url="html/01057102-da2c-e353-fa34-16477fddea2e.htm" />
+  <HelpKINode Title="FileCache.FileCache конструктор" Url="html/f0cf1dc7-e35e-228b-819b-8c0c37ca2f08.htm" />
+  <HelpKINode Title="FileCache.Get метод" Url="html/b9cbbd8b-e617-d331-d0c7-59f78f4f9621.htm" />
+  <HelpKINode Title="FileCache.GetCacheItem метод" Url="html/2addddd3-0148-3de3-4bb6-23679604a923.htm" />
+  <HelpKINode Title="FileCache.GetCount метод" Url="html/ada5a088-12d8-9254-287f-ac54002e7dc9.htm" />
+  <HelpKINode Title="FileCache.GetEnumerator метод" Url="html/ba1a76df-9aa7-5dde-5a38-795f7d053d22.htm" />
+  <HelpKINode Title="FileCache.GetKeys метод" Url="html/fe2870d4-66cd-2ef4-9044-5db744685b16.htm" />
+  <HelpKINode Title="FileCache.GetPolicy метод" Url="html/e252ae03-4abf-e20c-36f7-40ca8738df8d.htm" />
+  <HelpKINode Title="FileCache.GetValues метод" Url="html/fbaf5de1-ee89-85ef-f545-b7e0ba92f03e.htm" />
+  <HelpKINode Title="FileCache.Item свойство" Url="html/d765960f-eacb-3317-a752-fbab66e54bfc.htm" />
+  <HelpKINode Title="FileCache.Name свойство" Url="html/dc9f362e-4074-bb4c-bd52-15b68f5fd3e9.htm" />
+  <HelpKINode Title="FileCache.Remove метод" Url="html/1b418c96-de10-00fc-b24e-dbc742e4e4d9.htm" />
+  <HelpKINode Title="FileCache.Set метод" Url="html/4c79c5ef-39c1-656e-f3bf-61ea36128d50.htm" />
+  <HelpKINode Title="FileCache.ToString метод" Url="html/358b330d-a755-a19c-5b39-a9a0ce29775d.htm" />
+  <HelpKINode Title="FilestreamConfiguredLevel - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="FilestreamEffectiveLevel - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="FilestreamShareName - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Flags свойство" Url="html/931b43c9-376d-1358-d587-b3d2ba19ac0a.htm" />
+  <HelpKINode Title="Get метод">
+    <HelpKINode Title="CacheManager.Get - метод" Url="html/c10a8127-b6a4-0bdb-654d-beb29a0f66a1.htm" />
+    <HelpKINode Title="FileCache.Get - метод" Url="html/b9cbbd8b-e617-d331-d0c7-59f78f4f9621.htm" />
+    <HelpKINode Title="WebCache.Get - метод" Url="html/b9780033-9085-6ddd-bde2-f9e7c21ad8ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAllTables метод" Url="html/9da57d07-8018-e77e-bb7a-a7a3d8205eb2.htm" />
+  <HelpKINode Title="GetAllTablesName метод" Url="html/ccbdab5c-b6bd-75e1-43ad-58b76674f85e.htm" />
+  <HelpKINode Title="GetAllTablesSize метод" Url="html/9c4a7f36-eb43-40bb-b2bf-48bbaf8ad7c2.htm" />
+  <HelpKINode Title="GetCacheItem метод">
+    <HelpKINode Title="FileCache.GetCacheItem - метод" Url="html/2addddd3-0148-3de3-4bb6-23679604a923.htm" />
+    <HelpKINode Title="WebCache.GetCacheItem - метод" Url="html/3a5577ad-8326-fac4-4ddc-74288b9678e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetChanges метод">
+    <HelpKINode Title="BaseObject.GetChanges - метод" Url="html/fbbce3f1-dff7-f100-8bed-7c9fbd390809.htm" />
+    <HelpKINode Title="DataChangeLogger.GetChanges - метод" Url="html/a578a039-fd6e-9e29-36d9-4c7a44c37fdd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetCount метод">
+    <HelpKINode Title="FileCache.GetCount - метод" Url="html/ada5a088-12d8-9254-287f-ac54002e7dc9.htm" />
+    <HelpKINode Title="WebCache.GetCount - метод" Url="html/ae8400c6-fc4a-211d-e4a9-a5753e05fe36.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetData метод" Url="html/50041da1-4b2c-cc8e-c742-106c106586ed.htm" />
+  <HelpKINode Title="GetEnumerator метод">
+    <HelpKINode Title="DataObjectCollection(T).GetEnumerator - метод" Url="html/8e241ea0-daf2-5687-88e9-9542388ddd0f.htm" />
+    <HelpKINode Title="FileCache.GetEnumerator - метод" Url="html/ba1a76df-9aa7-5dde-5a38-795f7d053d22.htm" />
+    <HelpKINode Title="WebCache.GetEnumerator - метод" Url="html/6fcc42ee-cdf9-af2b-8394-3812984b2d61.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetFileCache метод" Url="html/cee0411f-9651-0878-5515-30b265a8d89e.htm" />
+  <HelpKINode Title="GetKeys метод" Url="html/fe2870d4-66cd-2ef4-9044-5db744685b16.htm" />
+  <HelpKINode Title="GetList метод" Url="html/49bc88af-07bb-c541-f072-6cebe37e9f94.htm" />
+  <HelpKINode Title="GetObjectCache метод">
+    <HelpKINode Title="CacheCollection.GetObjectCache - метод" Url="html/e73414f4-fab6-f608-ce8a-ed43573c580e.htm" />
+    <HelpKINode Title="CacheManager.GetObjectCache - метод" Url="html/4a0be4a6-4ddc-2c47-e120-49e914c23bfb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPolicy метод" Url="html/e252ae03-4abf-e20c-36f7-40ca8738df8d.htm" />
+  <HelpKINode Title="GetRow метод" Url="html/12d9faf4-acdb-51c7-aa9c-75597ab2a2ee.htm" />
+  <HelpKINode Title="GetSqlEmptyValue метод" Url="html/afa8b273-c39d-e496-6359-4f3082b0b4e0.htm" />
+  <HelpKINode Title="GetSqlParameter метод" Url="html/56718301-1b52-5517-1359-56e980cbcc82.htm" />
+  <HelpKINode Title="GetSqlServerProperty метод" Url="html/503d8f7b-0ef4-fa7d-a25b-e5b1f8f19de0.htm" />
+  <HelpKINode Title="GetSqlServerProprty метод" Url="html/a184d079-aed3-3906-bdd2-f28c64700e4d.htm" />
+  <HelpKINode Title="GetSqlServerVersion метод" Url="html/5aa7c7c2-107c-d988-72a4-13986b244934.htm" />
+  <HelpKINode Title="GetTable метод" Url="html/80634b51-3353-07a6-9020-96f56e0044be.htm" />
+  <HelpKINode Title="GetTableColums метод" Url="html/1046fe84-fa14-db47-b9a0-1873b3aa3e5c.htm" />
+  <HelpKINode Title="GetTablePrimaryKey метод" Url="html/5d0d69ea-1369-c4b3-94a3-fd71ea0ea398.htm" />
+  <HelpKINode Title="GetValidParameterValue метод" Url="html/df6d0df6-b1ff-6a7d-71c6-d99c2a0cae3b.htm" />
+  <HelpKINode Title="GetValues метод">
+    <HelpKINode Title="FileCache.GetValues - метод" Url="html/fbaf5de1-ee89-85ef-f545-b7e0ba92f03e.htm" />
+    <HelpKINode Title="WebCache.GetValues - метод" Url="html/7e42c479-d207-67c3-66f1-bfd60c0fbea9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HadrManagerStatus - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Identity - член перечисления" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  <HelpKINode Title="IndexOf метод" Url="html/b3f68afd-74da-fd97-99ab-a01857c6db6a.htm" />
+  <HelpKINode Title="Insert метод" Url="html/2f7d342c-943a-cc3c-33e1-997b5e51e0fb.htm" />
+  <HelpKINode Title="InstanceName - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsClustered - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsDateType метод" Url="html/947dfc07-1866-4faf-d9a8-3e1120ce0442.htm" />
+  <HelpKINode Title="IsFullTextInstalled - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsGuidType метод" Url="html/28d1a8ac-dfac-ab34-e3b8-668d3db7b9d0.htm" />
+  <HelpKINode Title="IsHadrEnabled - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsIdentity свойство" Url="html/166d235a-a338-fef6-9413-0dbceaf45c25.htm" />
+  <HelpKINode Title="IsIntegratedSecurityOnly - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsLocalDB - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsNumericType метод" Url="html/419e1a1d-f958-a3ba-8c21-85658e345c20.htm" />
+  <HelpKINode Title="IsPrimaryKey свойство" Url="html/6fe6d950-b9e4-cd6a-5979-a3af18a31817.htm" />
+  <HelpKINode Title="IsReadOnly свойство" Url="html/f816b1e3-642e-be89-8370-ef9bb876ae81.htm" />
+  <HelpKINode Title="IsSingleUser - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="IsSql свойство" Url="html/b11e4f44-67d0-bd3b-74c1-8744a9a9118c.htm" />
+  <HelpKINode Title="IsStringType метод" Url="html/c8ca4478-d6de-7e11-55ab-8dc223d474da.htm" />
+  <HelpKINode Title="IsUnique свойство" Url="html/bb149adb-3c8b-5029-164f-3501044eb630.htm" />
+  <HelpKINode Title="Item свойство">
+    <HelpKINode Title="DataObjectCollection(T).Item - свойство" Url="html/700b0cf9-f3f8-2d1b-a180-dae0e791e877.htm" />
+    <HelpKINode Title="FileCache.Item - свойство" Url="html/d765960f-eacb-3317-a752-fbab66e54bfc.htm" />
+    <HelpKINode Title="WebCache.Item - свойство" Url="html/44fdb157-278f-0912-9578-0f673124f7c9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Items свойство">
+    <HelpKINode Title="CacheManager.Items - свойство" Url="html/2acb0dc5-83b4-15eb-b1f6-238fd0e92198.htm" />
+    <HelpKINode Title="DataObjectCollection(T).Items - свойство" Url="html/9286e297-9261-c5d6-9aaf-548f11414ff5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LastQueryResultsFromCache свойство" Url="html/4127edcb-3fc5-6d2b-a70e-8a489b684b81.htm" />
+  <HelpKINode Title="LastQueryTime свойство" Url="html/97b71e38-8847-5d08-0053-04dfb6f48a9a.htm" />
+  <HelpKINode Title="LCID - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="LicenseType - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Load метод" Url="html/f9579921-b8a6-7611-acd9-01ce14107059.htm" />
+  <HelpKINode Title="LoadJson метод" Url="html/539c53bb-81c6-3b66-913c-b8e32ff5bb8f.htm" />
+  <HelpKINode Title="LoadXml метод" Url="html/2f833c90-08d6-88f2-e928-13c2d3b8cb82.htm" />
+  <HelpKINode Title="MachineName - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Manual - член перечисления" Url="html/7d612565-0606-e032-47d0-e39bcbf2716c.htm" />
+  <HelpKINode Title="Memory - член перечисления" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+  <HelpKINode Title="MemoryCache свойство" Url="html/16b3e741-917d-97b3-e929-5f83614e3463.htm" />
+  <HelpKINode Title="MonitoringFields свойство" Url="html/25ea9a02-2f7c-6ee0-1cf5-d7a43b15c3ef.htm" />
+  <HelpKINode Title="MoreThanOnePrimaryKeyException - класс">
+    <HelpKINode Title="MoreThanOnePrimaryKeyException - класс" Url="html/cc66f3eb-10a0-d883-3aed-0078174129ac.htm" />
+    <HelpKINode Title="конструктор" Url="html/bcdbe912-ff7c-39b8-e297-51949b84f8fa.htm" />
+    <HelpKINode Title="методы" Url="html/f78b0834-b23e-032a-bc5a-8e3b5b9b737f.htm" />
+    <HelpKINode Title="о MoreThanOnePrimaryKeyException - класс" Url="html/cc66f3eb-10a0-d883-3aed-0078174129ac.htm" />
+    <HelpKINode Title="свойства" Url="html/fd9b8639-13d6-6b48-bff4-6867e424e827.htm" />
+    <HelpKINode Title="события" Url="html/e02152b7-7cdf-4376-6135-b16f41182c68.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MoreThanOnePrimaryKeyException.MoreThanOnePrimaryKeyException конструктор" Url="html/bcdbe912-ff7c-39b8-e297-51949b84f8fa.htm" />
+  <HelpKINode Title="Name свойство">
+    <HelpKINode Title="FileCache.Name - свойство" Url="html/dc9f362e-4074-bb4c-bd52-15b68f5fd3e9.htm" />
+    <HelpKINode Title="WebCache.Name - свойство" Url="html/ab388977-af05-0889-3dbd-01a575a05ec7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nemiro.Data - пространство имён" Url="html/1c5ffb18-77d2-75a4-f381-aff9f2cec24b.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching - пространство имён" Url="html/f080a0d0-4554-4ffc-6193-c7ea9414588a.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheBinder - класс" Url="html/30a4bd63-0a18-d718-569a-e1d4abc920e5.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheCleanupResult - класс" Url="html/7470153d-6e6d-6ca3-a9b4-7e2395f347ae.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheCollection - класс" Url="html/5a4b6982-a126-d92d-b19f-de97e35446ed.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheEntry - класс" Url="html/449b2172-f39d-2007-9937-b9e16e8a9e0d.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheEntryPolicy - класс" Url="html/2ae83e44-e333-d467-511e-88301ff7f9cd.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheInfo - класс" Url="html/ca5ab6a0-51f1-c33d-70cc-4329e57b535f.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.CacheManager - класс" Url="html/a1ca2569-e9e4-4c5c-2118-a992a29efdae.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.FileCache - класс" Url="html/38d5e5d0-21a6-a6b8-37c9-f7a3a3d86ac0.htm" />
+  <HelpKINode Title="Nemiro.Data.Caching.WebCache - класс" Url="html/2bd6312f-f769-a765-dee0-2597c74458b4.htm" />
+  <HelpKINode Title="Nemiro.Data.CachingType - перечисление" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+  <HelpKINode Title="Nemiro.Data.ColumnAttribute - класс" Url="html/4110a77d-900a-3f94-d915-ee88ad4616f1.htm" />
+  <HelpKINode Title="Nemiro.Data.ColumnAttributeFlags - перечисление" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  <HelpKINode Title="Nemiro.Data.ColumnDefaultValues - перечисление" Url="html/7c06b6de-6044-59c2-6a8a-2a25c794d141.htm" />
+  <HelpKINode Title="Nemiro.Data.ConnectionMode - перечисление" Url="html/7d612565-0606-e032-47d0-e39bcbf2716c.htm" />
+  <HelpKINode Title="Nemiro.Data.ConnectionStringNullException - класс" Url="html/40f65084-dd80-a916-e312-33c9cd05eed7.htm" />
+  <HelpKINode Title="Nemiro.Data.DataChangeInfo - класс" Url="html/48b4a0e4-56d8-42ab-39c9-4a3d4d9e3a2e.htm" />
+  <HelpKINode Title="Nemiro.Data.DataChangeInfoCollection - класс" Url="html/e631af54-01f5-271b-75fd-02024565a05f.htm" />
+  <HelpKINode Title="Nemiro.Data.DataChangeLogger - класс" Url="html/391ccec4-c719-e93d-0318-2b10f125e9b7.htm" />
+  <HelpKINode Title="Nemiro.Data.DataObjectCollection(Of T) - класс" Url="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" />
+  <HelpKINode Title="Nemiro.Data.DataObjectCollection&lt;T&gt; - класс" Url="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" />
+  <HelpKINode Title="Nemiro.Data.DuplicateTableNameException - класс" Url="html/a8f43268-4db8-130f-96f0-a8a0251af12b.htm" />
+  <HelpKINode Title="Nemiro.Data.MoreThanOnePrimaryKeyException - класс" Url="html/cc66f3eb-10a0-d883-3aed-0078174129ac.htm" />
+  <HelpKINode Title="Nemiro.Data.NoPrimaryKeyOrUniqueFieldsException - класс" Url="html/a524ad25-271c-e286-c2d8-186c109bb1f6.htm" />
+  <HelpKINode Title="Nemiro.Data.NoTableAttributeException - класс" Url="html/bd2c9ce0-01ef-a982-f727-f37cb0f32af7.htm" />
+  <HelpKINode Title="Nemiro.Data.OrderBy - перечисление" Url="html/86def895-c010-09ac-1c99-ea058fffe760.htm" />
+  <HelpKINode Title="Nemiro.Data.Sql - пространство имён" Url="html/7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" />
+  <HelpKINode Title="Nemiro.Data.Sql.BaseObject - класс" Url="html/89c42217-4a17-6468-b7d6-4b91281df2c0.htm" />
+  <HelpKINode Title="Nemiro.Data.Sql.SqlAdmin - класс" Url="html/14629996-e862-8597-f478-31544f62be6b.htm" />
+  <HelpKINode Title="Nemiro.Data.Sql.SqlClient - класс" Url="html/7f05f17d-32a3-a336-1b90-a70c54450331.htm" />
+  <HelpKINode Title="Nemiro.Data.Sql.SqlType - класс" Url="html/75e4d425-77d2-ad23-3a18-6714ef70a0dc.htm" />
+  <HelpKINode Title="Nemiro.Data.SqlServerEditionIDs - перечисление" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="Nemiro.Data.SqlServerEngineEditionList - перечисление" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  <HelpKINode Title="Nemiro.Data.SqlServerProperties - перечисление" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Nemiro.Data.StringOrBinaryDataWouldBeTruncatedException - класс" Url="html/bdeda6f0-258f-7b28-1179-781a60e67200.htm" />
+  <HelpKINode Title="Nemiro.Data.TableAttribute - класс" Url="html/13872609-4536-4f73-0f05-70f250d7b298.htm" />
+  <HelpKINode Title="Nemiro.Data.TableNameNullException - класс" Url="html/338c4276-c504-9f26-6f5c-730dd99facf8.htm" />
+  <HelpKINode Title="Nemiro.Data.TypeCommand - перечисление" Url="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" />
+  <HelpKINode Title="Nemiro.Data.ValueForIdentityException - класс" Url="html/b03fd0ab-7deb-df2e-2650-73c7c411d20d.htm" />
+  <HelpKINode Title="NewId - член перечисления" Url="html/7c06b6de-6044-59c2-6a8a-2a25c794d141.htm" />
+  <HelpKINode Title="NextPage метод" Url="html/39feee24-d27c-0c79-ac89-43df22dd5886.htm" />
+  <HelpKINode Title="None - член перечисления">
+    <HelpKINode Title="CachingType - перечисление" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+    <HelpKINode Title="ColumnAttributeFlags - перечисление" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoPrimaryKeyOrUniqueFieldsException - класс">
+    <HelpKINode Title="NoPrimaryKeyOrUniqueFieldsException - класс" Url="html/a524ad25-271c-e286-c2d8-186c109bb1f6.htm" />
+    <HelpKINode Title="конструктор" Url="html/44d063d3-e2a6-a03b-284b-fe832e5d9e4f.htm" />
+    <HelpKINode Title="методы" Url="html/6744565c-1bfb-8c60-560b-410b1ace3bc2.htm" />
+    <HelpKINode Title="о NoPrimaryKeyOrUniqueFieldsException - класс" Url="html/a524ad25-271c-e286-c2d8-186c109bb1f6.htm" />
+    <HelpKINode Title="свойства" Url="html/ae7415ca-d7d4-8ae6-7bf7-830bfb5d445f.htm" />
+    <HelpKINode Title="события" Url="html/fcec6906-2459-4e90-2bbe-737cd39d65b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoPrimaryKeyOrUniqueFieldsException.NoPrimaryKeyOrUniqueFieldsException конструктор" Url="html/44d063d3-e2a6-a03b-284b-fe832e5d9e4f.htm" />
+  <HelpKINode Title="NoTableAttributeException - класс">
+    <HelpKINode Title="NoTableAttributeException - класс" Url="html/bd2c9ce0-01ef-a982-f727-f37cb0f32af7.htm" />
+    <HelpKINode Title="конструктор" Url="html/bec33f7a-0aac-0ca9-81b9-b2a3a6ffa322.htm" />
+    <HelpKINode Title="методы" Url="html/e03646e8-3405-c384-cf90-03314f810f4d.htm" />
+    <HelpKINode Title="о NoTableAttributeException - класс" Url="html/bd2c9ce0-01ef-a982-f727-f37cb0f32af7.htm" />
+    <HelpKINode Title="свойства" Url="html/85c5e29e-15d4-8f16-a663-2053b9bb3082.htm" />
+    <HelpKINode Title="события" Url="html/4fe442b9-1808-ebc3-48a5-1a377a7d511b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NoTableAttributeException.NoTableAttributeException конструктор" Url="html/bec33f7a-0aac-0ca9-81b9-b2a3a6ffa322.htm" />
+  <HelpKINode Title="Now - член перечисления" Url="html/7c06b6de-6044-59c2-6a8a-2a25c794d141.htm" />
+  <HelpKINode Title="NumericTypeList свойство" Url="html/6038154c-07ef-7535-8ae5-e674d296f4b2.htm" />
+  <HelpKINode Title="NumLicenses - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="OrderBy - перечисление" Url="html/86def895-c010-09ac-1c99-ea058fffe760.htm" />
+  <HelpKINode Title="Owner свойство" Url="html/110d0d76-ebc6-c925-4334-17a9dc555ded.htm" />
+  <HelpKINode Title="OwnerClass свойство" Url="html/8a486648-8fa7-b9f3-65a9-d15640097bc9.htm" />
+  <HelpKINode Title="OwnerClassType свойство" Url="html/c569fbd6-1e66-9b6e-2fc5-0278393d021d.htm" />
+  <HelpKINode Title="ParameterName свойство" Url="html/0eab07db-98d9-8820-b322-fbac9fde3f2a.htm" />
+  <HelpKINode Title="Parameters свойство" Url="html/db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" />
+  <HelpKINode Title="PersonalOrDesktopEngine - член перечисления" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  <HelpKINode Title="Policy свойство" Url="html/f02f0efb-5376-ff5c-2c06-9e83a2531e05.htm" />
+  <HelpKINode Title="PreviousPage метод" Url="html/279e0d01-d154-b86a-1a20-6d69278f3921.htm" />
+  <HelpKINode Title="PreviousValue свойство" Url="html/bc7e5989-3d58-1518-db76-0b2de600fc4f.htm" />
+  <HelpKINode Title="PrimaryKey - член перечисления" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  <HelpKINode Title="ProcessID - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="ProductLevel - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="ProductVersion - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="PropertyName свойство" Url="html/873289c4-3fd2-79fa-23d4-ea72bd375cbb.htm" />
+  <HelpKINode Title="RecordsPerPage свойство" Url="html/58bb3493-c551-154a-dc90-f1f85e8ed4a6.htm" />
+  <HelpKINode Title="Remove метод">
+    <HelpKINode Title="CacheManager.Remove - метод" Url="html/e5d7345a-bc2c-147c-a05f-d93bdc94e87c.htm" />
+    <HelpKINode Title="DataObjectCollection(T).Remove - метод" Url="html/c5dc4f1d-22ad-7208-32bc-49e46ae4f277.htm" />
+    <HelpKINode Title="FileCache.Remove - метод" Url="html/1b418c96-de10-00fc-b24e-dbc742e4e4d9.htm" />
+    <HelpKINode Title="WebCache.Remove - метод" Url="html/b25dcd38-b4b6-4035-1dda-85119cf459ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveAt метод" Url="html/fb0e7dc7-f413-e884-5cf2-8df6a388beb0.htm" />
+  <HelpKINode Title="Removed свойство" Url="html/27ffc3f1-0b6e-713b-11e0-028d3931f6a1.htm" />
+  <HelpKINode Title="RemovedSize свойство" Url="html/1a42a8a8-5de4-2594-8c75-7d2bae331d84.htm" />
+  <HelpKINode Title="ResetIdentity метод" Url="html/f11b5538-8a4d-54f2-115f-2a98860fd9ee.htm" />
+  <HelpKINode Title="ResourceLastUpdateDateTime - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="ResourceVersion - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="RowData свойство" Url="html/beb6c74b-0094-388d-0d99-2d2097e50f73.htm" />
+  <HelpKINode Title="Save метод" Url="html/d508be7f-6f8b-26a8-7d40-64611ddc3efe.htm" />
+  <HelpKINode Title="ServerName - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="Set метод">
+    <HelpKINode Title="FileCache.Set - метод" Url="html/4c79c5ef-39c1-656e-f3bf-61ea36128d50.htm" />
+    <HelpKINode Title="WebCache.Set - метод" Url="html/559e0113-b879-4431-e4f5-ea147efa8580.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetDefault метод" Url="html/f4367ea6-7c7e-17cc-a029-7d2128f734f4.htm" />
+  <HelpKINode Title="SetFromConfig метод" Url="html/f0e3dcee-dbda-b1f9-ecbc-ae20e5645ab5.htm" />
+  <HelpKINode Title="SetIdentityValue метод" Url="html/00852edf-5d56-1cda-cb14-18fb804ffefc.htm" />
+  <HelpKINode Title="SetOwner метод" Url="html/28fa46ae-0d9b-3a20-de98-b0e1bca9ca34.htm" />
+  <HelpKINode Title="Size свойство" Url="html/e49fa558-b12a-0c08-6e7e-975bf332ba23.htm" />
+  <HelpKINode Title="SlidingExpiration свойство" Url="html/e1ea765e-d42a-d221-ec09-1c893eac20d7.htm" />
+  <HelpKINode Title="SourceRow свойство" Url="html/4e842290-7aab-a901-b128-cc7eb6f403cf.htm" />
+  <HelpKINode Title="SqlAdmin - класс">
+    <HelpKINode Title="SqlAdmin - класс" Url="html/14629996-e862-8597-f478-31544f62be6b.htm" />
+    <HelpKINode Title="конструктор" Url="html/c65e5387-cee1-e422-2334-91da94ddf2c1.htm" />
+    <HelpKINode Title="методы" Url="html/8d9b52ce-3ad2-e7f7-0f72-63c7f323ef74.htm" />
+    <HelpKINode Title="о SqlAdmin - класс" Url="html/14629996-e862-8597-f478-31544f62be6b.htm" />
+    <HelpKINode Title="свойства" Url="html/4fd8e225-7902-6db8-065b-f792585b3278.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SqlAdmin.ClearTable метод" Url="html/de0e27f3-3d0c-7584-958e-816043f6b666.htm" />
+  <HelpKINode Title="SqlAdmin.ConnectionString свойство" Url="html/e004dc1e-3989-e101-d4b5-3f73cf2015f3.htm" />
+  <HelpKINode Title="SqlAdmin.CreateTable метод" Url="html/82ae6bd6-3d36-df1b-e586-78e02d63cd13.htm" />
+  <HelpKINode Title="SqlAdmin.DeleteTable метод" Url="html/5a9d4f79-e94d-1d35-2d43-1ab8a5fdc5a7.htm" />
+  <HelpKINode Title="SqlAdmin.Dispose метод" Url="html/537905bc-fa20-9a26-60f9-c0b48d9589bc.htm" />
+  <HelpKINode Title="SqlAdmin.GetAllTables метод" Url="html/9da57d07-8018-e77e-bb7a-a7a3d8205eb2.htm" />
+  <HelpKINode Title="SqlAdmin.GetAllTablesName метод" Url="html/ccbdab5c-b6bd-75e1-43ad-58b76674f85e.htm" />
+  <HelpKINode Title="SqlAdmin.GetAllTablesSize метод" Url="html/9c4a7f36-eb43-40bb-b2bf-48bbaf8ad7c2.htm" />
+  <HelpKINode Title="SqlAdmin.GetSqlServerProperty метод" Url="html/503d8f7b-0ef4-fa7d-a25b-e5b1f8f19de0.htm" />
+  <HelpKINode Title="SqlAdmin.GetSqlServerProprty метод" Url="html/a184d079-aed3-3906-bdd2-f28c64700e4d.htm" />
+  <HelpKINode Title="SqlAdmin.GetSqlServerVersion метод" Url="html/5aa7c7c2-107c-d988-72a4-13986b244934.htm" />
+  <HelpKINode Title="SqlAdmin.GetTableColums метод" Url="html/1046fe84-fa14-db47-b9a0-1873b3aa3e5c.htm" />
+  <HelpKINode Title="SqlAdmin.GetTablePrimaryKey метод" Url="html/5d0d69ea-1369-c4b3-94a3-fd71ea0ea398.htm" />
+  <HelpKINode Title="SqlAdmin.ResetIdentity метод" Url="html/f11b5538-8a4d-54f2-115f-2a98860fd9ee.htm" />
+  <HelpKINode Title="SqlAdmin.SetIdentityValue метод" Url="html/00852edf-5d56-1cda-cb14-18fb804ffefc.htm" />
+  <HelpKINode Title="SqlAdmin.SqlAdmin конструктор" Url="html/c65e5387-cee1-e422-2334-91da94ddf2c1.htm" />
+  <HelpKINode Title="SqlAdmin.TableIsExists метод" Url="html/39a7538f-faec-67ee-519f-22ac1bf5b7b9.htm" />
+  <HelpKINode Title="SQLAzure - член перечисления" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  <HelpKINode Title="SqlCharSet - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="SqlCharSetName - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="SqlClient - класс">
+    <HelpKINode Title="SqlClient - класс" Url="html/7f05f17d-32a3-a336-1b90-a70c54450331.htm" />
+    <HelpKINode Title="конструктор" Url="html/7fc88c37-0387-b66a-0425-f15e43511a27.htm" />
+    <HelpKINode Title="методы" Url="html/01dfcc64-3d5e-d25c-3e2e-42edbbc5b9a5.htm" />
+    <HelpKINode Title="о SqlClient - класс" Url="html/7f05f17d-32a3-a336-1b90-a70c54450331.htm" />
+    <HelpKINode Title="свойства" Url="html/36fa9a63-8450-3826-7eca-8d826fb88160.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SqlClient.Cache свойство" Url="html/6b56316a-b2ca-3ad5-ab9c-46790fb3e67d.htm" />
+  <HelpKINode Title="SqlClient.CacheAccessTimeout свойство" Url="html/bd8b2430-6af5-8817-58f3-d4266cff790e.htm" />
+  <HelpKINode Title="SqlClient.CacheBinder свойство" Url="html/b1de5756-67ef-914b-aa22-43624057ccda.htm" />
+  <HelpKINode Title="SqlClient.CacheBufferAccessTimeout свойство" Url="html/964562d0-4e55-c247-32a1-14b79aeb8098.htm" />
+  <HelpKINode Title="SqlClient.CacheBufferSize свойство" Url="html/99bc4130-df8d-6159-9a47-028c67735042.htm" />
+  <HelpKINode Title="SqlClient.CacheCustom свойство" Url="html/7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" />
+  <HelpKINode Title="SqlClient.CacheCustomArgs свойство" Url="html/52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" />
+  <HelpKINode Title="SqlClient.CacheDuration свойство" Url="html/a3aabc0e-d339-1e83-db12-8058bb49923d.htm" />
+  <HelpKINode Title="SqlClient.CacheName свойство" Url="html/0e3129cf-c3bd-db5a-b2ad-a55ea1a279e6.htm" />
+  <HelpKINode Title="SqlClient.CachePath свойство" Url="html/02cbdd80-6222-35ab-48ab-62ccebcd34e1.htm" />
+  <HelpKINode Title="SqlClient.CacheType свойство" Url="html/04eda964-2407-d070-9edc-9177e741c746.htm" />
+  <HelpKINode Title="SqlClient.CommandText свойство" Url="html/6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" />
+  <HelpKINode Title="SqlClient.CommandTimeout свойство" Url="html/900b9870-d1b4-3411-8ec7-1612748d09fb.htm" />
+  <HelpKINode Title="SqlClient.CommandType свойство" Url="html/1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" />
+  <HelpKINode Title="SqlClient.Connect метод" Url="html/f89e0e4b-af72-b1d1-92d6-bc0a7784a60a.htm" />
+  <HelpKINode Title="SqlClient.ConnectionMode свойство" Url="html/2ba558f7-bed6-c6cf-0ad7-fda619803d8d.htm" />
+  <HelpKINode Title="SqlClient.ConnectionString свойство" Url="html/fec7b48d-378b-6f02-a259-aaba12475218.htm" />
+  <HelpKINode Title="SqlClient.ConnectionTimeout свойство" Url="html/b84cc82b-116c-6574-9c2e-533bacf90d22.htm" />
+  <HelpKINode Title="SqlClient.CopyDataToServer метод" Url="html/d61eb899-1a19-fc2f-01ef-896e31cdb5f8.htm" />
+  <HelpKINode Title="SqlClient.CopyTableToServer метод" Url="html/61a8d5b8-6e55-66ca-bef6-730101c731dc.htm" />
+  <HelpKINode Title="SqlClient.Disconnect метод" Url="html/55776c87-b5ed-266b-c731-e9353e5c394b.htm" />
+  <HelpKINode Title="SqlClient.Dispose метод" Url="html/8901efcf-907c-399c-f12a-447cf1bc88b9.htm" />
+  <HelpKINode Title="SqlClient.ExecuteNonQuery метод" Url="html/7f1b0d60-a266-4925-01a0-ffcc50844906.htm" />
+  <HelpKINode Title="SqlClient.ExecuteScalar метод" Url="html/35023107-d325-b911-0747-ff00277e864b.htm" />
+  <HelpKINode Title="SqlClient.GetData метод" Url="html/50041da1-4b2c-cc8e-c742-106c106586ed.htm" />
+  <HelpKINode Title="SqlClient.GetRow метод" Url="html/12d9faf4-acdb-51c7-aa9c-75597ab2a2ee.htm" />
+  <HelpKINode Title="SqlClient.GetTable метод" Url="html/80634b51-3353-07a6-9020-96f56e0044be.htm" />
+  <HelpKINode Title="SqlClient.LastQueryResultsFromCache свойство" Url="html/4127edcb-3fc5-6d2b-a70e-8a489b684b81.htm" />
+  <HelpKINode Title="SqlClient.LastQueryTime свойство" Url="html/97b71e38-8847-5d08-0053-04dfb6f48a9a.htm" />
+  <HelpKINode Title="SqlClient.Parameters свойство" Url="html/db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" />
+  <HelpKINode Title="SqlClient.SqlClient конструктор" Url="html/7fc88c37-0387-b66a-0425-f15e43511a27.htm" />
+  <HelpKINode Title="SqlDbType свойство" Url="html/d0ae046e-150f-2bfa-73ed-48382d8d83ce.htm" />
+  <HelpKINode Title="SqlServerEditionIDs - перечисление" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  <HelpKINode Title="SqlServerEngineEditionList - перечисление" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  <HelpKINode Title="SqlServerProperties - перечисление" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="SqlSortOrder - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="SqlSortOrderName - член перечисления" Url="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" />
+  <HelpKINode Title="SqlType - класс">
+    <HelpKINode Title="SqlType - класс" Url="html/75e4d425-77d2-ad23-3a18-6714ef70a0dc.htm" />
+    <HelpKINode Title="методы" Url="html/04bb99c7-23a8-3094-3100-e9a57ba3c19f.htm" />
+    <HelpKINode Title="о SqlType - класс" Url="html/75e4d425-77d2-ad23-3a18-6714ef70a0dc.htm" />
+    <HelpKINode Title="свойства" Url="html/5d7122ee-f5c5-4713-0122-912bc460b6e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SqlType.ConvertToSqlDbType метод" Url="html/88baf57e-1848-a932-35ac-37abfdeedd82.htm" />
+  <HelpKINode Title="SqlType.DateTypeList свойство" Url="html/895eb4b7-48ea-4bf1-ed96-537d31addb30.htm" />
+  <HelpKINode Title="SqlType.IsDateType метод" Url="html/947dfc07-1866-4faf-d9a8-3e1120ce0442.htm" />
+  <HelpKINode Title="SqlType.IsGuidType метод" Url="html/28d1a8ac-dfac-ab34-e3b8-668d3db7b9d0.htm" />
+  <HelpKINode Title="SqlType.IsNumericType метод" Url="html/419e1a1d-f958-a3ba-8c21-85658e345c20.htm" />
+  <HelpKINode Title="SqlType.IsStringType метод" Url="html/c8ca4478-d6de-7e11-55ab-8dc223d474da.htm" />
+  <HelpKINode Title="SqlType.NumericTypeList свойство" Url="html/6038154c-07ef-7535-8ae5-e674d296f4b2.htm" />
+  <HelpKINode Title="SqlType.StringTypeList свойство" Url="html/2d434e7e-088f-0a67-e48c-8ca7875de91b.htm" />
+  <HelpKINode Title="Standard - член перечисления">
+    <HelpKINode Title="SqlServerEditionIDs - перечисление" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+    <HelpKINode Title="SqlServerEngineEditionList - перечисление" Url="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StoredProcedure - член перечисления" Url="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" />
+  <HelpKINode Title="StringOrBinaryDataWouldBeTruncatedException - класс">
+    <HelpKINode Title="StringOrBinaryDataWouldBeTruncatedException - класс" Url="html/bdeda6f0-258f-7b28-1179-781a60e67200.htm" />
+    <HelpKINode Title="конструктор" Url="html/08532c92-1224-4790-fcc3-eb9278e6a0b7.htm" />
+    <HelpKINode Title="методы" Url="html/44e9ee6d-083b-b201-d73a-0a02b04c67e1.htm" />
+    <HelpKINode Title="о StringOrBinaryDataWouldBeTruncatedException - класс" Url="html/bdeda6f0-258f-7b28-1179-781a60e67200.htm" />
+    <HelpKINode Title="свойства" Url="html/de22d66e-684d-41d4-7ea4-00d840eaa41f.htm" />
+    <HelpKINode Title="события" Url="html/a7e7456f-1ac7-a3ae-d3fa-df4046fff187.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringOrBinaryDataWouldBeTruncatedException.StringOrBinaryDataWouldBeTruncatedException конструктор" Url="html/08532c92-1224-4790-fcc3-eb9278e6a0b7.htm" />
+  <HelpKINode Title="StringTypeList свойство" Url="html/2d434e7e-088f-0a67-e48c-8ca7875de91b.htm" />
+  <HelpKINode Title="TableAttribute - класс">
+    <HelpKINode Title="TableAttribute - класс" Url="html/13872609-4536-4f73-0f05-70f250d7b298.htm" />
+    <HelpKINode Title="конструктор" Url="html/b2b56165-7195-4230-8efa-cd265a77103d.htm" />
+    <HelpKINode Title="методы" Url="html/dc0aecc4-2973-6112-7fca-1bbd0e88f8a1.htm" />
+    <HelpKINode Title="о TableAttribute - класс" Url="html/13872609-4536-4f73-0f05-70f250d7b298.htm" />
+    <HelpKINode Title="свойства" Url="html/5df5dfbf-7ff3-6bfa-dffb-f94cf276bae9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TableAttribute.ConnectionString свойство" Url="html/a835eed0-7501-900c-0796-37a178542451.htm" />
+  <HelpKINode Title="TableAttribute.TableAttribute конструктор" Url="html/b2b56165-7195-4230-8efa-cd265a77103d.htm" />
+  <HelpKINode Title="TableAttribute.TableName свойство" Url="html/43c20b2a-3ec9-eaa8-db4f-363cf162f877.htm" />
+  <HelpKINode Title="TableDirect - член перечисления" Url="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" />
+  <HelpKINode Title="TableExists метод" Url="html/6aa5dcef-c80e-56cc-c158-70f6f530650c.htm" />
+  <HelpKINode Title="TableIsExists метод" Url="html/39a7538f-faec-67ee-519f-22ac1bf5b7b9.htm" />
+  <HelpKINode Title="TableName свойство">
+    <HelpKINode Title="BaseObject.TableName - свойство" Url="html/c7d34fe2-6bc3-2391-a444-cb67c813db94.htm" />
+    <HelpKINode Title="TableAttribute.TableName - свойство" Url="html/43c20b2a-3ec9-eaa8-db4f-363cf162f877.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TableNameNullException - класс">
+    <HelpKINode Title="TableNameNullException - класс" Url="html/338c4276-c504-9f26-6f5c-730dd99facf8.htm" />
+    <HelpKINode Title="конструктор" Url="html/51aa1846-b5ea-8f9a-f8f0-ba612578e587.htm" />
+    <HelpKINode Title="методы" Url="html/ed531ed0-a829-02ff-de0f-087b25a47131.htm" />
+    <HelpKINode Title="о TableNameNullException - класс" Url="html/338c4276-c504-9f26-6f5c-730dd99facf8.htm" />
+    <HelpKINode Title="свойства" Url="html/c0145fc2-e460-3da6-f28a-41b2234bed64.htm" />
+    <HelpKINode Title="события" Url="html/09dc0e57-f7b9-4e98-1ace-a3c9bf3becac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TableNameNullException.TableNameNullException конструктор" Url="html/51aa1846-b5ea-8f9a-f8f0-ba612578e587.htm" />
+  <HelpKINode Title="Text - член перечисления" Url="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" />
+  <HelpKINode Title="TimeElapsed свойство" Url="html/67e9bca2-55bd-7110-caf0-88a33f1e4cc7.htm" />
+  <HelpKINode Title="ToJson метод" Url="html/77e50302-433b-b7b4-5a46-199448c1d8f0.htm" />
+  <HelpKINode Title="ToString метод">
+    <HelpKINode Title="BaseObject.ToString - метод" Url="html/7032d52f-af9e-fbc8-96a4-296345b22dde.htm" />
+    <HelpKINode Title="FileCache.ToString - метод" Url="html/358b330d-a755-a19c-5b39-a9a0ce29775d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TotalPages свойство" Url="html/dd020ef6-b116-811b-39ff-a9051b0da306.htm" />
+  <HelpKINode Title="TotalRecords свойство" Url="html/091c1af5-df7e-ed31-2341-ee7ba5b9f821.htm" />
+  <HelpKINode Title="ToXml метод" Url="html/0a0000db-f8f8-a46e-3d7b-6dab2870dc33.htm" />
+  <HelpKINode Title="TypeCommand - перечисление" Url="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" />
+  <HelpKINode Title="Unique - член перечисления" Url="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" />
+  <HelpKINode Title="Value свойство" Url="html/8ced4d86-4f7e-eeff-792a-a78ba706bebb.htm" />
+  <HelpKINode Title="ValueForIdentityException - класс">
+    <HelpKINode Title="ValueForIdentityException - класс" Url="html/b03fd0ab-7deb-df2e-2650-73c7c411d20d.htm" />
+    <HelpKINode Title="конструктор" Url="html/abde6c71-ddf5-3d80-8c8f-117dcf2891ad.htm" />
+    <HelpKINode Title="методы" Url="html/59333d79-f2c1-860e-052e-ee36a7f517f4.htm" />
+    <HelpKINode Title="о ValueForIdentityException - класс" Url="html/b03fd0ab-7deb-df2e-2650-73c7c411d20d.htm" />
+    <HelpKINode Title="свойства" Url="html/3ea72cf0-f812-52ba-c6ff-0e164b1f03db.htm" />
+    <HelpKINode Title="события" Url="html/0a68981f-03b9-929a-c855-3e5210d5220e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueForIdentityException.ValueForIdentityException конструктор" Url="html/abde6c71-ddf5-3d80-8c8f-117dcf2891ad.htm" />
+  <HelpKINode Title="Web - член перечисления">
+    <HelpKINode Title="CachingType - перечисление" Url="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" />
+    <HelpKINode Title="SqlServerEditionIDs - перечисление" Url="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebCache - класс">
+    <HelpKINode Title="WebCache - класс" Url="html/2bd6312f-f769-a765-dee0-2597c74458b4.htm" />
+    <HelpKINode Title="конструктор" Url="html/fedf80d8-4917-168f-e5c7-10f4ce375b73.htm" />
+    <HelpKINode Title="методы" Url="html/3c5dab1d-3812-f967-7d9a-130a0dea4905.htm" />
+    <HelpKINode Title="о WebCache - класс" Url="html/2bd6312f-f769-a765-dee0-2597c74458b4.htm" />
+    <HelpKINode Title="свойства" Url="html/c23fa401-8cb2-18f9-83cf-c970c8c8c513.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebCache свойство" Url="html/a81eeede-fcbd-5a4b-55d6-119bc2d0f2d1.htm" />
+  <HelpKINode Title="WebCache.AddOrGetExisting метод" Url="html/d8292e0e-b4f6-cc7a-5752-9abfeacecc47.htm" />
+  <HelpKINode Title="WebCache.Contains метод" Url="html/d20280ba-2a25-aa19-7b0d-1879edc87cfb.htm" />
+  <HelpKINode Title="WebCache.CreateCacheEntryChangeMonitor метод" Url="html/a9fc0c29-a031-59e4-c50d-b3626085bba7.htm" />
+  <HelpKINode Title="WebCache.DefaultCacheCapabilities свойство" Url="html/c5d8c025-239d-01f3-842e-64f689806c91.htm" />
+  <HelpKINode Title="WebCache.DefaultPolicy свойство" Url="html/271e8472-79d7-52a7-3c1f-13811244d27f.htm" />
+  <HelpKINode Title="WebCache.Get метод" Url="html/b9780033-9085-6ddd-bde2-f9e7c21ad8ba.htm" />
+  <HelpKINode Title="WebCache.GetCacheItem метод" Url="html/3a5577ad-8326-fac4-4ddc-74288b9678e6.htm" />
+  <HelpKINode Title="WebCache.GetCount метод" Url="html/ae8400c6-fc4a-211d-e4a9-a5753e05fe36.htm" />
+  <HelpKINode Title="WebCache.GetEnumerator метод" Url="html/6fcc42ee-cdf9-af2b-8394-3812984b2d61.htm" />
+  <HelpKINode Title="WebCache.GetValues метод" Url="html/7e42c479-d207-67c3-66f1-bfd60c0fbea9.htm" />
+  <HelpKINode Title="WebCache.Item свойство" Url="html/44fdb157-278f-0912-9578-0f673124f7c9.htm" />
+  <HelpKINode Title="WebCache.Name свойство" Url="html/ab388977-af05-0889-3dbd-01a575a05ec7.htm" />
+  <HelpKINode Title="WebCache.Remove метод" Url="html/b25dcd38-b4b6-4035-1dda-85119cf459ee.htm" />
+  <HelpKINode Title="WebCache.Set метод" Url="html/559e0113-b879-4431-e4f5-ea147efa8580.htm" />
+  <HelpKINode Title="WebCache.WebCache конструктор" Url="html/fedf80d8-4917-168f-e5c7-10f4ce375b73.htm" />
+</HelpKI>

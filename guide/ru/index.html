@@ -1,0 +1,1456 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>Nemiro.Data.dll - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.png" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1c5ffb18-77d2-75a4-f381-aff9f2cec24b.htm" target="TopicContent">Nemiro.Data - пространство имён</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/604772fc-64d5-8d60-f52c-5de753bcbbcb.htm" target="TopicContent">CachingType - перечисление</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/4110a77d-900a-3f94-d915-ee88ad4616f1.htm" target="TopicContent">ColumnAttribute - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/d885a598-ffe7-fe01-afe6-5aa34c434304.htm" target="TopicContent">ColumnAttribute - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e82b2747-859f-0512-db53-26e1a7ed0ce9.htm" target="TopicContent">ColumnAttribute(String, SqlDbType) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/720ac6c4-50e8-2f97-993b-f023aecd2123.htm" target="TopicContent">ColumnAttribute(String, Object) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/495cee35-78b2-da78-f97a-dca743dedfc3.htm" target="TopicContent">ColumnAttribute(String, SqlDbType, ColumnAttributeFlags) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/680653f9-06ea-c2ec-000b-6221fdfc8458.htm" target="TopicContent">ColumnAttribute(String, Object, ColumnAttributeFlags) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e72c30de-0034-079f-bf27-910b6891f301.htm" target="TopicContent">ColumnAttribute(String, Object, ColumnAttributeFlags, Int32, Object) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/b1c63f22-2344-66f2-659b-bbb37a02d3a2.htm" target="TopicContent">ColumnAttribute - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/afa8b273-c39d-e496-6359-4f3082b0b4e0.htm" target="TopicContent">GetSqlEmptyValue - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/56718301-1b52-5517-1359-56e980cbcc82.htm" target="TopicContent">GetSqlParameter - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/df6d0df6-b1ff-6a7d-71c6-d99c2a0cae3b.htm" target="TopicContent">GetValidParameterValue - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/28fa46ae-0d9b-3a20-de98-b0e1bca9ca34.htm" target="TopicContent">SetOwner - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/71f8409c-b361-88f9-dda7-82b9e05c51f4.htm" target="TopicContent">ColumnAttribute - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2a1d6f3d-06b0-845d-ea8c-2f68aeb05025.htm" target="TopicContent">AllowNull - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/59e02198-a942-e324-32ef-5a04f277c088.htm" target="TopicContent">ColumnName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9a445ad2-8657-056b-b9c4-7168c081669f.htm" target="TopicContent">DataType - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/79bc9745-541b-c1d7-0b30-1cec394628f2.htm" target="TopicContent">Default - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/878957a9-eccf-5c9f-fb80-906f61e6817d.htm" target="TopicContent">DisplayName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/931b43c9-376d-1358-d587-b3d2ba19ac0a.htm" target="TopicContent">Flags - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/166d235a-a338-fef6-9413-0dbceaf45c25.htm" target="TopicContent">IsIdentity - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6fe6d950-b9e4-cd6a-5979-a3af18a31817.htm" target="TopicContent">IsPrimaryKey - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b11e4f44-67d0-bd3b-74c1-8744a9a9118c.htm" target="TopicContent">IsSql - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bb149adb-3c8b-5029-164f-3501044eb630.htm" target="TopicContent">IsUnique - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8a486648-8fa7-b9f3-65a9-d15640097bc9.htm" target="TopicContent">OwnerClass - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c569fbd6-1e66-9b6e-2fc5-0278393d021d.htm" target="TopicContent">OwnerClassType - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0eab07db-98d9-8820-b322-fbac9fde3f2a.htm" target="TopicContent">ParameterName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e49fa558-b12a-0c08-6e7e-975bf332ba23.htm" target="TopicContent">Size - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d0ae046e-150f-2bfa-73ed-48382d8d83ce.htm" target="TopicContent">SqlDbType - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f3fe2941-b3ef-f67f-b89e-2d9ccfdd546a.htm" target="TopicContent">ColumnAttributeFlags - перечисление</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7c06b6de-6044-59c2-6a8a-2a25c794d141.htm" target="TopicContent">ColumnDefaultValues - перечисление</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7d612565-0606-e032-47d0-e39bcbf2716c.htm" target="TopicContent">ConnectionMode - перечисление</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/40f65084-dd80-a916-e312-33c9cd05eed7.htm" target="TopicContent">ConnectionStringNullException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bbf24836-71ae-6477-eb0d-f2a70f6202f4.htm" target="TopicContent">ConnectionStringNullException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/429cc13d-4c86-9cfc-e878-150a9d8c352f.htm" target="TopicContent">ConnectionStringNullException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f9bd553e-9bb6-2cae-7d0a-1e552476ab37.htm" target="TopicContent">ConnectionStringNullException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/10f7f7ae-4489-0819-b002-fa361bf814ad.htm" target="TopicContent">ConnectionStringNullException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/48b4a0e4-56d8-42ab-39c9-4a3d4d9e3a2e.htm" target="TopicContent">DataChangeInfo - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3ed04cd8-9ba2-caac-7492-7d73d2de5274.htm" target="TopicContent">DataChangeInfo - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b3461f14-506a-57f8-318c-ae296ea4080d.htm" target="TopicContent">DataChangeInfo - методы</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/6d46a8d9-5a2e-030c-3302-c0b7a46e28c0.htm" target="TopicContent">DataChangeInfo - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9a9db67c-0017-ff80-932d-4bb8b725f699.htm" target="TopicContent">ColumnName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2dd71f08-6129-7d86-c0ff-c31c105f4834.htm" target="TopicContent">CurrentValue - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0f668211-da59-ea63-4e7e-aceb9a0fb58d.htm" target="TopicContent">DisplayName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bc7e5989-3d58-1518-db76-0b2de600fc4f.htm" target="TopicContent">PreviousValue - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/873289c4-3fd2-79fa-23d4-ea72bd375cbb.htm" target="TopicContent">PropertyName - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/e631af54-01f5-271b-75fd-02024565a05f.htm" target="TopicContent">DataChangeInfoCollection - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fc8b2147-bff3-5d8c-a511-1c048380fa85.htm" target="TopicContent">DataChangeInfoCollection - конструктор</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/8cbb95d9-c5c1-72da-ecc7-e79873a8baea.htm" target="TopicContent">DataChangeInfoCollection - методы</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/e0351fd4-6708-4ac3-2b89-9d1782f930c1.htm" target="TopicContent">Add - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fad29ead-09c4-9bad-6280-dbadd4e6bc25.htm" target="TopicContent">Add(String, String, String, Object, Object) - метод</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bd20f674-d04a-bcd0-b5b8-8da07b672a9c.htm" target="TopicContent">DataChangeInfoCollection - свойства</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/391ccec4-c719-e93d-0318-2b10f125e9b7.htm" target="TopicContent">DataChangeLogger - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4dc1836b-378a-53e7-25d7-c427fda6e6ec.htm" target="TopicContent">DataChangeLogger - конструктор</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/4895b2e1-404d-2215-936b-953a30c46b14.htm" target="TopicContent">DataChangeLogger - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d42e4af2-97fa-7c22-4567-035660268429.htm" target="TopicContent">Commit - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a578a039-fd6e-9e29-36d9-4c7a44c37fdd.htm" target="TopicContent">GetChanges - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/339bacae-bb6d-771d-f435-9e64b363ec5a.htm" target="TopicContent">DataChangeLogger - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/25ea9a02-2f7c-6ee0-1cf5-d7a43b15c3ef.htm" target="TopicContent">MonitoringFields - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/110d0d76-ebc6-c925-4334-17a9dc555ded.htm" target="TopicContent">Owner - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4e842290-7aab-a901-b128-cc7eb6f403cf.htm" target="TopicContent">SourceRow - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/b9503d49-abde-ce38-0c67-c9d8b599b6bb.htm" target="TopicContent">DataObjectCollection(T) - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/686e6579-d7c5-363c-adcb-e405472ab04e.htm" target="TopicContent">DataObjectCollection(T) - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a7d38b1e-ccd0-f887-7eb3-b5668bb47023.htm" target="TopicContent">DataObjectCollection(T)(DataObjectCollection(BaseObject)) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/cd47f805-181e-0480-b99b-1ff92d2e37ec.htm" target="TopicContent">DataObjectCollection(T)(Type, Int32, Int32, Int32, String[], Object, String) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/e6f22e0b-30b0-492a-f0ad-75e9ee7a8adf.htm" target="TopicContent">DataObjectCollection(T) - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bd1d18d5-885d-7b38-6ec8-a7052b58d9f8.htm" target="TopicContent">Add - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/de281c26-e817-94ea-4cfa-f028bb920dd3.htm" target="TopicContent">AddRange - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1f3cd5bb-8a20-3aa7-cb55-30a2a445a0e9.htm" target="TopicContent">Clear - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b83145a5-9cf2-e8fe-9cc9-a2caf6a3b840.htm" target="TopicContent">Contains - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e981bebd-b467-e975-02cd-dc930de0542a.htm" target="TopicContent">CopyTo - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8e241ea0-daf2-5687-88e9-9542388ddd0f.htm" target="TopicContent">GetEnumerator - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b3f68afd-74da-fd97-99ab-a01857c6db6a.htm" target="TopicContent">IndexOf - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2f7d342c-943a-cc3c-33e1-997b5e51e0fb.htm" target="TopicContent">Insert - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/39feee24-d27c-0c79-ac89-43df22dd5886.htm" target="TopicContent">NextPage - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/279e0d01-d154-b86a-1a20-6d69278f3921.htm" target="TopicContent">PreviousPage - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c5dc4f1d-22ad-7208-32bc-49e46ae4f277.htm" target="TopicContent">Remove - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fb0e7dc7-f413-e884-5cf2-8df6a388beb0.htm" target="TopicContent">RemoveAt - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/e69257ff-243b-96c5-92db-6e9a096a4d7c.htm" target="TopicContent">DataObjectCollection(T) - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/172a364b-9816-6433-ac7e-1ba088e9dee1.htm" target="TopicContent">Count - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c3cf89cf-f4ae-1427-bc84-d45f76df19d5.htm" target="TopicContent">CurrentPage - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f816b1e3-642e-be89-8370-ef9bb876ae81.htm" target="TopicContent">IsReadOnly - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/700b0cf9-f3f8-2d1b-a180-dae0e791e877.htm" target="TopicContent">Item - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9286e297-9261-c5d6-9aaf-548f11414ff5.htm" target="TopicContent">Items - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/58bb3493-c551-154a-dc90-f1f85e8ed4a6.htm" target="TopicContent">RecordsPerPage - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/dd020ef6-b116-811b-39ff-a9051b0da306.htm" target="TopicContent">TotalPages - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/091c1af5-df7e-ed31-2341-ee7ba5b9f821.htm" target="TopicContent">TotalRecords - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/a8f43268-4db8-130f-96f0-a8a0251af12b.htm" target="TopicContent">DuplicateTableNameException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/73ecbe2f-eef2-196e-7ba6-1d001aaf7772.htm" target="TopicContent">DuplicateTableNameException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6af5a98d-b494-b445-5e51-0ba963d4ba72.htm" target="TopicContent">DuplicateTableNameException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/46f0bd80-77b2-f3f8-cb03-fffdc678978e.htm" target="TopicContent">DuplicateTableNameException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7870748f-0aca-13ca-7e69-d8eb3998b2d1.htm" target="TopicContent">DuplicateTableNameException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/cc66f3eb-10a0-d883-3aed-0078174129ac.htm" target="TopicContent">MoreThanOnePrimaryKeyException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bcdbe912-ff7c-39b8-e297-51949b84f8fa.htm" target="TopicContent">MoreThanOnePrimaryKeyException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f78b0834-b23e-032a-bc5a-8e3b5b9b737f.htm" target="TopicContent">MoreThanOnePrimaryKeyException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fd9b8639-13d6-6b48-bff4-6867e424e827.htm" target="TopicContent">MoreThanOnePrimaryKeyException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e02152b7-7cdf-4376-6135-b16f41182c68.htm" target="TopicContent">MoreThanOnePrimaryKeyException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/a524ad25-271c-e286-c2d8-186c109bb1f6.htm" target="TopicContent">NoPrimaryKeyOrUniqueFieldsException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/44d063d3-e2a6-a03b-284b-fe832e5d9e4f.htm" target="TopicContent">NoPrimaryKeyOrUniqueFieldsException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6744565c-1bfb-8c60-560b-410b1ace3bc2.htm" target="TopicContent">NoPrimaryKeyOrUniqueFieldsException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ae7415ca-d7d4-8ae6-7bf7-830bfb5d445f.htm" target="TopicContent">NoPrimaryKeyOrUniqueFieldsException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fcec6906-2459-4e90-2bbe-737cd39d65b9.htm" target="TopicContent">NoPrimaryKeyOrUniqueFieldsException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/bd2c9ce0-01ef-a982-f727-f37cb0f32af7.htm" target="TopicContent">NoTableAttributeException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bec33f7a-0aac-0ca9-81b9-b2a3a6ffa322.htm" target="TopicContent">NoTableAttributeException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e03646e8-3405-c384-cf90-03314f810f4d.htm" target="TopicContent">NoTableAttributeException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/85c5e29e-15d4-8f16-a663-2053b9bb3082.htm" target="TopicContent">NoTableAttributeException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4fe442b9-1808-ebc3-48a5-1a377a7d511b.htm" target="TopicContent">NoTableAttributeException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/86def895-c010-09ac-1c99-ea058fffe760.htm" target="TopicContent">OrderBy - перечисление</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d83f3e0e-6e24-2a18-51ae-69371c8f1798.htm" target="TopicContent">SqlServerEditionIDs - перечисление</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a6cc2c77-bd03-1a9b-d29e-b709ef6c0f4a.htm" target="TopicContent">SqlServerEngineEditionList - перечисление</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8ff8d7a4-cb8a-f7d4-c8de-6bc8e45991ab.htm" target="TopicContent">SqlServerProperties - перечисление</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/bdeda6f0-258f-7b28-1179-781a60e67200.htm" target="TopicContent">StringOrBinaryDataWouldBeTruncatedException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/08532c92-1224-4790-fcc3-eb9278e6a0b7.htm" target="TopicContent">StringOrBinaryDataWouldBeTruncatedException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/44e9ee6d-083b-b201-d73a-0a02b04c67e1.htm" target="TopicContent">StringOrBinaryDataWouldBeTruncatedException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/de22d66e-684d-41d4-7ea4-00d840eaa41f.htm" target="TopicContent">StringOrBinaryDataWouldBeTruncatedException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a7e7456f-1ac7-a3ae-d3fa-df4046fff187.htm" target="TopicContent">StringOrBinaryDataWouldBeTruncatedException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/13872609-4536-4f73-0f05-70f250d7b298.htm" target="TopicContent">TableAttribute - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/b2b56165-7195-4230-8efa-cd265a77103d.htm" target="TopicContent">TableAttribute - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/67a21bef-ca4c-d3b1-5bc3-7ff95b9be4ee.htm" target="TopicContent">TableAttribute(String) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1f47e499-6311-6ade-1e82-7c059610b564.htm" target="TopicContent">TableAttribute(String, String) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/dc0aecc4-2973-6112-7fca-1bbd0e88f8a1.htm" target="TopicContent">TableAttribute - методы</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/5df5dfbf-7ff3-6bfa-dffb-f94cf276bae9.htm" target="TopicContent">TableAttribute - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a835eed0-7501-900c-0796-37a178542451.htm" target="TopicContent">ConnectionString - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/43c20b2a-3ec9-eaa8-db4f-363cf162f877.htm" target="TopicContent">TableName - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/338c4276-c504-9f26-6f5c-730dd99facf8.htm" target="TopicContent">TableNameNullException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/51aa1846-b5ea-8f9a-f8f0-ba612578e587.htm" target="TopicContent">TableNameNullException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ed531ed0-a829-02ff-de0f-087b25a47131.htm" target="TopicContent">TableNameNullException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c0145fc2-e460-3da6-f28a-41b2234bed64.htm" target="TopicContent">TableNameNullException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/09dc0e57-f7b9-4e98-1ace-a3c9bf3becac.htm" target="TopicContent">TableNameNullException - события</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/78d1642b-e39c-3e7d-61f3-8c776c118354.htm" target="TopicContent">TypeCommand - перечисление</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/b03fd0ab-7deb-df2e-2650-73c7c411d20d.htm" target="TopicContent">ValueForIdentityException - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/abde6c71-ddf5-3d80-8c8f-117dcf2891ad.htm" target="TopicContent">ValueForIdentityException - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/59333d79-f2c1-860e-052e-ee36a7f517f4.htm" target="TopicContent">ValueForIdentityException - методы</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3ea72cf0-f812-52ba-c6ff-0e164b1f03db.htm" target="TopicContent">ValueForIdentityException - свойства</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0a68981f-03b9-929a-c855-3e5210d5220e.htm" target="TopicContent">ValueForIdentityException - события</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/f080a0d0-4554-4ffc-6193-c7ea9414588a.htm" target="TopicContent">Nemiro.Data.Caching - пространство имён</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/30a4bd63-0a18-d718-569a-e1d4abc920e5.htm" target="TopicContent">CacheBinder - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7a2edab8-c9bd-ebdf-070f-365b0323d2f0.htm" target="TopicContent">CacheBinder - конструктор</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/5d9d1a69-5595-e1b5-4e8c-d9dcc3b71250.htm" target="TopicContent">CacheBinder - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b12c332b-5247-63b6-af18-b98233adf252.htm" target="TopicContent">BindToType - метод</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/7470153d-6e6d-6ca3-a9b4-7e2395f347ae.htm" target="TopicContent">CacheCleanupResult - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fc037a5d-b471-a441-4ce0-26377f06694a.htm" target="TopicContent">CacheCleanupResult - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f06348fe-7d2c-4611-e76f-003e8631024c.htm" target="TopicContent">CacheCleanupResult - методы</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/e6122254-7dcf-d823-4cd0-93227bbcc078.htm" target="TopicContent">CacheCleanupResult - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/963a0d03-0e19-3c36-d716-2c2d467491fe.htm" target="TopicContent">Errors - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/27ffc3f1-0b6e-713b-11e0-028d3931f6a1.htm" target="TopicContent">Removed - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1a42a8a8-5de4-2594-8c75-7d2bae331d84.htm" target="TopicContent">RemovedSize - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/67e9bca2-55bd-7110-caf0-88a33f1e4cc7.htm" target="TopicContent">TimeElapsed - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/5a4b6982-a126-d92d-b19f-de97e35446ed.htm" target="TopicContent">CacheCollection - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7454f438-b5ac-e555-19eb-35ad7bf43288.htm" target="TopicContent">CacheCollection - конструктор</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/b955b283-2e03-6c05-7cbd-16a473831bfe.htm" target="TopicContent">CacheCollection - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e73414f4-fab6-f608-ce8a-ed43573c580e.htm" target="TopicContent">GetObjectCache - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0f32a101-f7e0-b2fc-8394-e765e33d59da.htm" target="TopicContent">CacheCollection - свойства</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/449b2172-f39d-2007-9937-b9e16e8a9e0d.htm" target="TopicContent">CacheEntry - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/ad32215e-2168-82af-f791-17d31aeaa328.htm" target="TopicContent">CacheEntry - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9d6dc964-a154-ed3d-d505-5dbb85066581.htm" target="TopicContent">CacheEntry(Object) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/35ea2afa-e514-378f-dd6c-e331d88c8951.htm" target="TopicContent">CacheEntry(Object, CacheItemPolicy) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/df765e85-01af-a88a-0cf3-2e7d1d810527.htm" target="TopicContent">CacheEntry - методы</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/00c89b5d-d71e-6e8f-4348-3bfc48851544.htm" target="TopicContent">CacheEntry - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f02f0efb-5376-ff5c-2c06-9e83a2531e05.htm" target="TopicContent">Policy - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8ced4d86-4f7e-eeff-792a-a78ba706bebb.htm" target="TopicContent">Value - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2ae83e44-e333-d467-511e-88301ff7f9cd.htm" target="TopicContent">CacheEntryPolicy - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/a7f3d8b8-1c6f-d738-491e-17039ba2ffb2.htm" target="TopicContent">CacheEntryPolicy - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/20833a6f-0777-a964-f7d4-79b9580be0cd.htm" target="TopicContent">CacheEntryPolicy - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/877a32cc-a54f-2943-413e-39596e75dbe8.htm" target="TopicContent">CacheEntryPolicy(CacheItemPolicy) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/dbab860d-be9b-3db7-8aa8-494a0e707af5.htm" target="TopicContent">CacheEntryPolicy - методы</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/41ef4b9c-e19c-6268-9110-b758b3145af7.htm" target="TopicContent">CacheEntryPolicy - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2df1bc90-8643-3795-e75e-ad488b8e238a.htm" target="TopicContent">AbsoluteExpiration - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e1ea765e-d42a-d221-ec09-1c893eac20d7.htm" target="TopicContent">SlidingExpiration - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/ca5ab6a0-51f1-c33d-70cc-4329e57b535f.htm" target="TopicContent">CacheInfo - класс</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bb5d1f68-8cde-587d-49f0-962cfae1a8dc.htm" target="TopicContent">CacheInfo - конструктор</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/19863e81-4b9c-2974-3f0c-c19ceed95944.htm" target="TopicContent">CacheInfo - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f4367ea6-7c7e-17cc-a029-7d2128f734f4.htm" target="TopicContent">SetDefault - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f0e3dcee-dbda-b1f9-ecbc-ae20e5645ab5.htm" target="TopicContent">SetFromConfig - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/dd8015ec-9aa3-bb42-e177-d8bd9666514f.htm" target="TopicContent">CacheInfo - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2053fa22-38a4-9276-0759-1cdee842d744.htm" target="TopicContent">AccessTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/85c7c5c8-2673-f206-c15c-cb58d6184784.htm" target="TopicContent">Binder - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/663acec3-d969-a445-b642-6d2e6c215d22.htm" target="TopicContent">BufferAccessTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/db7352b3-edad-2551-970c-fd1eb8272e23.htm" target="TopicContent">BufferSize - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a63e211b-7361-c98d-ef73-29c8507332d2.htm" target="TopicContent">CacheName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b963f561-098a-d822-b0d7-008addc59403.htm" target="TopicContent">CachePath - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/967d2400-c004-70b3-8399-63ee575f4dbb.htm" target="TopicContent">CacheType - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/337c7f12-4cfd-4be7-aaa7-d98215592b91.htm" target="TopicContent">Custom - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/cbbe55ac-e8d3-6143-9e32-d8476e4f3583.htm" target="TopicContent">CustomArgs - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0c5a2cdf-c4a9-aa57-b77e-a6e87a09e2ac.htm" target="TopicContent">Duration - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/a1ca2569-e9e4-4c5c-2118-a992a29efdae.htm" target="TopicContent">CacheManager - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/366f0c83-0dec-282b-64a1-e8c3cb15779c.htm" target="TopicContent">CacheManager - методы</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/4b633079-b2b3-a9c9-93e1-3abecca87ab1.htm" target="TopicContent">Add - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c414d370-035a-457d-c2aa-4be04f34b0c2.htm" target="TopicContent">Add(ObjectCache, String, Object, DateTimeOffset, String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/69b34179-4506-e94e-daea-d684d65bc04f.htm" target="TopicContent">Add(ObjectCache, String, Object, CacheItemPolicy, String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c10a8127-b6a4-0bdb-654d-beb29a0f66a1.htm" target="TopicContent">Get - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/cee0411f-9651-0878-5515-30b265a8d89e.htm" target="TopicContent">GetFileCache - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4a0be4a6-4ddc-2c47-e120-49e914c23bfb.htm" target="TopicContent">GetObjectCache - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e5d7345a-bc2c-147c-a05f-d93bdc94e87c.htm" target="TopicContent">Remove - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/43173422-9204-d975-075c-ffdb7595ba39.htm" target="TopicContent">CacheManager - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bc06bffc-7bb4-8e04-abf5-40279453caf9.htm" target="TopicContent">FileCache - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2acb0dc5-83b4-15eb-b1f6-238fd0e92198.htm" target="TopicContent">Items - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/16b3e741-917d-97b3-e929-5f83614e3463.htm" target="TopicContent">MemoryCache - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a81eeede-fcbd-5a4b-55d6-119bc2d0f2d1.htm" target="TopicContent">WebCache - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/38d5e5d0-21a6-a6b8-37c9-f7a3a3d86ac0.htm" target="TopicContent">FileCache - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/f0cf1dc7-e35e-228b-819b-8c0c37ca2f08.htm" target="TopicContent">FileCache - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/910a9ee9-9bac-5c0f-8d72-a28a54d55181.htm" target="TopicContent">FileCache - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/280f2d6e-b41b-9c2d-3406-4f9f397b4484.htm" target="TopicContent">FileCache(SerializationBinder) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4e7d262a-74f1-a8a0-9547-4f3ca4ae2d1b.htm" target="TopicContent">FileCache(String) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/016db829-bf82-65e1-b4bb-b9c1e05a3e38.htm" target="TopicContent">FileCache(String, Int64) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3909535f-9da5-c33d-f69e-6900d220b0e4.htm" target="TopicContent">FileCache(String, SerializationBinder) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2cdc8ac7-492d-6d89-8943-81ccdbce278a.htm" target="TopicContent">FileCache(String, Int64, SerializationBinder) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f13a3ae8-59b5-26f4-3303-d45f66fbdb6f.htm" target="TopicContent">FileCache(String, Int64, SerializationBinder, TimeSpan, TimeSpan) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/143e7c6c-2fc3-4701-af81-90f2814632ea.htm" target="TopicContent">FileCache - методы</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/14bfc312-78be-b064-007f-d99908b995e8.htm" target="TopicContent">AddOrGetExisting - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9f0b0256-5230-4c49-8f10-249e40ce49f7.htm" target="TopicContent">AddOrGetExisting(CacheItem, CacheItemPolicy) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1da0be7b-5baa-83ce-aee2-61a9c87ce50d.htm" target="TopicContent">AddOrGetExisting(String, Object, DateTimeOffset, String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/991cf81a-561d-f8ef-211e-40d513980ea1.htm" target="TopicContent">AddOrGetExisting(String, Object, CacheItemPolicy, String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6f35397a-a44a-c7fe-bf53-99d60b31e092.htm" target="TopicContent">Cleanup - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9f3f4593-a7eb-ff72-eece-45ca37f6f3a2.htm" target="TopicContent">CleanupAll - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/19a4d0fa-7755-543c-4da3-ce2c2a26129f.htm" target="TopicContent">Contains - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e8fd3735-55d8-078b-5350-a17459d85b93.htm" target="TopicContent">CreateCacheEntryChangeMonitor - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b9cbbd8b-e617-d331-d0c7-59f78f4f9621.htm" target="TopicContent">Get - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2addddd3-0148-3de3-4bb6-23679604a923.htm" target="TopicContent">GetCacheItem - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ada5a088-12d8-9254-287f-ac54002e7dc9.htm" target="TopicContent">GetCount - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/ba1a76df-9aa7-5dde-5a38-795f7d053d22.htm" target="TopicContent">GetEnumerator - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/11a503b8-4590-4eec-6cb4-6e067e565e78.htm" target="TopicContent">GetEnumerator - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/087aea6d-9b2c-ef37-bfa9-8bf28bc4012c.htm" target="TopicContent">GetEnumerator(String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fe2870d4-66cd-2ef4-9044-5db744685b16.htm" target="TopicContent">GetKeys - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e252ae03-4abf-e20c-36f7-40ca8738df8d.htm" target="TopicContent">GetPolicy - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/fbaf5de1-ee89-85ef-f545-b7e0ba92f03e.htm" target="TopicContent">GetValues - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/58828e60-ad25-964c-ea24-1de7d90d544a.htm" target="TopicContent">GetValues(IEnumerable(String), String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1b418c96-de10-00fc-b24e-dbc742e4e4d9.htm" target="TopicContent">Remove - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/4c79c5ef-39c1-656e-f3bf-61ea36128d50.htm" target="TopicContent">Set - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7e488d4a-22a8-b0b9-56be-e83a671f58e8.htm" target="TopicContent">Set(CacheItem, CacheItemPolicy) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6c948163-dc78-2cf6-87ef-b46906a78446.htm" target="TopicContent">Set(String, Object, DateTimeOffset, String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/585c1bb2-93e3-a0eb-887f-9dce684039b9.htm" target="TopicContent">Set(String, Object, CacheItemPolicy, String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/358b330d-a755-a19c-5b39-a9a0ce29775d.htm" target="TopicContent">ToString - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/a83106aa-4667-cfe7-53aa-961c6c7d0817.htm" target="TopicContent">FileCache - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f64e4e63-6a68-4557-c63d-0e54f30f08a7.htm" target="TopicContent">AccessTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4aacb6f6-99a0-fa4a-45e5-560ae5f740c1.htm" target="TopicContent">BufferAccessTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b6efcc9a-f3ef-5930-c304-171853b8c04c.htm" target="TopicContent">BufferSize - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1b285ace-911f-64cf-2e3e-7eec8a1cfeb3.htm" target="TopicContent">CachePath - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8390a083-3210-ca6b-ed2d-fd7af1f749fc.htm" target="TopicContent">DefaultCacheCapabilities - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2aeb87cb-c3d2-7f84-2103-501bf67d4dca.htm" target="TopicContent">DefaultPolicy - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/01057102-da2c-e353-fa34-16477fddea2e.htm" target="TopicContent">DefaultRegion - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d765960f-eacb-3317-a752-fbab66e54bfc.htm" target="TopicContent">Item - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/dc9f362e-4074-bb4c-bd52-15b68f5fd3e9.htm" target="TopicContent">Name - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2bd6312f-f769-a765-dee0-2597c74458b4.htm" target="TopicContent">WebCache - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/fedf80d8-4917-168f-e5c7-10f4ce375b73.htm" target="TopicContent">WebCache - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fb6661f0-9091-a358-403c-ed234a787401.htm" target="TopicContent">WebCache - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e57d4157-d4b1-530e-77d9-d6c8261d6b9b.htm" target="TopicContent">WebCache(HttpContext) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/3c5dab1d-3812-f967-7d9a-130a0dea4905.htm" target="TopicContent">WebCache - методы</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/d8292e0e-b4f6-cc7a-5752-9abfeacecc47.htm" target="TopicContent">AddOrGetExisting - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/03864ec1-9b22-9059-2d6f-86dbf63f9fe1.htm" target="TopicContent">AddOrGetExisting(CacheItem, CacheItemPolicy) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6a3782e4-a47e-712d-123f-e9738b2072a9.htm" target="TopicContent">AddOrGetExisting(String, Object, DateTimeOffset, String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/08db259f-b2a5-9080-8366-ef5bcc602837.htm" target="TopicContent">AddOrGetExisting(String, Object, CacheItemPolicy, String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d20280ba-2a25-aa19-7b0d-1879edc87cfb.htm" target="TopicContent">Contains - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a9fc0c29-a031-59e4-c50d-b3626085bba7.htm" target="TopicContent">CreateCacheEntryChangeMonitor - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b9780033-9085-6ddd-bde2-f9e7c21ad8ba.htm" target="TopicContent">Get - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3a5577ad-8326-fac4-4ddc-74288b9678e6.htm" target="TopicContent">GetCacheItem - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ae8400c6-fc4a-211d-e4a9-a5753e05fe36.htm" target="TopicContent">GetCount - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6fcc42ee-cdf9-af2b-8394-3812984b2d61.htm" target="TopicContent">GetEnumerator - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/7e42c479-d207-67c3-66f1-bfd60c0fbea9.htm" target="TopicContent">GetValues - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/45191ffd-0252-b9b2-0e40-bcabcbee4ae6.htm" target="TopicContent">GetValues(IEnumerable(String), String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b25dcd38-b4b6-4035-1dda-85119cf459ee.htm" target="TopicContent">Remove - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/559e0113-b879-4431-e4f5-ea147efa8580.htm" target="TopicContent">Set - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b4cbf156-9659-9004-cde7-c478137e6355.htm" target="TopicContent">Set(CacheItem, CacheItemPolicy) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7a28d6c0-f84c-832f-3420-353d0668f220.htm" target="TopicContent">Set(String, Object, DateTimeOffset, String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b07ae2f7-3779-3513-ffd4-dc0aa4e7f9ff.htm" target="TopicContent">Set(String, Object, CacheItemPolicy, String) - метод</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/c23fa401-8cb2-18f9-83cf-c970c8c8c513.htm" target="TopicContent">WebCache - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c5d8c025-239d-01f3-842e-64f689806c91.htm" target="TopicContent">DefaultCacheCapabilities - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/271e8472-79d7-52a7-3c1f-13811244d27f.htm" target="TopicContent">DefaultPolicy - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/44fdb157-278f-0912-9578-0f673124f7c9.htm" target="TopicContent">Item - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ab388977-af05-0889-3dbd-01a575a05ec7.htm" target="TopicContent">Name - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/7d3c05cd-1d1b-04d9-75d2-b3d6ad38a446.htm" target="TopicContent">Nemiro.Data.Sql - пространство имён</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/89c42217-4a17-6468-b7d6-4b91281df2c0.htm" target="TopicContent">BaseObject - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/bc46705c-742f-c9b0-f54e-edc54d8ee6ab.htm" target="TopicContent">BaseObject - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f05c0882-2ab4-6ad5-c0f4-95ac05c05089.htm" target="TopicContent">BaseObject - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f5b36b80-191d-d3ce-e066-8432b338e373.htm" target="TopicContent">BaseObject(DataRow) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/66c5058f-280e-f1eb-5f57-85913079f030.htm" target="TopicContent">BaseObject(Object) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3c5223a0-bc0d-dc74-d9a3-f80cc818ba09.htm" target="TopicContent">BaseObject(Object, CacheInfo) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/593a590d-2b73-7b5c-780d-d18628c1ba36.htm" target="TopicContent">BaseObject(Object, Int32) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a7b058cf-89f2-16be-3dd2-f57ab508d2a0.htm" target="TopicContent">BaseObject(DataRow, Object, Int32, CacheInfo) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/ebe77b8a-00c1-589f-920a-4e7391644f34.htm" target="TopicContent">BaseObject - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0938eaa6-957b-4a19-2674-b9c5dadb5c77.htm" target="TopicContent">CreateTable - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f2b48b20-8c86-7863-da45-f9ce3f765a05.htm" target="TopicContent">Delete - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/02c9d0c8-fa91-0ae1-c7cc-acde5f020c47.htm" target="TopicContent">Exists - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fbbce3f1-dff7-f100-8bed-7c9fbd390809.htm" target="TopicContent">GetChanges - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/49bc88af-07bb-c541-f072-6cebe37e9f94.htm" target="TopicContent">GetList - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/f9579921-b8a6-7611-acd9-01ce14107059.htm" target="TopicContent">Load - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/feec110c-11d5-3446-7f0c-6d64691dc877.htm" target="TopicContent">Load - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e8a98aca-7753-fef4-9723-1526ed26bdbd.htm" target="TopicContent">Load(DataRow) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/539c53bb-81c6-3b66-913c-b8e32ff5bb8f.htm" target="TopicContent">LoadJson - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2f833c90-08d6-88f2-e928-13c2d3b8cb82.htm" target="TopicContent">LoadXml - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/dd305a03-f7f5-dc5c-4777-c4de91bb8423.htm" target="TopicContent">LoadXml(String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/858d7ad4-f12f-1c4a-622b-19b33a863d6f.htm" target="TopicContent">LoadXml(String, Encoding) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d508be7f-6f8b-26a8-7d40-64611ddc3efe.htm" target="TopicContent">Save - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6aa5dcef-c80e-56cc-c158-70f6f530650c.htm" target="TopicContent">TableExists - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/77e50302-433b-b7b4-5a46-199448c1d8f0.htm" target="TopicContent">ToJson - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7032d52f-af9e-fbc8-96a4-296345b22dde.htm" target="TopicContent">ToString - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/0a0000db-f8f8-a46e-3d7b-6dab2870dc33.htm" target="TopicContent">ToXml - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5e06e1cf-df93-4c73-5314-162e17241396.htm" target="TopicContent">ToXml - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f7bafca6-12c0-29a8-c194-e281a910eaf2.htm" target="TopicContent">ToXml(Encoding) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0342c636-1524-f3f1-67c1-cfc856069174.htm" target="TopicContent">ToXml(Encoding, Formatting) - метод</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/542f1a9f-569b-d825-4074-15acae86e167.htm" target="TopicContent">BaseObject - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ba36b469-9d52-7d6c-ad11-9dd82623a1c2.htm" target="TopicContent">Cache - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f48edbf8-dc9f-313f-2385-385e7ac56809.htm" target="TopicContent">CacheDuration - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/432f4410-b72c-f708-1d40-71c7ee69efab.htm" target="TopicContent">ConnectionString - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/beb6c74b-0094-388d-0d99-2d2097e50f73.htm" target="TopicContent">RowData - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c7d34fe2-6bc3-2391-a444-cb67c813db94.htm" target="TopicContent">TableName - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/14629996-e862-8597-f478-31544f62be6b.htm" target="TopicContent">SqlAdmin - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/c65e5387-cee1-e422-2334-91da94ddf2c1.htm" target="TopicContent">SqlAdmin - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/16bb509d-cc24-b475-ae61-2641a3c913f2.htm" target="TopicContent">SqlAdmin - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/62d53cf3-79f3-a052-30f5-d218112e16d6.htm" target="TopicContent">SqlAdmin(String) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/8d9b52ce-3ad2-e7f7-0f72-63c7f323ef74.htm" target="TopicContent">SqlAdmin - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/de0e27f3-3d0c-7584-958e-816043f6b666.htm" target="TopicContent">ClearTable - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/82ae6bd6-3d36-df1b-e586-78e02d63cd13.htm" target="TopicContent">CreateTable - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/75da9af3-6c28-0a46-54f7-e23dd5ae1a5b.htm" target="TopicContent">CreateTable(DataSet, Boolean) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bb9f50d2-80ba-0f3a-593b-ec202fe33412.htm" target="TopicContent">CreateTable(DataTable, Boolean) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5a9d4f79-e94d-1d35-2d43-1ab8a5fdc5a7.htm" target="TopicContent">DeleteTable - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/537905bc-fa20-9a26-60f9-c0b48d9589bc.htm" target="TopicContent">Dispose - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9da57d07-8018-e77e-bb7a-a7a3d8205eb2.htm" target="TopicContent">GetAllTables - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ccbdab5c-b6bd-75e1-43ad-58b76674f85e.htm" target="TopicContent">GetAllTablesName - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/9c4a7f36-eb43-40bb-b2bf-48bbaf8ad7c2.htm" target="TopicContent">GetAllTablesSize - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/503d8f7b-0ef4-fa7d-a25b-e5b1f8f19de0.htm" target="TopicContent">GetSqlServerProperty - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a184d079-aed3-3906-bdd2-f28c64700e4d.htm" target="TopicContent">GetSqlServerProprty - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5aa7c7c2-107c-d988-72a4-13986b244934.htm" target="TopicContent">GetSqlServerVersion - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1046fe84-fa14-db47-b9a0-1873b3aa3e5c.htm" target="TopicContent">GetTableColums - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5d0d69ea-1369-c4b3-94a3-fd71ea0ea398.htm" target="TopicContent">GetTablePrimaryKey - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f11b5538-8a4d-54f2-115f-2a98860fd9ee.htm" target="TopicContent">ResetIdentity - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/00852edf-5d56-1cda-cb14-18fb804ffefc.htm" target="TopicContent">SetIdentityValue - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/39a7538f-faec-67ee-519f-22ac1bf5b7b9.htm" target="TopicContent">TableIsExists - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/14a5bb46-48c3-d2de-c22f-140f5b7ad310.htm" target="TopicContent">TableIsExists(String) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ea3db014-c6f6-e2d7-0353-a22528a2fea4.htm" target="TopicContent">TableIsExists(String, String) - метод</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/4fd8e225-7902-6db8-065b-f792585b3278.htm" target="TopicContent">SqlAdmin - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e004dc1e-3989-e101-d4b5-3f73cf2015f3.htm" target="TopicContent">ConnectionString - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/7f05f17d-32a3-a336-1b90-a70c54450331.htm" target="TopicContent">SqlClient - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/7fc88c37-0387-b66a-0425-f15e43511a27.htm" target="TopicContent">SqlClient - конструктор</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/22380bc2-55a0-a147-5ea3-d9c8bd05493b.htm" target="TopicContent">SqlClient - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7fff8758-b0f9-3dbe-2c8c-fdd34e611576.htm" target="TopicContent">SqlClient(Int32) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/46c3f2dd-60e7-6f4b-9810-408a5a798d43.htm" target="TopicContent">SqlClient(String) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/19030297-3aed-dc23-1b84-48536e5705ea.htm" target="TopicContent">SqlClient(String, Int32) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c8e9c4fc-8097-a537-7220-a4ca9a21bfa6.htm" target="TopicContent">SqlClient(String, String) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/25a2244b-a026-2fab-08ee-ea79b09fe7b2.htm" target="TopicContent">SqlClient(Type, Int32) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/87ffa9c6-3092-08c0-44d4-efe2c9dd65c7.htm" target="TopicContent">SqlClient(Type, Object[]) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ca05c8a7-ee52-46e1-086c-9d7b1121c871.htm" target="TopicContent">SqlClient(String, Type, Object[]) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/52c9f599-632f-52c5-a8d8-68dcb7d15d30.htm" target="TopicContent">SqlClient(Type, Object[], Int32) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/834b9f23-ee65-f7c2-b3be-111494ebcd29.htm" target="TopicContent">SqlClient(String, Int32, String, Type, Object[]) - конструктор</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4ef83143-8c38-c3a7-09d9-1f79f976692a.htm" target="TopicContent">SqlClient(String, Int32, String, Type, Object[], Type) - конструктор</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/01dfcc64-3d5e-d25c-3e2e-42edbbc5b9a5.htm" target="TopicContent">SqlClient - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f89e0e4b-af72-b1d1-92d6-bc0a7784a60a.htm" target="TopicContent">Connect - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d61eb899-1a19-fc2f-01ef-896e31cdb5f8.htm" target="TopicContent">CopyDataToServer - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/61a8d5b8-6e55-66ca-bef6-730101c731dc.htm" target="TopicContent">CopyTableToServer - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/55776c87-b5ed-266b-c731-e9353e5c394b.htm" target="TopicContent">Disconnect - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8901efcf-907c-399c-f12a-447cf1bc88b9.htm" target="TopicContent">Dispose - метод</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/7f1b0d60-a266-4925-01a0-ffcc50844906.htm" target="TopicContent">ExecuteNonQuery - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d274cad3-f49e-ffd9-a79b-8420ddeeb80b.htm" target="TopicContent">ExecuteNonQuery - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/77da4750-ef7b-325a-db81-78166a017c13.htm" target="TopicContent">ExecuteNonQuery(SqlCommand) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3b384b53-5baf-7116-584a-f8c579c66a15.htm" target="TopicContent">ExecuteNonQuery(String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/35023107-d325-b911-0747-ff00277e864b.htm" target="TopicContent">ExecuteScalar - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ea1fd9c5-b20e-1160-ff5e-d87647be644b.htm" target="TopicContent">ExecuteScalar - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c6877d30-6af9-6e9a-25e3-1c34319406ae.htm" target="TopicContent">ExecuteScalar(SqlCommand) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/28190c17-d669-4581-7098-923c5b7ab646.htm" target="TopicContent">ExecuteScalar(String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/50041da1-4b2c-cc8e-c742-106c106586ed.htm" target="TopicContent">GetData - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/254e5dd5-dbf3-c127-e7ed-b390fc719f02.htm" target="TopicContent">GetData - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8e660000-398c-1b1f-27f3-32233b941240.htm" target="TopicContent">GetData(SqlCommand) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/052f0333-ce91-2f50-c551-99804c69734f.htm" target="TopicContent">GetData(String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/12d9faf4-acdb-51c7-aa9c-75597ab2a2ee.htm" target="TopicContent">GetRow - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e962ca53-53e2-5104-4990-720a30a821c0.htm" target="TopicContent">GetRow - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/52dc5ad2-2165-9d16-606b-86a8d6654da7.htm" target="TopicContent">GetRow(SqlCommand) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c9b8fe85-88f2-f1db-5058-656070d196b0.htm" target="TopicContent">GetRow(String) - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/80634b51-3353-07a6-9020-96f56e0044be.htm" target="TopicContent">GetTable - метод</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/256fc8b6-7331-6886-b020-dc47e44ca688.htm" target="TopicContent">GetTable - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/47f3eed7-4a1c-016d-8841-f1acaec19b5f.htm" target="TopicContent">GetTable(SqlCommand) - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/3007f5f3-5559-2370-d07e-af46b0d0f448.htm" target="TopicContent">GetTable(String) - метод</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/36fa9a63-8450-3826-7eca-8d826fb88160.htm" target="TopicContent">SqlClient - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6b56316a-b2ca-3ad5-ab9c-46790fb3e67d.htm" target="TopicContent">Cache - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bd8b2430-6af5-8817-58f3-d4266cff790e.htm" target="TopicContent">CacheAccessTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b1de5756-67ef-914b-aa22-43624057ccda.htm" target="TopicContent">CacheBinder - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/964562d0-4e55-c247-32a1-14b79aeb8098.htm" target="TopicContent">CacheBufferAccessTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/99bc4130-df8d-6159-9a47-028c67735042.htm" target="TopicContent">CacheBufferSize - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7efcab36-fd8e-8a2d-ccb3-6de92540eb0f.htm" target="TopicContent">CacheCustom - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/52a4a048-12eb-469c-f2e6-b9356a48e9ea.htm" target="TopicContent">CacheCustomArgs - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/a3aabc0e-d339-1e83-db12-8058bb49923d.htm" target="TopicContent">CacheDuration - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0e3129cf-c3bd-db5a-b2ad-a55ea1a279e6.htm" target="TopicContent">CacheName - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/02cbdd80-6222-35ab-48ab-62ccebcd34e1.htm" target="TopicContent">CachePath - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/04eda964-2407-d070-9edc-9177e741c746.htm" target="TopicContent">CacheType - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6e9e1ec2-8ebb-fd1b-76da-b4b14986563b.htm" target="TopicContent">CommandText - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/900b9870-d1b4-3411-8ec7-1612748d09fb.htm" target="TopicContent">CommandTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1b2e14f9-cc6a-6192-1139-3ae41a0c862d.htm" target="TopicContent">CommandType - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2ba558f7-bed6-c6cf-0ad7-fda619803d8d.htm" target="TopicContent">ConnectionMode - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fec7b48d-378b-6f02-a259-aaba12475218.htm" target="TopicContent">ConnectionString - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b84cc82b-116c-6574-9c2e-533bacf90d22.htm" target="TopicContent">ConnectionTimeout - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4127edcb-3fc5-6d2b-a70e-8a489b684b81.htm" target="TopicContent">LastQueryResultsFromCache - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/97b71e38-8847-5d08-0053-04dfb6f48a9a.htm" target="TopicContent">LastQueryTime - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/db8d74ab-54af-a951-b6fb-d7e7255ac276.htm" target="TopicContent">Parameters - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/75e4d425-77d2-ad23-3a18-6714ef70a0dc.htm" target="TopicContent">SqlType - класс</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/04bb99c7-23a8-3094-3100-e9a57ba3c19f.htm" target="TopicContent">SqlType - методы</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/88baf57e-1848-a932-35ac-37abfdeedd82.htm" target="TopicContent">ConvertToSqlDbType - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/947dfc07-1866-4faf-d9a8-3e1120ce0442.htm" target="TopicContent">IsDateType - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/28d1a8ac-dfac-ab34-e3b8-668d3db7b9d0.htm" target="TopicContent">IsGuidType - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/419e1a1d-f958-a3ba-8c21-85658e345c20.htm" target="TopicContent">IsNumericType - метод</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c8ca4478-d6de-7e11-55ab-8dc223d474da.htm" target="TopicContent">IsStringType - метод</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/5d7122ee-f5c5-4713-0122-912bc460b6e4.htm" target="TopicContent">SqlType - свойства</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/895eb4b7-48ea-4bf1-ed96-537d31addb30.htm" target="TopicContent">DateTypeList - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6038154c-07ef-7535-8ae5-e674d296f4b2.htm" target="TopicContent">NumericTypeList - свойство</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2d434e7e-088f-0a67-e48c-8ca7875de91b.htm" target="TopicContent">StringTypeList - свойство</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/1c5ffb18-77d2-75a4-f381-aff9f2cec24b.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>
